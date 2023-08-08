@@ -1,0 +1,80 @@
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>New customers save 10% with code WELCOME10<\/p>",
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 20,
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "announcement-0"
+      ],
+      "settings": {
+        "bg_color": "#f7f7f7",
+        "color": "#545454",
+        "layout": "slider",
+        "padding": 10,
+        "slider_speed": 7,
+        "marquee_speed": 100,
+        "text_size": 100,
+        "message_spacing": 25
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "ab19c0db-63ca-4489-a211-693e66e76639": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "position": "1",
+            "aspect_ratio": 1,
+            "wide_image": false,
+            "title": "",
+            "link_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "ab19c0db-63ca-4489-a211-693e66e76639"
+      ],
+      "settings": {
+        "sticky_header": false,
+        "header_border": false,
+        "logo_not_home": "shopify:\/\/shop_images\/rb.logo.black_Large_1698bd10-7e71-42de-a786-be4de6133195.png",
+        "logo_max_width": 150,
+        "main-menu": "main-menu",
+        "show_images": false,
+        "image_aspect_ratio": 1,
+        "menu_alignment": "left",
+        "highlight_item": "Sale",
+        "highlight_item_color": "#d02e2e",
+        "header_transparent": true,
+        "logo": "shopify:\/\/shop_images\/rb.logo.white_Large_ca957de7-a40f-4929-a16a-b058b5f17527.png",
+        "header_text_color": "white",
+        "header_gradient": false
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

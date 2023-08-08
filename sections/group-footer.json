@@ -1,0 +1,54 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-block-0": {
+          "type": "link",
+          "settings": {
+            "menu": "main-menu",
+            "title": "Shop"
+          }
+        },
+        "footer-block-2": {
+          "type": "text",
+          "settings": {
+            "title": "On a Mission",
+            "footer_text": "<p>Real Bodz is about real talk, real change, and real results. No fluff, no nonsense, just a whole load of sweat, laughter, and the occasional tear. But who said real change is easy?<\/p>"
+          }
+        },
+        "footer-block-3": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Newsletter",
+            "text": "<p>Stay up to date with the new collections, products and exclusive offers.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "footer-block-0",
+        "footer-block-2",
+        "footer-block-3"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "show_footer_wave": false,
+        "show_social_links": true,
+        "enable_follow_on_shop": true,
+        "show_payment_icons": true,
+        "bottom_menu": "",
+        "color_text": "#ffffff",
+        "color_bg": "#000000",
+        "color_border": "#ffffff",
+        "show_locale_selector": true,
+        "show_currency_selector": true,
+        "currency_type": "currency"
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

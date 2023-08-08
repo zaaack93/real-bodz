@@ -1,0 +1,480 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "section-slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSF7157_Large_7cfa8422-f54e-4d97-a926-309f240bd30c.jpg",
+            "overlay_opacity": 0,
+            "text_width": "normal",
+            "text_position": "center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "About Us",
+            "text": "The RB Story",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0"
+      ],
+      "settings": {
+        "slide_height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_slide_height": "five-fifty-height-mobile",
+        "show_nav_dots": true,
+        "show_nav_arrows": true,
+        "show_arrow_down": false,
+        "autoplay": false,
+        "duration": 4,
+        "transition": "fade",
+        "enable_zoom_animation": true,
+        "heading_size": 120
+      }
+    },
+    "text": {
+      "type": "section-text",
+      "blocks": {
+        "subheading": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Welcome to Real Bodz<\/p>",
+            "size": 100,
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Real Bodz is on a mission to inspire real change, for real men, in the real world. We're shredding the fluff of fitness fads to offer no-nonsense, effective 12-week programs that transform lives, bodies, and minds. Your journey to sustainable health and happiness starts here - no gym selfies, no false promises, just genuine sweat, support, and results.<\/p><p>At Real Bodz, we make getting in shape an adventure, not a fucking chore.<\/p><p><\/p><p><\/p>",
+            "size": 100
+          }
+        },
+        "button": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading",
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "cdb3be2a-9d5e-47f0-9431-04f739f3c7cc": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/N_N.jpg",
+        "subheading": "",
+        "title": "<p>The <em>Real<\/em> Deal<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#7bdafd",
+        "heading_size": 130,
+        "text_content": "Founded by a team of experienced fitness professionals, Real Bodz is more than just a 12-week fitness program – it's a lifestyle revolution. Our founders possess an incredible breadth of experience in the fitness industry, marked by 25 years of helping people achieve their personal goals and create healthier lifestyles.\n\nReal Bodz's strength lies in our commitment to individualized guidance. Our offerings, available in 'Shred' and 'Build' options, are meticulously tailored to your unique goals. Whether your objective is to shed unwanted body fat or build lean muscle, we provide a personalized training regime, meal guide, and macro breakdown. Our holistic approach doesn't just focus on the physical aspect of fitness. We delve into the psychological side too, addressing lifestyle habits and mental health.",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "931fbe40-9720-4734-afd3-e034023c6b31": {
+      "type": "section-text",
+      "blocks": {
+        "template--20060286222626__931fbe40-9720-4734-afd3-e034023c6b31-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Meet Our Founders: The Naths<\/p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "template--20060286222626__931fbe40-9720-4734-afd3-e034023c6b31-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>The Brains + The Brawn<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747"
+          }
+        },
+        "template--20060286222626__931fbe40-9720-4734-afd3-e034023c6b31-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>(You decide which is which)<\/em><\/p>",
+            "size": 100
+          }
+        },
+        "template--20060286222626__931fbe40-9720-4734-afd3-e034023c6b31-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "template--20060286222626__931fbe40-9720-4734-afd3-e034023c6b31-subheading-1",
+        "template--20060286222626__931fbe40-9720-4734-afd3-e034023c6b31-heading-1",
+        "template--20060286222626__931fbe40-9720-4734-afd3-e034023c6b31-text-1",
+        "template--20060286222626__931fbe40-9720-4734-afd3-e034023c6b31-button-1"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 30
+      }
+    },
+    "d0003704-f6f0-4e68-9d48-cd7a42d19d86": {
+      "type": "section-columns",
+      "blocks": {
+        "template--20060286222626__d0003704-f6f0-4e68-9d48-cd7a42d19d86-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSF7347_Large_be51704c-19bc-4cef-bac5-0727d465cfa3.jpg",
+            "title": "Nathan Kennedy",
+            "text": "<p>Use this text to describe products, share details on availability and style, etc<\/p>",
+            "button_text": "@njk_training",
+            "button_link": "https:\/\/www.instagram.com\/p\/CuNjpiZhyFY\/?img_index=1",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "template--20060286222626__d0003704-f6f0-4e68-9d48-cd7a42d19d86-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSF7374_Large_ab908eb7-5e47-442d-af16-359ef7ca4488.jpg",
+            "title": "Nathan Davey",
+            "text": "<p>Use this text to describe products, share details on availability and style, etc<\/p>",
+            "button_text": "@nathandavey_",
+            "button_link": "https:\/\/www.instagram.com\/nathandavey_\/?hl=en",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "template--20060286222626__d0003704-f6f0-4e68-9d48-cd7a42d19d86-text_block-3": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, etc<\/p>",
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "template--20060286222626__d0003704-f6f0-4e68-9d48-cd7a42d19d86-text_block-4": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, etc<\/p>",
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "template--20060286222626__d0003704-f6f0-4e68-9d48-cd7a42d19d86-text_block-1",
+        "template--20060286222626__d0003704-f6f0-4e68-9d48-cd7a42d19d86-text_block-2",
+        "template--20060286222626__d0003704-f6f0-4e68-9d48-cd7a42d19d86-text_block-3",
+        "template--20060286222626__d0003704-f6f0-4e68-9d48-cd7a42d19d86-text_block-4"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "text-left",
+        "columns": 2,
+        "equalize_height": true,
+        "image_aspect_ratio": 1.1,
+        "show_images": true,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "f900ecf5-2a53-4639-8b79-2f11d7244d60": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--20060286222626__f900ecf5-2a53-4639-8b79-2f11d7244d60-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text_position": "center",
+            "top_image_width": 100,
+            "text_color": "text-dark",
+            "subheading": "Subheading",
+            "title": "Our Story",
+            "heading_size": 100,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 100,
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--small",
+            "bg_color": ""
+          }
+        },
+        "0d31c586-92dd-41dc-ae28-0d77b838c707": {
+          "type": "video",
+          "settings": {
+            "text_position": "middle-center",
+            "video_link_bg": "",
+            "video_link": "",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-07-28_at_2.43.34_pm.png",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "Straight-talk with our Founders",
+            "text": "",
+            "heading_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "template--20060286222626__f900ecf5-2a53-4639-8b79-2f11d7244d60-text-1",
+        "0d31c586-92dd-41dc-ae28-0d77b838c707"
+      ],
+      "settings": {
+        "height": "six-fifty-height",
+        "bg_color": "",
+        "width": "wrapper",
+        "add_gutter": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "28d8a761-bc46-4809-b678-71da379a7798": {
+      "type": "section-products-list",
+      "blocks": {
+        "template--20060286222626__28d8a761-bc46-4809-b678-71da379a7798-product-1": {
+          "type": "product",
+          "settings": {
+            "product": "12-week-build",
+            "title": "",
+            "product_description": "",
+            "button_text": "View Product",
+            "show_second_image": true,
+            "show_circle": true,
+            "hide_on_mobile": false,
+            "circle_text_color": "#000000",
+            "circle_rotate_animation": "rotate-on-scroll",
+            "circle_text": "New Arrival ~ New Arrival ~",
+            "circle_word_spacing": 3,
+            "circle_size": 150
+          }
+        },
+        "template--20060286222626__28d8a761-bc46-4809-b678-71da379a7798-product-2": {
+          "type": "product",
+          "settings": {
+            "product": "12-week-shred",
+            "title": "",
+            "product_description": "",
+            "button_text": "View Product",
+            "show_second_image": true,
+            "show_circle": true,
+            "hide_on_mobile": false,
+            "circle_text_color": "#000000",
+            "circle_rotate_animation": "rotate-on-scroll",
+            "circle_text": "New Arrival ~ New Arrival ~",
+            "circle_word_spacing": 3,
+            "circle_size": 150
+          }
+        },
+        "template--20060286222626__28d8a761-bc46-4809-b678-71da379a7798-product-3": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "",
+            "title": "",
+            "product_description": "",
+            "button_text": "View Product",
+            "show_second_image": true,
+            "show_circle": true,
+            "hide_on_mobile": false,
+            "circle_text_color": "#000000",
+            "circle_rotate_animation": "rotate-on-scroll",
+            "circle_text": "New Arrival ~ New Arrival ~",
+            "circle_word_spacing": 3,
+            "circle_size": 150
+          }
+        }
+      },
+      "block_order": [
+        "template--20060286222626__28d8a761-bc46-4809-b678-71da379a7798-product-1",
+        "template--20060286222626__28d8a761-bc46-4809-b678-71da379a7798-product-2",
+        "template--20060286222626__28d8a761-bc46-4809-b678-71da379a7798-product-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 100,
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "image_aspect_ratio": 1,
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5": {
+      "type": "section-icons-row",
+      "blocks": {
+        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-0": {
+          "type": "text",
+          "settings": {
+            "icon_name": "scientific",
+            "title": "25 Years Experience",
+            "text": "<p>with the latest research and methodologies.<\/p>"
+          }
+        },
+        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-1": {
+          "type": "text",
+          "settings": {
+            "icon_name": "smile",
+            "title": "100's of Happy Clients",
+            "text": "<p>Proven track record of life-changing results.<\/p>"
+          }
+        },
+        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-2": {
+          "type": "text",
+          "settings": {
+            "icon_name": "shield",
+            "title": "Money-Back Guarantee",
+            "text": "<p>No results = no fee. You can't lose.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-0",
+        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-1",
+        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-2"
+      ],
+      "settings": {
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 30,
+        "heading": "",
+        "subheading": "",
+        "bg_color": "#eae7d8",
+        "text_color": "#333333",
+        "box_color": "",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "text",
+    "cdb3be2a-9d5e-47f0-9431-04f739f3c7cc",
+    "931fbe40-9720-4734-afd3-e034023c6b31",
+    "d0003704-f6f0-4e68-9d48-cd7a42d19d86",
+    "f900ecf5-2a53-4639-8b79-2f11d7244d60",
+    "28d8a761-bc46-4809-b678-71da379a7798",
+    "51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5",
+    "main"
+  ]
+}

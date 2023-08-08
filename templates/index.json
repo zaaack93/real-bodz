@@ -1,0 +1,1112 @@
+{
+  "sections": {
+    "f65731be-fed8-4ca8-825e-2c8bce9ebe5b": {
+      "type": "section-slideshow",
+      "blocks": {
+        "template--18952593899841__f65731be-fed8-4ca8-825e-2c8bce9ebe5b-168312590450cae23f-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSF7318_Large_03c4c330-cd1b-4b6c-8896-c9ec7cd57f7d.jpg",
+            "overlay_opacity": 0,
+            "text_width": "wide",
+            "text_position": "bottom-left",
+            "text_color": "text-light",
+            "subheading": "Introducing Real Bodz",
+            "title": "Real Results. No Bullshit.",
+            "text": "Personalised training programs and coaching for men who want to take back their life.",
+            "button_1_text": "Get Started",
+            "button_1_link": "shopify:\/\/collections\/all",
+            "button_1_color": "btn--secondary",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--large",
+            "button_2_text": "Learn More",
+            "button_2_link": "",
+            "button_2_color": "btn--secondary",
+            "button_2_style": "btn--outline",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        },
+        "5655c2ea-52e3-4de8-a550-76a9b69e2a46": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "wide",
+            "text_position": "bottom-left",
+            "text_color": "text-light",
+            "subheading": "Introducing",
+            "title": "Welcome to Palo Alto",
+            "text": "Add more info or delete this text",
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify:\/\/collections\/all",
+            "button_1_color": "btn--secondary",
+            "button_1_style": "btn--outline",
+            "button_1_size": "btn--large",
+            "button_2_text": "Learn More",
+            "button_2_link": "",
+            "button_2_color": "btn--secondary",
+            "button_2_style": "btn--outline",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18952593899841__f65731be-fed8-4ca8-825e-2c8bce9ebe5b-168312590450cae23f-0",
+        "5655c2ea-52e3-4de8-a550-76a9b69e2a46"
+      ],
+      "settings": {
+        "slide_height": "full-height",
+        "enable_mobile_height": true,
+        "mobile_slide_height": "seven-fifty-height-mobile",
+        "show_nav_dots": true,
+        "show_nav_arrows": true,
+        "show_arrow_down": false,
+        "autoplay": false,
+        "duration": 4,
+        "transition": "fade",
+        "enable_zoom_animation": true,
+        "heading_size": 180
+      }
+    },
+    "2158316a-7e05-40d1-a29e-a377713e45db": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "seven-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/DSF7213_Large_92d38a75-1d9c-47ec-b36f-5f2820019d81.jpg",
+        "subheading": "Our Proven Approach",
+        "title": "<p><em>3 Simple Steps<\/em> to <\/p><p>Build Your Dream Body<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#7bdafd",
+        "heading_size": 130,
+        "text_content": "1. Track your calories using an intuitive app. \n2. Fuel your body with a structured food plan. \n3. Stick to a personalised training program.",
+        "text_alignment": "left",
+        "button_text": "Explore Programs",
+        "button_link": "",
+        "button_color": "btn--white",
+        "button_style": "btn--solid-border",
+        "button_size": "btn--medium",
+        "video_link": "",
+        "text_color": "text-light",
+        "bg_color": "#171717",
+        "section_width": "wrapper--full-padded",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "953cbb4d-618a-4795-af42-7028b21a53d2": {
+      "type": "section-marquee",
+      "blocks": {
+        "template--20060286779682__953cbb4d-618a-4795-af42-7028b21a53d2-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ACCOUNTABILITY.<\/p>",
+            "text_color": "#ffffff",
+            "icon_name": "none",
+            "icon_color": "#eae7d8",
+            "icon_width": 28,
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "ffc5f2af-a913-40ef-8e2c-21a28039df19": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CONSISTENCY.<\/p>",
+            "text_color": "#ffffff",
+            "icon_name": "none",
+            "icon_color": "#000000",
+            "icon_width": 28,
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "7da6616d-f2cc-4862-add7-20ab6d1f57a2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>KNOWLEDGE.<\/p>",
+            "text_color": "#ffffff",
+            "icon_name": "none",
+            "icon_color": "#d3d3d3",
+            "icon_width": 28,
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "template--20060286779682__953cbb4d-618a-4795-af42-7028b21a53d2-image-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image_width": 100
+          }
+        },
+        "template--20060286779682__953cbb4d-618a-4795-af42-7028b21a53d2-text-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use code <strong>TENOFF<\/strong> for 10% off first purchase<\/p>",
+            "text_color": "",
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 25,
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "template--20060286779682__953cbb4d-618a-4795-af42-7028b21a53d2-image-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "template--20060286779682__953cbb4d-618a-4795-af42-7028b21a53d2-text-1",
+        "ffc5f2af-a913-40ef-8e2c-21a28039df19",
+        "7da6616d-f2cc-4862-add7-20ab6d1f57a2",
+        "template--20060286779682__953cbb4d-618a-4795-af42-7028b21a53d2-image-1",
+        "template--20060286779682__953cbb4d-618a-4795-af42-7028b21a53d2-text-2",
+        "template--20060286779682__953cbb4d-618a-4795-af42-7028b21a53d2-image-2"
+      ],
+      "settings": {
+        "layout": "marquee",
+        "padding": 10,
+        "bg_color": "#171717",
+        "color": "#eae7d8",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "slider_speed": 7,
+        "text_size": 180,
+        "message_spacing": 25,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "cdbcd2a6-02dd-4fe9-8e90-fcee6873b4ac": {
+      "type": "section-columns",
+      "disabled": true,
+      "blocks": {
+        "template--18144394182934__cdbcd2a6-02dd-4fe9-8e90-fcee6873b4ac-16788251503a84e724-2": {
+          "type": "text_block",
+          "settings": {
+            "title": "New customers get 15% off",
+            "text": "<p>on your first purchase<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-light"
+          }
+        },
+        "template--18144394182934__cdbcd2a6-02dd-4fe9-8e90-fcee6873b4ac-16788251503a84e724-1": {
+          "type": "text_block",
+          "settings": {
+            "title": "Free shipping",
+            "text": "<p>on orders over $100<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "template--18144394182934__cdbcd2a6-02dd-4fe9-8e90-fcee6873b4ac-16788251503a84e724-0": {
+          "type": "text_block",
+          "settings": {
+            "title": "ShopPay + AfterPay",
+            "text": "<p>Buy now, pay later<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "template--18144394182934__cdbcd2a6-02dd-4fe9-8e90-fcee6873b4ac-16788251503a84e724-2",
+        "template--18144394182934__cdbcd2a6-02dd-4fe9-8e90-fcee6873b4ac-16788251503a84e724-1",
+        "template--18144394182934__cdbcd2a6-02dd-4fe9-8e90-fcee6873b4ac-16788251503a84e724-0"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "text-center",
+        "columns": 3,
+        "equalize_height": true,
+        "image_aspect_ratio": 0.8,
+        "show_images": false,
+        "heading_size": 90,
+        "text_size": 80,
+        "bg_color_secondary": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "e3ca25d1-ffe7-4cc0-b1e7-80a8f74c5e9b": {
+      "type": "section-text",
+      "blocks": {
+        "template--18256742449430__e3ca25d1-ffe7-4cc0-b1e7-80a8f74c5e9b-167901971892ae9a60-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Real People<\/p>",
+            "size": 100,
+            "margin_bottom": 10
+          }
+        },
+        "template--18256742449430__e3ca25d1-ffe7-4cc0-b1e7-80a8f74c5e9b-167901971892ae9a60-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Trusted by <em>over 500+<\/em> Aussie Men<\/p>",
+            "size": 120,
+            "heading_highlight_type": "circle",
+            "highlight_color": "#7bdafd"
+          }
+        }
+      },
+      "block_order": [
+        "template--18256742449430__e3ca25d1-ffe7-4cc0-b1e7-80a8f74c5e9b-167901971892ae9a60-0",
+        "template--18256742449430__e3ca25d1-ffe7-4cc0-b1e7-80a8f74c5e9b-167901971892ae9a60-1"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 80,
+        "padding_bottom": 0
+      }
+    },
+    "1241266c-854d-42e4-9820-8d0396091013": {
+      "type": "section-columns",
+      "blocks": {
+        "template--20060286779682__1241266c-854d-42e4-9820-8d0396091013-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/180875592_534918247673165_4163959678088427026_n.jpg",
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, etc<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "https:\/\/www.youtube.com\/watch?v=HMRxzIDFpX0",
+            "video_link_color": "text-light"
+          }
+        },
+        "template--20060286779682__1241266c-854d-42e4-9820-8d0396091013-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/35459696_1056145667867250_1047510105081249792_n.jpg",
+            "title": "",
+            "text": "<h4>\"Absolutely changed my life\".<\/h4><p><em>- jnsjnjndfjn<\/em><\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a12d31e750ac42119fb72a38e920f254.mov",
+            "video_link_color": "text-light"
+          }
+        },
+        "template--20060286779682__1241266c-854d-42e4-9820-8d0396091013-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, etc<\/p>",
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "template--20060286779682__1241266c-854d-42e4-9820-8d0396091013-text_block-4": {
+          "type": "text_block",
+          "settings": {
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, etc<\/p>",
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "template--20060286779682__1241266c-854d-42e4-9820-8d0396091013-text_block-1",
+        "template--20060286779682__1241266c-854d-42e4-9820-8d0396091013-text_block-2",
+        "template--20060286779682__1241266c-854d-42e4-9820-8d0396091013-text_block-3",
+        "template--20060286779682__1241266c-854d-42e4-9820-8d0396091013-text_block-4"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "text-left",
+        "columns": 3,
+        "equalize_height": true,
+        "image_aspect_ratio": 1.2,
+        "show_images": true,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 36,
+        "padding_bottom": 60
+      }
+    },
+    "265a5b8e-26ad-4e0f-a874-426d5da117fb": {
+      "type": "section-custom-content",
+      "blocks": {
+        "f306c536-86a7-48f1-90b3-dda64d75d853": {
+          "type": "video",
+          "settings": {
+            "text_position": "middle-center",
+            "video_link_bg": "",
+            "video_link": "https:\/\/www.youtube.com\/watch?v=sfW9HVIXm7I",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-07-28_at_2.43.34_pm.png",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "What's Real Bodz All About?",
+            "text": "",
+            "heading_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "f306c536-86a7-48f1-90b3-dda64d75d853"
+      ],
+      "settings": {
+        "height": "six-fifty-height",
+        "bg_color": "#ffffff",
+        "width": "wrapper",
+        "add_gutter": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "65af6dbf-a626-4a9b-8f37-77a917516374": {
+      "type": "section-icons-row",
+      "disabled": true,
+      "blocks": {
+        "template--20060286779682__65af6dbf-a626-4a9b-8f37-77a917516374-text-1": {
+          "type": "text",
+          "settings": {
+            "icon_name": "truck",
+            "title": "Free Shipping",
+            "text": "<p>on all order over $99<\/p>"
+          }
+        },
+        "template--20060286779682__65af6dbf-a626-4a9b-8f37-77a917516374-text-2": {
+          "type": "text",
+          "settings": {
+            "icon_name": "check",
+            "title": "Free Returns",
+            "text": "<p>within 30 days of purchase<\/p>"
+          }
+        },
+        "template--20060286779682__65af6dbf-a626-4a9b-8f37-77a917516374-text-3": {
+          "type": "text",
+          "settings": {
+            "icon_name": "eco-friendly",
+            "title": "1% Donated Annually",
+            "text": "<p>to forest conservation<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20060286779682__65af6dbf-a626-4a9b-8f37-77a917516374-text-1",
+        "template--20060286779682__65af6dbf-a626-4a9b-8f37-77a917516374-text-2",
+        "template--20060286779682__65af6dbf-a626-4a9b-8f37-77a917516374-text-3"
+      ],
+      "settings": {
+        "alignment": "left",
+        "columns": 3,
+        "icons_width": 30,
+        "heading": "",
+        "subheading": "",
+        "bg_color": "#b3b3b3",
+        "text_color": "#333",
+        "box_color": "",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "9e58ac81-e88d-4b2e-a006-c6d620af2258": {
+      "type": "section-grid",
+      "disabled": true,
+      "blocks": {
+        "template--18952593899841__9e58ac81-e88d-4b2e-a006-c6d620af2258-168312639266b8b01a-0": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify:\/\/shop_images\/180875592_534918247673165_4163959678088427026_n.jpg",
+            "overlay_opacity": 10,
+            "text_position": "bottom-left",
+            "subheading": "\"Complete game changer\"",
+            "title": "",
+            "text": "Toby Seaton",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "template--18952593899841__9e58ac81-e88d-4b2e-a006-c6d620af2258-168312639266b8b01a-1": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify:\/\/shop_images\/73256788_613957329140902_7534066019300287630_n.jpg",
+            "overlay_opacity": 10,
+            "text_position": "bottom-left",
+            "subheading": "\"Invest in yourself\"",
+            "title": "",
+            "text": "Joey Turpel",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "template--18952593899841__9e58ac81-e88d-4b2e-a006-c6d620af2258-168312639266b8b01a-2": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify:\/\/shop_images\/128156137_3898976723460191_337114505696768002_n.jpg",
+            "overlay_opacity": 10,
+            "text_position": "bottom-left",
+            "subheading": "\"These guys are for real\"",
+            "title": "",
+            "text": "Steve Smith",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "template--18952593899841__9e58ac81-e88d-4b2e-a006-c6d620af2258-168312639266b8b01a-3": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "width": "25",
+            "overlay_opacity": 10,
+            "text_position": "bottom-left",
+            "subheading": "",
+            "title": "New",
+            "text": "Add more info or delete this text",
+            "button_1_text": "Shop Now",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "template--18952593899841__9e58ac81-e88d-4b2e-a006-c6d620af2258-168312639266b8b01a-0",
+        "template--18952593899841__9e58ac81-e88d-4b2e-a006-c6d620af2258-168312639266b8b01a-1",
+        "template--18952593899841__9e58ac81-e88d-4b2e-a006-c6d620af2258-168312639266b8b01a-2",
+        "template--18952593899841__9e58ac81-e88d-4b2e-a006-c6d620af2258-168312639266b8b01a-3"
+      ],
+      "settings": {
+        "height": "auto",
+        "heading_size": 110,
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--text",
+        "button_1_size": "btn--medium",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--text",
+        "button_2_size": "btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full",
+        "add_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 40
+      }
+    },
+    "727c20e2-3fb6-4b7d-989a-9920967b4a3b": {
+      "type": "section-products-list",
+      "blocks": {
+        "template--20060286779682__727c20e2-3fb6-4b7d-989a-9920967b4a3b-product-1": {
+          "type": "product",
+          "settings": {
+            "product": "12-week-shred",
+            "title": "",
+            "product_description": "",
+            "button_text": "View Product",
+            "show_second_image": true,
+            "show_circle": true,
+            "hide_on_mobile": false,
+            "circle_text_color": "#7bdafd",
+            "circle_rotate_animation": "rotate-on-scroll",
+            "circle_text": "Best Seller ~ Best Seller ~",
+            "circle_word_spacing": 0,
+            "circle_size": 151
+          }
+        },
+        "template--20060286779682__727c20e2-3fb6-4b7d-989a-9920967b4a3b-product-2": {
+          "type": "product",
+          "settings": {
+            "product": "12-week-build",
+            "title": "",
+            "product_description": "",
+            "button_text": "View Product",
+            "show_second_image": true,
+            "show_circle": true,
+            "hide_on_mobile": false,
+            "circle_text_color": "#000000",
+            "circle_rotate_animation": "rotate-on-scroll",
+            "circle_text": "New Arrival ~ New Arrival ~",
+            "circle_word_spacing": 3,
+            "circle_size": 150
+          }
+        },
+        "template--20060286779682__727c20e2-3fb6-4b7d-989a-9920967b4a3b-product-3": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "",
+            "title": "",
+            "product_description": "",
+            "button_text": "View Product",
+            "show_second_image": true,
+            "show_circle": true,
+            "hide_on_mobile": false,
+            "circle_text_color": "#000000",
+            "circle_rotate_animation": "rotate-on-scroll",
+            "circle_text": "New Arrival ~ New Arrival ~",
+            "circle_word_spacing": 3,
+            "circle_size": 150
+          }
+        }
+      },
+      "block_order": [
+        "template--20060286779682__727c20e2-3fb6-4b7d-989a-9920967b4a3b-product-1",
+        "template--20060286779682__727c20e2-3fb6-4b7d-989a-9920967b4a3b-product-2",
+        "template--20060286779682__727c20e2-3fb6-4b7d-989a-9920967b4a3b-product-3"
+      ],
+      "settings": {
+        "title": "Explore our programs",
+        "heading_size": 120,
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--medium",
+        "image_aspect_ratio": 1,
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "b8677d3d-6a16-4e04-931f-f6c129fbf55c": {
+      "type": "section-accordions",
+      "blocks": {
+        "template--20060286779682__b8677d3d-6a16-4e04-931f-f6c129fbf55c-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "What is the 12-week program?",
+            "text": "<p>Our 12-week program, available in 'Shred' or 'Build' options, is tailor-made to meet your individual goals. The program includes a personalised training regime, meal guide, macro breakdown, and daily accountability checks to help you reach your objectives and lead a healthier lifestyle.<\/p><p><strong>Shred<\/strong>: This program is designed to eliminate unwanted body fat using a macro breakdown and a 4-day training program. You'll receive a macro breakdown, meal guide, daily accountability check-ins, and weekly phone call check-ins with progress photos.<\/p><p><strong>Build<\/strong>: This program aims at muscle gain while also shedding unwanted body fat, with a macro breakdown and a 4-day training program. It includes a macro breakdown, meal guide, daily accountability check-ins, and weekly phone call check-ins with progress photos.<\/p>"
+          }
+        },
+        "template--20060286779682__b8677d3d-6a16-4e04-931f-f6c129fbf55c-text-2": {
+          "type": "text",
+          "settings": {
+            "title": "Who is the Real Bodz program for?",
+            "text": "<p>The Real Bodz program is designed for men grappling with weight issues, lifestyle habits, and mental health. It's for those eager to transform their bodies and their lives. If you are not actually ready to change, then don't bother with our programs. We want to work with people are ready to do the hard work to achieve their goals. <\/p>"
+          }
+        },
+        "template--20060286779682__b8677d3d-6a16-4e04-931f-f6c129fbf55c-text-3": {
+          "type": "text",
+          "settings": {
+            "title": "What will I need before buying?",
+            "text": "<p>Before joining the program, all you need is a positive mindset and readiness to commit to changing your daily lifestyle habits. You'll also need a smartphone to access the apps and communicate with your coach.<\/p>"
+          }
+        },
+        "template--20060286779682__b8677d3d-6a16-4e04-931f-f6c129fbf55c-text-4": {
+          "type": "text",
+          "settings": {
+            "title": "Do I need access to a gym?",
+            "text": "<p>No, gym access is not necessary. During our initial consultation, we will determine whether an at-home or gym training program best fits your goals.<\/p>"
+          }
+        },
+        "086bad98-3b85-4c7d-8ab3-ae8d176eda14": {
+          "type": "text",
+          "settings": {
+            "title": "What are the next steps after purchase?",
+            "text": "<p>Post-purchase, you will receive an onboarding email that includes a PDF guide outlining the entire process. This guide will detail the apps to use, how to set them up, and what to expect in the coming weeks.<\/p>"
+          }
+        },
+        "67fbaa15-52c8-4f87-8397-1ec33227a7f5": {
+          "type": "text",
+          "settings": {
+            "title": "What if I don’t see any results?",
+            "text": "<p>We guarantee results! We are results driven and offer a money-back guarantee if you don’t see results after the 12 program. We know our programs work and are willing to back it with our own time and money.<\/p><p>The more communication you have with your coach and the better adherence you have to your plans, the greater your results will be.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20060286779682__b8677d3d-6a16-4e04-931f-f6c129fbf55c-text-1",
+        "template--20060286779682__b8677d3d-6a16-4e04-931f-f6c129fbf55c-text-2",
+        "template--20060286779682__b8677d3d-6a16-4e04-931f-f6c129fbf55c-text-3",
+        "template--20060286779682__b8677d3d-6a16-4e04-931f-f6c129fbf55c-text-4",
+        "086bad98-3b85-4c7d-8ab3-ae8d176eda14",
+        "67fbaa15-52c8-4f87-8397-1ec33227a7f5"
+      ],
+      "settings": {
+        "layout": "one-column",
+        "show_accordion_divider": false,
+        "title": "Frequently Asked Questions",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#eae7d8",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "bc2e3285-83d7-44ca-86ac-430af2012129": {
+      "type": "section-text",
+      "blocks": {
+        "template--20060286779682__bc2e3285-83d7-44ca-86ac-430af2012129-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Subheading<\/p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "template--20060286779682__bc2e3285-83d7-44ca-86ac-430af2012129-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Our Story<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747"
+          }
+        },
+        "template--20060286779682__bc2e3285-83d7-44ca-86ac-430af2012129-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "size": 100
+          }
+        },
+        "template--20060286779682__bc2e3285-83d7-44ca-86ac-430af2012129-button-1": {
+          "type": "button",
+          "settings": {
+            "button_text": "Read More FAQs",
+            "button_link": "shopify:\/\/pages\/faqs",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        },
+        "9bbb0d34-f9fa-47ac-b16f-271593c2d3ce": {
+          "type": "button",
+          "settings": {
+            "button_text": "Get Started",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_color": "btn--secondary",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "template--20060286779682__bc2e3285-83d7-44ca-86ac-430af2012129-subheading-1",
+        "template--20060286779682__bc2e3285-83d7-44ca-86ac-430af2012129-heading-1",
+        "template--20060286779682__bc2e3285-83d7-44ca-86ac-430af2012129-text-1",
+        "template--20060286779682__bc2e3285-83d7-44ca-86ac-430af2012129-button-1",
+        "9bbb0d34-f9fa-47ac-b16f-271593c2d3ce"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "4cf35844-daa9-481f-b090-8c1bf37ee05d": {
+      "type": "section-collection",
+      "disabled": true,
+      "blocks": {
+        "73237c64-6f39-4429-a676-a44d096037c0": {
+          "type": "promo",
+          "disabled": true,
+          "settings": {
+            "position": 1,
+            "width": "auto",
+            "title": "<p>Promotion title<\/p>",
+            "heading_highlight_type": "circle",
+            "highlight_color": "rgba(0,0,0,0)",
+            "heading_size": 100,
+            "content": "Advertise a promotion or a sale",
+            "text_size": 100,
+            "text_color": "text-dark",
+            "text_position": "bottom-left",
+            "layout": "stacked",
+            "overlay_opacity": 10,
+            "bg_color": "#f7f7f7",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "73237c64-6f39-4429-a676-a44d096037c0"
+      ],
+      "settings": {
+        "collection": "",
+        "products_layout": "carousel",
+        "number_of_products": 8,
+        "text_alignment": "text-left",
+        "title": "Best Sellers",
+        "heading_size": 230,
+        "text": "<p>Use this text to share information about your collection with your customers.<\/p>",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "columns_mobile": "2",
+        "width": "wrapper--full-padded",
+        "padding_top": 10,
+        "padding_bottom": 60
+      }
+    },
+    "eed1639f-4e75-408e-bbba-252f91e4ab8e": {
+      "type": "section-overlapping-images",
+      "disabled": true,
+      "settings": {
+        "text_position": "left",
+        "text_alignment": "left",
+        "images_width": 750,
+        "images_offset": 115,
+        "image_link_1": "",
+        "image_link_2": "",
+        "hide_image_2": false,
+        "heading": "Our Story, Our Promise",
+        "description": "<p>Use this text to describe a product, promotion, or your company.<\/p>",
+        "heading_size": 140,
+        "button_text": "Button text",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--medium",
+        "video_text": "",
+        "video_link": "",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 10,
+        "padding_bottom": 100
+      }
+    },
+    "6867309b-120c-4dfd-ae21-622c1965ebe7": {
+      "type": "section-text",
+      "disabled": true,
+      "blocks": {
+        "template--20060286779682__6867309b-120c-4dfd-ae21-622c1965ebe7-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Subheading<\/p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "template--20060286779682__6867309b-120c-4dfd-ae21-622c1965ebe7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<h1><strong>We don't beat around the bush here. This is going to take hard work from you. <\/strong><\/h1><h1><strong>It's all about <\/strong><em><strong>consistency<\/strong><\/em><strong> and <\/strong><em><strong>accountability<\/strong><\/em><strong>. We'll make sure you are motivated to stay the course and put in the work!<\/strong><\/h1>",
+            "size": 180,
+            "heading_highlight_type": "highlight",
+            "highlight_color": "#7bdafd"
+          }
+        },
+        "template--20060286779682__6867309b-120c-4dfd-ae21-622c1965ebe7-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>No excuses. Hard work. Real results.<\/p>",
+            "size": 100
+          }
+        },
+        "template--20060286779682__6867309b-120c-4dfd-ae21-622c1965ebe7-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Get Started",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "template--20060286779682__6867309b-120c-4dfd-ae21-622c1965ebe7-subheading-1",
+        "template--20060286779682__6867309b-120c-4dfd-ae21-622c1965ebe7-heading-1",
+        "template--20060286779682__6867309b-120c-4dfd-ae21-622c1965ebe7-text-1",
+        "template--20060286779682__6867309b-120c-4dfd-ae21-622c1965ebe7-button-1"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "43b7582d-284a-4864-9c99-a60de0fce1bf": {
+      "type": "section-grid",
+      "disabled": true,
+      "blocks": {
+        "template--19703957815574__43b7582d-284a-4864-9c99-a60de0fce1bf-16884285280f46edbf-0": {
+          "type": "image",
+          "settings": {
+            "width": "100",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "New Collection",
+            "title": "Our Signature Look",
+            "text": "",
+            "button_1_text": "Shop Now",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "template--19703957815574__43b7582d-284a-4864-9c99-a60de0fce1bf-16884285280f46edbf-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "width": "33.33",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "Limited",
+            "text": "Add more info or delete this text",
+            "button_1_text": "Shop Now",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "template--19703957815574__43b7582d-284a-4864-9c99-a60de0fce1bf-16884285280f46edbf-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "width": "33.33",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "Spotlight",
+            "text": "Add more info or delete this text",
+            "button_1_text": "Shop Now",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "template--19703957815574__43b7582d-284a-4864-9c99-a60de0fce1bf-16884285280f46edbf-3": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "width": "33.33",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "New",
+            "text": "Add more info or delete this text",
+            "button_1_text": "Shop Now",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "template--19703957815574__43b7582d-284a-4864-9c99-a60de0fce1bf-16884285280f46edbf-0",
+        "template--19703957815574__43b7582d-284a-4864-9c99-a60de0fce1bf-16884285280f46edbf-1",
+        "template--19703957815574__43b7582d-284a-4864-9c99-a60de0fce1bf-16884285280f46edbf-2",
+        "template--19703957815574__43b7582d-284a-4864-9c99-a60de0fce1bf-16884285280f46edbf-3"
+      ],
+      "settings": {
+        "height": "550",
+        "heading_size": 130,
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--text",
+        "button_1_size": "btn--small",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--text",
+        "button_2_size": "btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "add_gutter": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "e4e4b5ec-149f-4f0b-bcdd-985d7cf8cf72": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "f91dba82-a9f9-4019-9002-a16133ec5c98": {
+      "type": "section-newsletter",
+      "settings": {
+        "flex_align": "align--middle-split",
+        "text_color": "text-light",
+        "title": "Newsletter",
+        "text": "<p>Sign up for exclusive deals and early access to new products.<\/p>",
+        "extra_fields": "name",
+        "button_text": "",
+        "bg_color": "#4a4a4a",
+        "image_height": "three-fifty-height",
+        "overlay_opacity": 10,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "4255085c-7a09-42f2-847a-7842d088e536": {
+      "type": "section-marquee",
+      "blocks": {
+        "template--20060286779682__4255085c-7a09-42f2-847a-7842d088e536-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>New collections just released - <a href=\"\/collections\" title=\"All collections\">Shop now<\/a><\/p>",
+            "text_color": "",
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 25,
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "template--20060286779682__4255085c-7a09-42f2-847a-7842d088e536-image-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image_width": 100
+          }
+        },
+        "template--20060286779682__4255085c-7a09-42f2-847a-7842d088e536-text-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use code <strong>TENOFF<\/strong> for 10% off first purchase<\/p>",
+            "text_color": "",
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 25,
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "template--20060286779682__4255085c-7a09-42f2-847a-7842d088e536-image-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "template--20060286779682__4255085c-7a09-42f2-847a-7842d088e536-text-1",
+        "template--20060286779682__4255085c-7a09-42f2-847a-7842d088e536-image-1",
+        "template--20060286779682__4255085c-7a09-42f2-847a-7842d088e536-text-2",
+        "template--20060286779682__4255085c-7a09-42f2-847a-7842d088e536-image-2"
+      ],
+      "settings": {
+        "layout": "marquee",
+        "padding": 10,
+        "bg_color": "#7bdafd",
+        "color": "#000000",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "slider_speed": 7,
+        "text_size": 150,
+        "message_spacing": 10,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "f65731be-fed8-4ca8-825e-2c8bce9ebe5b",
+    "2158316a-7e05-40d1-a29e-a377713e45db",
+    "953cbb4d-618a-4795-af42-7028b21a53d2",
+    "cdbcd2a6-02dd-4fe9-8e90-fcee6873b4ac",
+    "e3ca25d1-ffe7-4cc0-b1e7-80a8f74c5e9b",
+    "1241266c-854d-42e4-9820-8d0396091013",
+    "265a5b8e-26ad-4e0f-a874-426d5da117fb",
+    "65af6dbf-a626-4a9b-8f37-77a917516374",
+    "9e58ac81-e88d-4b2e-a006-c6d620af2258",
+    "727c20e2-3fb6-4b7d-989a-9920967b4a3b",
+    "b8677d3d-6a16-4e04-931f-f6c129fbf55c",
+    "bc2e3285-83d7-44ca-86ac-430af2012129",
+    "4cf35844-daa9-481f-b090-8c1bf37ee05d",
+    "eed1639f-4e75-408e-bbba-252f91e4ab8e",
+    "6867309b-120c-4dfd-ae21-622c1965ebe7",
+    "43b7582d-284a-4864-9c99-a60de0fce1bf",
+    "e4e4b5ec-149f-4f0b-bcdd-985d7cf8cf72",
+    "f91dba82-a9f9-4019-9002-a16133ec5c98",
+    "4255085c-7a09-42f2-847a-7842d088e536"
+  ]
+}
