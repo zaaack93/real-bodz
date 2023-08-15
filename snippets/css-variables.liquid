@@ -527,7 +527,7 @@
   --COLOR-BLACK-ALPHA-60: {{ color_black_alpha_60 }};
 
   {%- comment -%} Typography {%- endcomment -%}
-  --FONT-STACK-BODY: {{ base_font.family }}, {{ base_font.fallback_families }};
+  --FONT-STACK-BODY: 'Gt pressura', {{ base_font.fallback_families }};
   --FONT-STYLE-BODY: {{ base_font.style }};
   --FONT-STYLE-BODY-ITALIC: {{ base_font_italic.style }};
   --FONT-ADJUST-BODY: {{ settings.text_size | divided_by: 100.0 }};
@@ -537,7 +537,7 @@
   --FONT-WEIGHT-BODY-MEDIUM: {{ base_font_medium.weight | default: 500 }};
   --FONT-WEIGHT-BODY-BOLD: {{ base_font_bold.weight | default: 700 }};
 
-  --FONT-STACK-HEADING: {{ heading_font.family }}, {{ heading_font.fallback_families }};
+  --FONT-STACK-HEADING: 'Suisse Intl', {{ heading_font.fallback_families }};
   --FONT-STYLE-HEADING: {{ heading_font.style }};
   --FONT-STYLE-HEADING-ITALIC: {{ heading_font_italic.style }};
   --FONT-ADJUST-HEADING: {{ settings.heading_size | divided_by: 100.0 }};

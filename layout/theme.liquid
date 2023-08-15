@@ -12,6 +12,8 @@
   {{ 'lazysizes.min.js' | asset_url | preload_tag: as: 'script' }}
   {{ 'vendor.js' | asset_url | preload_tag: as: 'script' }}
   {{ 'theme.js' | asset_url | preload_tag: as: 'script' }}
+  {% comment %}file snippet font {% endcomment %}
+  {% render 'base.css' %}
 
   <link rel="preload" as="image" href="{{ 'loading.svg' | asset_url }}">{%- liquid
   assign loading_appearance = settings.loading_appearance
