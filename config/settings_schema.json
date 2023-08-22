@@ -102,6 +102,26 @@
         "unit": "%"
       },
       {
+        "type": "select",
+        "id": "base_font_weight",
+        "label": "Weight",
+        "options": [
+          {
+            "value": "300",
+            "label": "Light"
+          },
+          {
+            "value": "500",
+            "label": "Normal"
+          },
+          {
+            "value": "700",
+            "label": "Bold"
+          }
+        ],
+        "default": "300"
+      },
+      {
         "type": "header",
         "content": "Navigation"
       },

@@ -527,12 +527,16 @@
   --COLOR-BLACK-ALPHA-60: {{ color_black_alpha_60 }};
 
   {%- comment -%} Typography {%- endcomment -%}
+  {% if template.name =="password" %}
   --FONT-STACK-BODY: 'Gt pressura', {{ base_font.fallback_families }};
+  {%else%}
+  --FONT-STACK-BODY: 'Suisse Intl', {{ base_font.fallback_families }};
+  {%endif%}
   --FONT-STYLE-BODY: {{ base_font.style }};
   --FONT-STYLE-BODY-ITALIC: {{ base_font_italic.style }};
   --FONT-ADJUST-BODY: {{ settings.text_size | divided_by: 100.0 }};
-
-  --FONT-WEIGHT-BODY: {{ base_font.weight | default: 400 }};
+  --FONT-WEIGHT-BODY: {{ settings.base_font_weight }};
+  
   --FONT-WEIGHT-BODY-LIGHT: {{ base_font_light.weight | default: 300 }};
   --FONT-WEIGHT-BODY-MEDIUM: {{ base_font_medium.weight | default: 500 }};
   --FONT-WEIGHT-BODY-BOLD: {{ base_font_bold.weight | default: 700 }};
