@@ -232,6 +232,8 @@
   {%- endcomment -%}
 
   {{ content_for_header }}
+
+	{{ shop.metafields.loox["global_html_head"] }}
 </head>{%- capture body_classes -%}
 template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}
 {% if customer %} customer-logged-in{% endif %}
@@ -264,5 +266,7 @@ template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}
       {% render 'icon-select' %}
     </button>
   {%- endif -%}
+
+	{{ shop.metafields.loox["global_html_body"] }}
 </body>
 </html>

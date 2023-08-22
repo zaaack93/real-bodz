@@ -91,10 +91,9 @@
         },
         "accordion_block_1_3": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "title": "What are the key benefits?",
-            "text": "<p>By joining Real Bodz, individuals gain access to a wide range of benefits that include personalised communication and training, a supportive community of like-minded individuals, targeted weight loss strategies, and customised nutrition plans. They will have direct access to an online app with 24 hour contact available. Accountability is a crucial component of our program, ensuring that participants stay motivated and committed to their transformation journey.<\/p>"
+            "text": "<p>By joining Real Bodz, you will gain access to a wide range of benefits that include personalised communication and training, a supportive community of like-minded individuals, targeted weight loss strategies, and customised nutrition plans. You will have direct access to an online app with 24 hour contact available. Accountability is a crucial component of our program, ensuring that participants stay motivated and committed to their transformation journey.<\/p>"
           }
         },
         "accordion_block_1_4": {
@@ -102,13 +101,6 @@
           "settings": {
             "title": "What does someone need before buying (will I need access to gym etc)?",
             "text": "<p>While having a gym membership is encouraged for optimal results, our training schedules can be tailored to accommodate individuals without access to a gym. The essentials for participating in the program are access to the internet and a phone or computer to connect with our resources and coaching.<\/p>"
-          }
-        },
-        "13bb60b1-140c-4e8c-aec8-8a3247d5de10": {
-          "type": "text",
-          "settings": {
-            "title": "What are the next steps after purchase?",
-            "text": "<p>Once you make a purchase, the next step is a consultation session conducted via Zoom. During this session, we will get to know you better and understand your goals, preferences, and any specific requirements. Following the consultation, we will provide you with a welcome package containing all the necessary information and materials to kickstart your transformative journey with Real Bodz.<\/p><p>However, this will depend on if they purchase directly from the website or would like to consult first. <\/p><p><br\/><br\/><\/p>"
           }
         },
         "d60f0bbf-09e5-4e04-9c7a-b70ce9f2ebc0": {
@@ -121,8 +113,22 @@
         "602b655f-d25c-424c-b4be-6a68e1a3e58c": {
           "type": "text",
           "settings": {
-            "title": "Heading",
-            "text": "<p>Use this text block to discuss some commonly asked questions like shipping and returns, sizing, warranties, or product and company details.<\/p>"
+            "title": "If shedding kilos is my goal, what should I expect?",
+            "text": "<p>We generally target a loss of 0.5kg to 1kg per week. Everyone’s body responds differently, so individual results may vary.<\/p>"
+          }
+        },
+        "1e9989a4-efee-4882-aad3-8560acadcfe6": {
+          "type": "text",
+          "settings": {
+            "title": "And if packing on muscle is my aim?",
+            "text": "<p>Building muscle is much more nuanced. Together, we’ll set achievable goals and work closely to steer you toward steady gains.<\/p>"
+          }
+        },
+        "13bb60b1-140c-4e8c-aec8-8a3247d5de10": {
+          "type": "text",
+          "settings": {
+            "title": "I just purchased a program - what happens next?",
+            "text": "<p>Look out for our onboarding email. It’s loaded with all the essentials: a step-by-step PDF guide to kick things off, insights into app setup, and a preview of the transformative weeks ahead. Consider it your roadmap to becoming the best version of yourself.<\/p>"
           }
         }
       },
@@ -131,17 +137,103 @@
         "accordion_block_1_2",
         "accordion_block_1_3",
         "accordion_block_1_4",
-        "13bb60b1-140c-4e8c-aec8-8a3247d5de10",
         "d60f0bbf-09e5-4e04-9c7a-b70ce9f2ebc0",
-        "602b655f-d25c-424c-b4be-6a68e1a3e58c"
+        "602b655f-d25c-424c-b4be-6a68e1a3e58c",
+        "1e9989a4-efee-4882-aad3-8560acadcfe6",
+        "13bb60b1-140c-4e8c-aec8-8a3247d5de10"
       ],
       "settings": {
         "layout": "one-column",
         "show_accordion_divider": false,
-        "title": "Program",
+        "title": "12-Week Programs",
         "subheading": "",
         "text": "",
-        "tabs_bg_color": "#eae7d8",
+        "tabs_bg_color": "#dadada",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "412123b7-ebac-4511-bc57-1e44186f52ab": {
+      "type": "section-accordions",
+      "blocks": {
+        "9dd6a4ef-a951-4dd5-929d-055af440b02f": {
+          "type": "text",
+          "settings": {
+            "title": "Will my grocery bill skyrocket?",
+            "text": "<p>The cost of your groceries depends on your goals and energy requirements. We design your meal plans with your budget and lifestyle in mind. <\/p>"
+          }
+        },
+        "672edd3d-917d-41a2-b63a-b3285f0eef36": {
+          "type": "text",
+          "settings": {
+            "title": "How tailored are these plans, really?",
+            "text": "<p>They’re custom-cut to fit you. When you sign up, you’ll fill out a detailed questionnaire that guides us in crafting your personalised plan.<\/p>"
+          }
+        },
+        "97c126dd-9845-4c09-922e-3b08780c9e43": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "What are the key benefits?",
+            "text": "<p>By joining Real Bodz, individuals gain access to a wide range of benefits that include personalised communication and training, a supportive community of like-minded individuals, targeted weight loss strategies, and customised nutrition plans. They will have direct access to an online app with 24 hour contact available. Accountability is a crucial component of our program, ensuring that participants stay motivated and committed to their transformation journey.<\/p>"
+          }
+        },
+        "c7e059e2-0cc2-439d-8b65-34625e55cd72": {
+          "type": "text",
+          "settings": {
+            "title": "I've got some dietary restrictions? Can I still join?",
+            "text": "<p>Absolutely. Vegan, gluten-free, pescatarian — we tailor our meal plans to suit all dietary needs.<\/p>"
+          }
+        },
+        "87790952-c07f-4355-a965-b5a53dd223ff": {
+          "type": "text",
+          "settings": {
+            "title": "I'm craving more meal variety, is that possible?",
+            "text": "<p>You can opt to add an extra meal plan every fortnight. Contact us for the details and fees involved.<\/p>"
+          }
+        },
+        "a2b3e151-6669-4b92-8db2-0013819f7d0b": {
+          "type": "text",
+          "settings": {
+            "title": "How many consulting calls are included in the plan?",
+            "text": "<p>Our program ensures consistent communication and support throughout your journey. You can expect a minimum number of 12 consulting calls to keep you on track and motivated. Additionally, we offer 24-hour access to instant messaging via our personalised app, allowing you to reach out for guidance whenever needed.<\/p>"
+          }
+        },
+        "b652212e-2963-4de9-b065-cea26064d9cf": {
+          "type": "text",
+          "settings": {
+            "title": "What about meal plans for couples?",
+            "text": "<p>Absolutely. Sign up, tell us your plus-one, and we'll align your meal plans for easier shopping and cooking.<\/p>"
+          }
+        },
+        "ad6d1de2-948a-4a33-9a1b-f1583393ec38": {
+          "type": "text",
+          "settings": {
+            "title": "How are my macros figured out?",
+            "text": "<p>We calculate your calories and macros based on your questionnaire responses and your consultation call.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "9dd6a4ef-a951-4dd5-929d-055af440b02f",
+        "672edd3d-917d-41a2-b63a-b3285f0eef36",
+        "97c126dd-9845-4c09-922e-3b08780c9e43",
+        "c7e059e2-0cc2-439d-8b65-34625e55cd72",
+        "87790952-c07f-4355-a965-b5a53dd223ff",
+        "a2b3e151-6669-4b92-8db2-0013819f7d0b",
+        "b652212e-2963-4de9-b065-cea26064d9cf",
+        "ad6d1de2-948a-4a33-9a1b-f1583393ec38"
+      ],
+      "settings": {
+        "layout": "one-column",
+        "show_accordion_divider": false,
+        "title": "Nutritional Plans",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#dadada",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper",
@@ -156,14 +248,14 @@
           "type": "text",
           "settings": {
             "title": "What if I don’t see any results?",
-            "text": "<p>We are committed to giving everyone the best opportunity to achieve results. However, personal dedication is key to success. If you do not see the desired results, we will conduct a thorough review of your macros, nutrition, and training programs to identify areas where positive adjustments can be made. If, despite following our recommendations, you still do not achieve your desired results within the specified timeframe, we will continue your journey with Real Bodz for free until you reach your goals. Given your efforts align with out terms and conditions <\/p><p><strong><br\/><\/strong><\/p>"
+            "text": "<p>Don't stress, we’ve got your back. We’re committed to your progress, which is why we offer a rock-solid money-back guarantee if your effort in the 12-week program doesn't translate into visible results. Remember, frequent communication with your coach and a strong adherence to your plans are the tickets to success.<\/p>"
           }
         },
         "818de333-2a00-40e2-80d0-88085a47a48a": {
           "type": "text",
           "settings": {
             "title": "How much will it cost me?",
-            "text": "<p>$99 per week - $1188 (12 weeks)<\/p>"
+            "text": "<p>It’s $89 per week, with a 12-week minimum commitment.<\/p>"
           }
         },
         "ddf9c641-2b74-4c91-ad33-1c3a2fcf69ec": {
@@ -177,15 +269,15 @@
         "ddf1c368-8166-4660-b077-0535155055df": {
           "type": "text",
           "settings": {
-            "title": "What forms of payment do you accept?",
-            "text": "<p>We accept payments from major credit card companies like Visa, Mastercard, and American Express.<\/p>"
+            "title": "What are my payment options?",
+            "text": "<p>We accept card payments, payable in full or via afterpay options (weekly, fortnightly, or monthly).<\/p>"
           }
         },
         "10b504bd-5ba5-42ad-ba10-bcdfffea49da": {
           "type": "text",
           "settings": {
-            "title": "Do you have Afterpay?",
-            "text": "<p>Use this text block to discuss some commonly asked questions like shipping and returns, sizing, warranties, or product and company details.<\/p>"
+            "title": "Locked out of an app – what now?",
+            "text": "<p>For issues with Trainerize or MyFitnessPal, reach out to the app’s support team directly for assistance.<\/p>"
           }
         }
       },
@@ -199,70 +291,10 @@
       "settings": {
         "layout": "one-column",
         "show_accordion_divider": false,
-        "title": "Guarantees & Payments",
+        "title": "Account Info & Payments",
         "subheading": "",
         "text": "",
-        "tabs_bg_color": "#eae7d8",
-        "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "accordion-section-2": {
-      "type": "section-accordions",
-      "blocks": {
-        "accordion_block_2_0": {
-          "type": "text",
-          "settings": {
-            "title": "How long does it take to get my products?",
-            "text": "<p>Domestic shipping can take up to 5 business days.<br\/><br\/>Foreign shipping could take up to 14 business days.<br\/><br\/>Due to global supply chain challenges, shipping times could be longer than usual.<\/p>"
-          }
-        },
-        "accordion_block_2_1": {
-          "type": "text",
-          "settings": {
-            "title": "How much does it cost?",
-            "text": "<p>Shipping rates can vary depending on your region and are calculated at checkout.<br\/><br\/>Here are the full details of our <a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">Shipping Policy<\/a>.<\/p>"
-          }
-        },
-        "accordion_block_2_2": {
-          "type": "text",
-          "settings": {
-            "title": "Is there free shipping?",
-            "text": "<p>Yes, we offer free shipping for large domestic orders.  Check the cart to see the current deal on free shipping..<\/p>"
-          }
-        },
-        "accordion_block_2_3": {
-          "type": "text",
-          "settings": {
-            "title": "Do you ship internationally?",
-            "text": "<p>Yes, we ship our products all over the globe.<br\/><br\/>Please note that free shipping is not applicable for international orders and that shipping rates could vary depending on your region.<\/p>"
-          }
-        },
-        "accordion_block_2_4": {
-          "type": "text",
-          "settings": {
-            "title": "Do you ship to my area?",
-            "text": "<p>A full list of all of our shipping areas can be found <a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">here<\/a>.<br\/><br\/>If your country or region is not mentioned, please feel free to reach out to see if we can work out the details.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "accordion_block_2_0",
-        "accordion_block_2_1",
-        "accordion_block_2_2",
-        "accordion_block_2_3",
-        "accordion_block_2_4"
-      ],
-      "settings": {
-        "layout": "two-columns",
-        "show_accordion_divider": false,
-        "title": "Shipping & Delivery",
-        "subheading": "",
-        "text": "",
-        "tabs_bg_color": "#fafafa",
+        "tabs_bg_color": "#dadada",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper",
@@ -272,7 +304,6 @@
     },
     "accordion-section-3": {
       "type": "section-accordions",
-      "disabled": true,
       "blocks": {
         "accordion_block_3_0": {
           "type": "text",
@@ -301,70 +332,11 @@
         "accordion_block_3_1",
         "accordion_block_3_2"
       ],
+      "disabled": true,
       "settings": {
         "layout": "two-columns",
         "show_accordion_divider": false,
         "title": "Warranty & Repair",
-        "subheading": "",
-        "text": "",
-        "tabs_bg_color": "#fafafa",
-        "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "accordion-section-4": {
-      "type": "section-accordions",
-      "blocks": {
-        "accordion_block_4_0": {
-          "type": "text",
-          "settings": {
-            "title": "Do you offer refunds?",
-            "text": "<p>Yes, we offer full and partial refunds.<br\/><br\/>Please enquire for more information about our Refund policy.<\/p>"
-          }
-        },
-        "accordion_block_4_1": {
-          "type": "text",
-          "settings": {
-            "title": "How long after I complete a purchase can I ask for a refund?",
-            "text": "<p>A refund request can be submitted within a month after the purchase is made.<\/p>"
-          }
-        },
-        "accordion_block_4_2": {
-          "type": "text",
-          "settings": {
-            "title": "How much can I get refunded?",
-            "text": "<p>In the case when the<strong>product and packaging are unopened and undamaged<\/strong>, you are<strong>eligible<\/strong>for a full refund.<br\/><br\/>In the case when<strong>the packaging has been opened and the product has been used<\/strong>, you are<strong>eligible<\/strong>for a partial refund.<br\/><br\/>In the case when a<strong>product has been damaged<\/strong>, and the damage is not covered by your warranty, you are<strong>not eligible<\/strong>for a refund.<br\/><br\/>Please check our <a href=\"\/policies\/terms-of-service\" title=\"Terms of Service\">Terms of Service<\/a> to see if you're eligible for a refund.<\/p>"
-          }
-        },
-        "accordion_block_4_3": {
-          "type": "text",
-          "settings": {
-            "title": "Who pays the shipping costs in the case of a refund when the order doesn't have free shipping?",
-            "text": "<p>When an order does not include free shipping, all shipping costs (including the return shipping) are handled by the customer.<\/p>"
-          }
-        },
-        "accordion_block_4_4": {
-          "type": "text",
-          "settings": {
-            "title": "Who pays the shipping costs in the case of a refund when the order has free shipping?",
-            "text": "<p>When an order includes free shipping, only the cost of the return shipping is handled by the customer.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "accordion_block_4_0",
-        "accordion_block_4_1",
-        "accordion_block_4_2",
-        "accordion_block_4_3",
-        "accordion_block_4_4"
-      ],
-      "settings": {
-        "layout": "two-columns",
-        "show_accordion_divider": false,
-        "title": "Returns & Refunds",
         "subheading": "",
         "text": "",
         "tabs_bg_color": "#fafafa",
@@ -426,10 +398,9 @@
     "main",
     "25dbd963-093c-4cc9-9cd4-7bde32b883ac",
     "accordion-section-1",
+    "412123b7-ebac-4511-bc57-1e44186f52ab",
     "b4188d98-6da9-40a6-aa78-e8c877974716",
-    "accordion-section-2",
     "accordion-section-3",
-    "accordion-section-4",
     "2b5f90c9-fdd1-4ebe-8093-586d2262a462"
   ]
 }

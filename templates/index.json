@@ -19,7 +19,7 @@
             "button_1_color": "btn--secondary",
             "button_1_style": "btn--solid-border",
             "button_1_size": "btn--large",
-            "button_2_text": "Learn More",
+            "button_2_text": "BOOK A FREE CONSULT",
             "button_2_link": "",
             "button_2_color": "btn--secondary",
             "button_2_style": "btn--outline",
@@ -69,11 +69,12 @@
         "duration": 4,
         "transition": "fade",
         "enable_zoom_animation": true,
-        "heading_size": 180
+        "heading_size": 150
       }
     },
     "2158316a-7e05-40d1-a29e-a377713e45db": {
       "type": "section-image-with-text",
+      "disabled": true,
       "settings": {
         "section_height": "seven-fifty-height",
         "layout": "inline",
@@ -106,11 +107,23 @@
         "template--20060286779682__953cbb4d-618a-4795-af42-7028b21a53d2-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>ACCOUNTABILITY.<\/p>",
+            "text": "<p>TAILORED TRAINING PROGRAMS<\/p>",
             "text_color": "#f7f7f7",
-            "icon_name": "none",
-            "icon_color": "#eae7d8",
+            "icon_name": "check",
+            "icon_color": "#f59815",
             "icon_width": 28,
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "966e60c3-865e-4afe-868d-3f198edb3ef6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>PERSONALISED NUTRITION + MACRO PLANS<\/p>",
+            "text_color": "#f7f7f7",
+            "icon_name": "check",
+            "icon_color": "#f59815",
+            "icon_width": 25,
             "target_device_enabled": false,
             "target_device": "mobile"
           }
@@ -118,10 +131,10 @@
         "ffc5f2af-a913-40ef-8e2c-21a28039df19": {
           "type": "text",
           "settings": {
-            "text": "<p>CONSISTENCY.<\/p>",
+            "text": "<p>24\/7 ACCESS TO COACHES<\/p>",
             "text_color": "#f7f7f7",
-            "icon_name": "none",
-            "icon_color": "#000000",
+            "icon_name": "check",
+            "icon_color": "#f59815",
             "icon_width": 28,
             "target_device_enabled": false,
             "target_device": "mobile"
@@ -130,10 +143,10 @@
         "7da6616d-f2cc-4862-add7-20ab6d1f57a2": {
           "type": "text",
           "settings": {
-            "text": "<p>KNOWLEDGE.<\/p>",
+            "text": "<p>PROVEN RESULTS FOR 100's OF AUSSIES<\/p>",
             "text_color": "#f7f7f7",
-            "icon_name": "none",
-            "icon_color": "#f7f7f7",
+            "icon_name": "check",
+            "icon_color": "#f59815",
             "icon_width": 28,
             "target_device_enabled": false,
             "target_device": "mobile"
@@ -169,6 +182,7 @@
       },
       "block_order": [
         "template--20060286779682__953cbb4d-618a-4795-af42-7028b21a53d2-text-1",
+        "966e60c3-865e-4afe-868d-3f198edb3ef6",
         "ffc5f2af-a913-40ef-8e2c-21a28039df19",
         "7da6616d-f2cc-4862-add7-20ab6d1f57a2",
         "template--20060286779682__953cbb4d-618a-4795-af42-7028b21a53d2-image-1",
@@ -178,15 +192,205 @@
       "settings": {
         "layout": "marquee",
         "padding": 10,
-        "bg_color": "#000000",
+        "bg_color": "#4a4a4a",
         "color": "#0b0b0b",
-        "marquee_speed": 100,
+        "marquee_speed": 150,
         "direction": "ticker-rtl",
         "slider_speed": 7,
         "text_size": 180,
         "message_spacing": 25,
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "e3ca25d1-ffe7-4cc0-b1e7-80a8f74c5e9b": {
+      "type": "section-text",
+      "blocks": {
+        "template--18256742449430__e3ca25d1-ffe7-4cc0-b1e7-80a8f74c5e9b-167901971892ae9a60-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Real RESULTS<\/p>",
+            "size": 100,
+            "margin_bottom": 10
+          }
+        },
+        "template--18256742449430__e3ca25d1-ffe7-4cc0-b1e7-80a8f74c5e9b-167901971892ae9a60-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Trusted by <em>over 500+<\/em> Aussie Men<\/p>",
+            "size": 120,
+            "heading_highlight_type": "circle",
+            "highlight_color": "#f59815"
+          }
+        }
+      },
+      "block_order": [
+        "template--18256742449430__e3ca25d1-ffe7-4cc0-b1e7-80a8f74c5e9b-167901971892ae9a60-0",
+        "template--18256742449430__e3ca25d1-ffe7-4cc0-b1e7-80a8f74c5e9b-167901971892ae9a60-1"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 80,
+        "padding_bottom": 0
+      }
+    },
+    "1241266c-854d-42e4-9820-8d0396091013": {
+      "type": "section-columns",
+      "blocks": {
+        "template--20060286779682__1241266c-854d-42e4-9820-8d0396091013-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FRENCHIE.jpg",
+            "title": "",
+            "text": "<h3>\"Absolutely changed my life\"<\/h3><p>- Frenchie<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "https:\/\/www.youtube.com\/watch?v=hXWVUT9ho0w",
+            "video_link_color": "text-light"
+          }
+        },
+        "template--20060286779682__1241266c-854d-42e4-9820-8d0396091013-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B_A.jpg",
+            "title": "",
+            "text": "<h3>\"I feel like I'm 20 years old again\"<\/h3><p>- Damo<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "https:\/\/www.youtube.com\/watch?v=DGHlcW2IUXQ",
+            "video_link_color": "text-light"
+          }
+        },
+        "template--20060286779682__1241266c-854d-42e4-9820-8d0396091013-text_block-4": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ALI.jpg",
+            "title": "",
+            "text": "<h3>\"Best thing I've ever done\"<\/h3><p>- Ali<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "https:\/\/www.youtube.com\/watch?v=tjwcjJpIceY",
+            "video_link_color": "text-light"
+          }
+        },
+        "template--20060286779682__1241266c-854d-42e4-9820-8d0396091013-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ANDY.jpg",
+            "title": "",
+            "text": "<h3>\"In the best shape of my life\"<\/h3><p><em>- Andy<\/em><\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "https:\/\/www.youtube.com\/watch?v=SPTI18oG6Hk",
+            "video_link_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "template--20060286779682__1241266c-854d-42e4-9820-8d0396091013-text_block-3",
+        "template--20060286779682__1241266c-854d-42e4-9820-8d0396091013-text_block-1",
+        "template--20060286779682__1241266c-854d-42e4-9820-8d0396091013-text_block-4",
+        "template--20060286779682__1241266c-854d-42e4-9820-8d0396091013-text_block-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "text-left",
+        "columns": 3,
+        "equalize_height": true,
+        "image_aspect_ratio": 1.2,
+        "show_images": true,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 36,
+        "padding_bottom": 60
+      }
+    },
+    "2947f6da-339c-4f5c-a864-66c946705be9": {
+      "type": "section-banner-image",
+      "blocks": {
+        "51cc965b-ea53-4502-bc76-405cb739f992": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "bd4dab3f-d9e2-4d19-bc8b-364e744b057f": {
+          "type": "video",
+          "settings": {
+            "video_text": "Watch what makes us tick?",
+            "video_link": "https:\/\/www.youtube.com\/watch?v=FJBpzTXRgNw"
+          }
+        },
+        "c1758618-7978-47cb-ade4-83a1fb7ce3e6": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Hear from <em>your coaches<\/em><\/p>",
+            "size": 135,
+            "heading_highlight_type": "circle",
+            "highlight_color": "#f59815"
+          }
+        },
+        "9f78e546-5834-45b8-99be-056df5a6dc41": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We take your transformations dead serious, but not ourselves. <\/p>",
+            "size": 120
+          }
+        },
+        "7835110b-1275-46f9-bc6e-0a66dd1b73bd": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify:\/\/collections\/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "51cc965b-ea53-4502-bc76-405cb739f992",
+        "bd4dab3f-d9e2-4d19-bc8b-364e744b057f",
+        "c1758618-7978-47cb-ade4-83a1fb7ce3e6",
+        "9f78e546-5834-45b8-99be-056df5a6dc41",
+        "7835110b-1275-46f9-bc6e-0a66dd1b73bd"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "six-fifty-height",
+        "enable_mobile_height": true,
+        "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2023-07-28_at_2.43.34_pm.png",
+        "overlay_opacity": 5,
+        "enable_zoom_animation": true,
+        "text_width": "normal",
+        "text_position": "left",
+        "text_color": "text-light"
       }
     },
     "a87dbb35-c888-4cfb-bb5c-4cc9a30c92ba": {
@@ -251,6 +455,41 @@
         "message_spacing": 10,
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "265a5b8e-26ad-4e0f-a874-426d5da117fb": {
+      "type": "section-custom-content",
+      "blocks": {
+        "f306c536-86a7-48f1-90b3-dda64d75d853": {
+          "type": "video",
+          "settings": {
+            "text_position": "middle-center",
+            "video_link_bg": "",
+            "video_link": "https:\/\/www.youtube.com\/watch?v=FJBpzTXRgNw",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-07-28_at_2.43.34_pm.png",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "Hear from your coaches",
+            "text": "Learn what makes us tick",
+            "heading_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--primary",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "f306c536-86a7-48f1-90b3-dda64d75d853"
+      ],
+      "settings": {
+        "height": "five-fifty-height",
+        "bg_color": "#f7f7f7",
+        "width": "wrapper",
+        "add_gutter": false,
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "cdbcd2a6-02dd-4fe9-8e90-fcee6873b4ac": {
@@ -318,158 +557,6 @@
         "width": "wrapper--full-padded",
         "padding_top": 12,
         "padding_bottom": 12
-      }
-    },
-    "e3ca25d1-ffe7-4cc0-b1e7-80a8f74c5e9b": {
-      "type": "section-text",
-      "blocks": {
-        "template--18256742449430__e3ca25d1-ffe7-4cc0-b1e7-80a8f74c5e9b-167901971892ae9a60-0": {
-          "type": "subheading",
-          "settings": {
-            "text": "<p>Real People<\/p>",
-            "size": 100,
-            "margin_bottom": 10
-          }
-        },
-        "template--18256742449430__e3ca25d1-ffe7-4cc0-b1e7-80a8f74c5e9b-167901971892ae9a60-1": {
-          "type": "heading",
-          "settings": {
-            "text": "<p>Trusted by <em>over 500+<\/em> Aussie Men<\/p>",
-            "size": 120,
-            "heading_highlight_type": "circle",
-            "highlight_color": "#f59815"
-          }
-        }
-      },
-      "block_order": [
-        "template--18256742449430__e3ca25d1-ffe7-4cc0-b1e7-80a8f74c5e9b-167901971892ae9a60-0",
-        "template--18256742449430__e3ca25d1-ffe7-4cc0-b1e7-80a8f74c5e9b-167901971892ae9a60-1"
-      ],
-      "settings": {
-        "text_position": "center",
-        "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper--full-padded",
-        "padding_top": 80,
-        "padding_bottom": 0
-      }
-    },
-    "1241266c-854d-42e4-9820-8d0396091013": {
-      "type": "section-columns",
-      "blocks": {
-        "template--20060286779682__1241266c-854d-42e4-9820-8d0396091013-text_block-1": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/180875592_534918247673165_4163959678088427026_n.jpg",
-            "title": "Add a title or tagline",
-            "text": "<p>Use this text to describe products, share details on availability and style, etc<\/p>",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--white",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "https:\/\/www.youtube.com\/watch?v=HMRxzIDFpX0",
-            "video_link_color": "text-light"
-          }
-        },
-        "template--20060286779682__1241266c-854d-42e4-9820-8d0396091013-text_block-2": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/35459696_1056145667867250_1047510105081249792_n.jpg",
-            "title": "",
-            "text": "<h4>\"Absolutely changed my life\".<\/h4><p><em>- jnsjnjndfjn<\/em><\/p>",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a12d31e750ac42119fb72a38e920f254.mov",
-            "video_link_color": "text-light"
-          }
-        },
-        "template--20060286779682__1241266c-854d-42e4-9820-8d0396091013-text_block-3": {
-          "type": "text_block",
-          "settings": {
-            "title": "Add a title or tagline",
-            "text": "<p>Use this text to describe products, share details on availability and style, etc<\/p>",
-            "button_text": "Learn More",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "template--20060286779682__1241266c-854d-42e4-9820-8d0396091013-text_block-4": {
-          "type": "text_block",
-          "settings": {
-            "title": "Add a title or tagline",
-            "text": "<p>Use this text to describe products, share details on availability and style, etc<\/p>",
-            "button_text": "Learn More",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        }
-      },
-      "block_order": [
-        "template--20060286779682__1241266c-854d-42e4-9820-8d0396091013-text_block-1",
-        "template--20060286779682__1241266c-854d-42e4-9820-8d0396091013-text_block-2",
-        "template--20060286779682__1241266c-854d-42e4-9820-8d0396091013-text_block-3",
-        "template--20060286779682__1241266c-854d-42e4-9820-8d0396091013-text_block-4"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "text-left",
-        "columns": 3,
-        "equalize_height": true,
-        "image_aspect_ratio": 1.2,
-        "show_images": true,
-        "heading_size": 120,
-        "text_size": 100,
-        "bg_color_secondary": false,
-        "width": "wrapper--full-padded",
-        "padding_top": 36,
-        "padding_bottom": 60
-      }
-    },
-    "265a5b8e-26ad-4e0f-a874-426d5da117fb": {
-      "type": "section-custom-content",
-      "blocks": {
-        "f306c536-86a7-48f1-90b3-dda64d75d853": {
-          "type": "video",
-          "settings": {
-            "text_position": "middle-center",
-            "video_link_bg": "",
-            "video_link": "https:\/\/www.youtube.com\/watch?v=sfW9HVIXm7I",
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-07-28_at_2.43.34_pm.png",
-            "overlay_opacity": 10,
-            "text_color": "text-light",
-            "title": "What's Real Bodz All About?",
-            "text": "",
-            "heading_size": 100,
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--white",
-            "button_style": "btn--solid-border",
-            "button_size": "btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "f306c536-86a7-48f1-90b3-dda64d75d853"
-      ],
-      "settings": {
-        "height": "six-fifty-height",
-        "bg_color": "#f7f7f7",
-        "width": "wrapper",
-        "add_gutter": false,
-        "padding_top": 60,
-        "padding_bottom": 60
       }
     },
     "65af6dbf-a626-4a9b-8f37-77a917516374": {
@@ -630,14 +717,14 @@
             "product": "12-week-shred",
             "title": "",
             "product_description": "",
-            "button_text": "View Product",
+            "button_text": "Learn More About Shred Program",
             "show_second_image": true,
             "show_circle": true,
             "hide_on_mobile": false,
             "circle_text_color": "#f59815",
             "circle_rotate_animation": "rotate-on-scroll",
-            "circle_text": "Best Seller ~ Best Seller ~",
-            "circle_word_spacing": 0,
+            "circle_text": "Lose Weight ~ Cut Fat ~",
+            "circle_word_spacing": 4,
             "circle_size": 151
           }
         },
@@ -647,14 +734,14 @@
             "product": "12-week-build",
             "title": "",
             "product_description": "",
-            "button_text": "View Product",
+            "button_text": "Learn More About Build Program",
             "show_second_image": true,
             "show_circle": true,
             "hide_on_mobile": false,
-            "circle_text_color": "#000000",
+            "circle_text_color": "#f59815",
             "circle_rotate_animation": "rotate-on-scroll",
-            "circle_text": "New Arrival ~ New Arrival ~",
-            "circle_word_spacing": 3,
+            "circle_text": "Build Muscle ~ Bulk Up ~",
+            "circle_word_spacing": 4,
             "circle_size": 150
           }
         },
@@ -684,13 +771,187 @@
       ],
       "settings": {
         "title": "Explore our programs",
-        "heading_size": 120,
+        "heading_size": 100,
         "button_color": "btn--black",
         "button_style": "btn--solid",
         "button_size": "btn--medium",
         "image_aspect_ratio": 1,
         "bg_color_secondary": false,
         "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "69a446ac-cf54-4580-b74c-3fc5edb1314a": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--20060286779682__69a446ac-cf54-4580-b74c-3fc5edb1314a-image-1": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "image": "shopify:\/\/shop_images\/PERSONALISED_TRAINING.jpg",
+            "overlay_opacity": 0,
+            "text_color": "text-light",
+            "title": "",
+            "heading_size": 100,
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        },
+        "template--20060286779682__69a446ac-cf54-4580-b74c-3fc5edb1314a-text-1": {
+          "type": "text",
+          "settings": {
+            "text_position": "left",
+            "top_image_width": 100,
+            "text_color": "text-dark",
+            "subheading": "",
+            "title": "Tailored Training Programs",
+            "heading_size": 100,
+            "text": "<p>Everyone's unique, and so is our approach to fitness. We'll craft a a training plan that fits your experience and lifestyle - whether you're a newbie or pro.<\/p>",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--small",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20060286779682__69a446ac-cf54-4580-b74c-3fc5edb1314a-image-1",
+        "template--20060286779682__69a446ac-cf54-4580-b74c-3fc5edb1314a-text-1"
+      ],
+      "settings": {
+        "height": "five-fifty-height",
+        "bg_color": "",
+        "width": "wrapper",
+        "add_gutter": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "f6bc9b29-1f0e-4b56-b5ba-91da5ec38179": {
+      "type": "section-custom-content",
+      "blocks": {
+        "905203d8-779f-488a-96eb-b794931ca0e3": {
+          "type": "text",
+          "settings": {
+            "text_position": "left",
+            "top_image_width": 100,
+            "text_color": "text-dark",
+            "subheading": "",
+            "title": "Personalised Nutrition Plans",
+            "heading_size": 100,
+            "text": "<p>Forget generic diets. We offer a full macro breakdown and nutrition plan to ensure your body gets the right fuel for your transformation.<\/p>",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--small",
+            "bg_color": ""
+          }
+        },
+        "4621edb1-14bf-4626-9abd-f4033da658f6": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "image": "shopify:\/\/shop_images\/PERSONALISED_nutrition.jpg",
+            "overlay_opacity": 0,
+            "text_color": "text-light",
+            "title": "",
+            "heading_size": 100,
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "905203d8-779f-488a-96eb-b794931ca0e3",
+        "4621edb1-14bf-4626-9abd-f4033da658f6"
+      ],
+      "settings": {
+        "height": "five-fifty-height",
+        "bg_color": "",
+        "width": "wrapper",
+        "add_gutter": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "7758ee86-94d6-43ff-b17b-f4222c5fe96f": {
+      "type": "section-custom-content",
+      "blocks": {
+        "b100119b-34e9-4698-8164-7602c55cab84": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "image": "shopify:\/\/shop_images\/support.jpg",
+            "overlay_opacity": 0,
+            "text_color": "text-light",
+            "title": "",
+            "heading_size": 100,
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        },
+        "55ac8ed5-873a-4fa9-9bc4-2f17fa035669": {
+          "type": "text",
+          "settings": {
+            "text_position": "left",
+            "top_image_width": 100,
+            "text_color": "text-dark",
+            "subheading": "",
+            "title": "Round-the-Clock Support",
+            "heading_size": 100,
+            "text": "<p>Your transformation, our commitment. Stay connected with our coaches anytime, anywhere, ensuring you're never left in the dark.<\/p>",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--small",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "b100119b-34e9-4698-8164-7602c55cab84",
+        "55ac8ed5-873a-4fa9-9bc4-2f17fa035669"
+      ],
+      "settings": {
+        "height": "five-fifty-height",
+        "bg_color": "",
+        "width": "wrapper",
+        "add_gutter": false,
         "padding_top": 60,
         "padding_bottom": 60
       }
@@ -760,7 +1021,7 @@
         "text_color": "text-dark",
         "width": "wrapper",
         "padding_top": 60,
-        "padding_bottom": 60
+        "padding_bottom": 36
       }
     },
     "bc2e3285-83d7-44ca-86ac-430af2012129": {
@@ -827,248 +1088,77 @@
         "text_color": "text-dark",
         "width": "wrapper--narrow",
         "padding_top": 0,
-        "padding_bottom": 60
+        "padding_bottom": 82
       }
     },
-    "4cf35844-daa9-481f-b090-8c1bf37ee05d": {
-      "type": "section-collection",
+    "623d0ca8-6141-4b16-b958-5a6115551399": {
+      "type": "section-banner-image",
       "blocks": {
-        "73237c64-6f39-4429-a676-a44d096037c0": {
-          "type": "promo",
-          "disabled": true,
-          "settings": {
-            "position": 1,
-            "width": "auto",
-            "title": "<p>Promotion title<\/p>",
-            "heading_highlight_type": "circle",
-            "highlight_color": "rgba(0,0,0,0)",
-            "heading_size": 100,
-            "content": "Advertise a promotion or a sale",
-            "text_size": 100,
-            "text_color": "text-dark",
-            "text_position": "bottom-left",
-            "layout": "stacked",
-            "overlay_opacity": 10,
-            "bg_color": "#f7f7f7",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--white",
-            "button_style": "btn--solid-border",
-            "button_size": "btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "73237c64-6f39-4429-a676-a44d096037c0"
-      ],
-      "disabled": true,
-      "settings": {
-        "collection": "",
-        "products_layout": "carousel",
-        "number_of_products": 8,
-        "text_alignment": "text-left",
-        "title": "Best Sellers",
-        "heading_size": 230,
-        "text": "<p>Use this text to share information about your collection with your customers.<\/p>",
-        "text_size": 100,
-        "button_text": "",
-        "button_color": "btn--black",
-        "button_style": "btn--text",
-        "button_size": "btn--large",
-        "bg_color_secondary": false,
-        "enable_slider_mobile": true,
-        "columns_mobile": "2",
-        "width": "wrapper--full-padded",
-        "padding_top": 10,
-        "padding_bottom": 60
-      }
-    },
-    "eed1639f-4e75-408e-bbba-252f91e4ab8e": {
-      "type": "section-overlapping-images",
-      "disabled": true,
-      "settings": {
-        "text_position": "left",
-        "text_alignment": "left",
-        "images_width": 750,
-        "images_offset": 115,
-        "image_link_1": "",
-        "image_link_2": "",
-        "hide_image_2": false,
-        "heading": "Our Story, Our Promise",
-        "description": "<p>Use this text to describe a product, promotion, or your company.<\/p>",
-        "heading_size": 140,
-        "button_text": "Button text",
-        "button_link": "",
-        "button_color": "btn--black",
-        "button_style": "btn--solid",
-        "button_size": "btn--medium",
-        "video_text": "",
-        "video_link": "",
-        "bg_color_secondary": false,
-        "width": "wrapper--full-padded",
-        "padding_top": 10,
-        "padding_bottom": 100
-      }
-    },
-    "6867309b-120c-4dfd-ae21-622c1965ebe7": {
-      "type": "section-text",
-      "blocks": {
-        "template--20060286779682__6867309b-120c-4dfd-ae21-622c1965ebe7-subheading-1": {
+        "template--20060286779682__623d0ca8-6141-4b16-b958-5a6115551399-subheading-1": {
           "type": "subheading",
           "disabled": true,
           "settings": {
-            "text": "<p>Subheading<\/p>",
-            "size": 100,
-            "margin_bottom": 16
-          }
-        },
-        "template--20060286779682__6867309b-120c-4dfd-ae21-622c1965ebe7-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "<h1><strong>We don't beat around the bush here. This is going to take hard work from you. <\/strong><\/h1><h1><strong>It's all about <\/strong><em><strong>consistency<\/strong><\/em><strong> and <\/strong><em><strong>accountability<\/strong><\/em><strong>. We'll make sure you are motivated to stay the course and put in the work!<\/strong><\/h1>",
-            "size": 180,
-            "heading_highlight_type": "highlight",
-            "highlight_color": "#7bdafd"
-          }
-        },
-        "template--20060286779682__6867309b-120c-4dfd-ae21-622c1965ebe7-text-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>No excuses. Hard work. Real results.<\/p>",
+            "text": "",
             "size": 100
           }
         },
-        "template--20060286779682__6867309b-120c-4dfd-ae21-622c1965ebe7-button-1": {
+        "80843bb4-cea1-46e6-b957-3127f7cd9740": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video_text": "Watch what makes us tick?",
+            "video_link": "https:\/\/www.youtube.com\/watch?v=FJBpzTXRgNw"
+          }
+        },
+        "template--20060286779682__623d0ca8-6141-4b16-b958-5a6115551399-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Join 100's of Aussies who have <em>cut the crap.<\/em><\/p>",
+            "size": 130,
+            "heading_highlight_type": "circle",
+            "highlight_color": "#f59815"
+          }
+        },
+        "template--20060286779682__623d0ca8-6141-4b16-b958-5a6115551399-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Build lean muscle, lose the Kg's, take back your fucking life.<\/p>",
+            "size": 110
+          }
+        },
+        "template--20060286779682__623d0ca8-6141-4b16-b958-5a6115551399-button-1": {
           "type": "button",
-          "disabled": true,
           "settings": {
-            "button_text": "Get Started",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--solid",
-            "button_size": "btn--small"
+            "button_1_text": "Buy a 12-Week Program",
+            "button_1_link": "shopify:\/\/collections\/all",
+            "button_1_color": "btn--primary",
+            "button_1_style": "btn--solid",
+            "button_1_size": "btn--large",
+            "button_2_text": "Book a Free Consult",
+            "button_2_link": "",
+            "button_2_color": "btn--secondary",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large"
           }
         }
       },
       "block_order": [
-        "template--20060286779682__6867309b-120c-4dfd-ae21-622c1965ebe7-subheading-1",
-        "template--20060286779682__6867309b-120c-4dfd-ae21-622c1965ebe7-heading-1",
-        "template--20060286779682__6867309b-120c-4dfd-ae21-622c1965ebe7-text-1",
-        "template--20060286779682__6867309b-120c-4dfd-ae21-622c1965ebe7-button-1"
+        "template--20060286779682__623d0ca8-6141-4b16-b958-5a6115551399-subheading-1",
+        "80843bb4-cea1-46e6-b957-3127f7cd9740",
+        "template--20060286779682__623d0ca8-6141-4b16-b958-5a6115551399-heading-1",
+        "template--20060286779682__623d0ca8-6141-4b16-b958-5a6115551399-text-1",
+        "template--20060286779682__623d0ca8-6141-4b16-b958-5a6115551399-button-1"
       ],
-      "disabled": true,
       "settings": {
+        "height": "six-fifty-height",
+        "enable_mobile_height": true,
+        "mobile_height": "five-fifty-height-mobile",
+        "image": "shopify:\/\/shop_images\/LANDING_PAGE_BACKGROUND.jpg",
+        "overlay_opacity": 30,
+        "enable_zoom_animation": true,
+        "text_width": "wide",
         "text_position": "left",
-        "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper--full-padded",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "43b7582d-284a-4864-9c99-a60de0fce1bf": {
-      "type": "section-grid",
-      "blocks": {
-        "template--19703957815574__43b7582d-284a-4864-9c99-a60de0fce1bf-16884285280f46edbf-0": {
-          "type": "image",
-          "settings": {
-            "width": "100",
-            "overlay_opacity": 10,
-            "text_position": "center",
-            "subheading": "New Collection",
-            "title": "Our Signature Look",
-            "text": "",
-            "button_1_text": "Shop Now",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "text-light"
-          }
-        },
-        "template--19703957815574__43b7582d-284a-4864-9c99-a60de0fce1bf-16884285280f46edbf-1": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "width": "33.33",
-            "overlay_opacity": 10,
-            "text_position": "center",
-            "subheading": "",
-            "title": "Limited",
-            "text": "Add more info or delete this text",
-            "button_1_text": "Shop Now",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "text-light"
-          }
-        },
-        "template--19703957815574__43b7582d-284a-4864-9c99-a60de0fce1bf-16884285280f46edbf-2": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "width": "33.33",
-            "overlay_opacity": 10,
-            "text_position": "center",
-            "subheading": "",
-            "title": "Spotlight",
-            "text": "Add more info or delete this text",
-            "button_1_text": "Shop Now",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "text-light"
-          }
-        },
-        "template--19703957815574__43b7582d-284a-4864-9c99-a60de0fce1bf-16884285280f46edbf-3": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "width": "33.33",
-            "overlay_opacity": 10,
-            "text_position": "center",
-            "subheading": "",
-            "title": "New",
-            "text": "Add more info or delete this text",
-            "button_1_text": "Shop Now",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "text-light"
-          }
-        }
-      },
-      "block_order": [
-        "template--19703957815574__43b7582d-284a-4864-9c99-a60de0fce1bf-16884285280f46edbf-0",
-        "template--19703957815574__43b7582d-284a-4864-9c99-a60de0fce1bf-16884285280f46edbf-1",
-        "template--19703957815574__43b7582d-284a-4864-9c99-a60de0fce1bf-16884285280f46edbf-2",
-        "template--19703957815574__43b7582d-284a-4864-9c99-a60de0fce1bf-16884285280f46edbf-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "height": "550",
-        "heading_size": 130,
-        "button_1_color": "btn--white",
-        "button_1_style": "btn--text",
-        "button_1_size": "btn--small",
-        "button_2_color": "btn--black",
-        "button_2_style": "btn--text",
-        "button_2_size": "btn--small",
-        "bg_color_secondary": false,
-        "enable_slider_mobile": true,
-        "width": "wrapper--full-padded",
-        "add_gutter": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "e4e4b5ec-149f-4f0b-bcdd-985d7cf8cf72": {
-      "type": "section-divider",
-      "settings": {
-        "show_line": false,
-        "width": "wrapper",
-        "padding_top": 10,
-        "padding_bottom": 10
+        "text_color": "text-light"
       }
     },
     "f91dba82-a9f9-4019-9002-a16133ec5c98": {
@@ -1077,7 +1167,7 @@
         "flex_align": "align--middle-split",
         "text_color": "text-light",
         "title": "Newsletter",
-        "text": "<p>Sign up for exclusive deals and early access to new products.<\/p>",
+        "text": "<p>Sign up for 10% off your first Real Body program, exclusive tips and promotions. <\/p>",
         "extra_fields": "name",
         "button_text": "",
         "bg_color": "#4a4a4a",
@@ -1087,92 +1177,27 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
-    },
-    "4255085c-7a09-42f2-847a-7842d088e536": {
-      "type": "section-marquee",
-      "blocks": {
-        "template--20060286779682__4255085c-7a09-42f2-847a-7842d088e536-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>New collections just released - <a href=\"\/collections\" title=\"All collections\">Shop now<\/a><\/p>",
-            "text_color": "",
-            "icon_name": "none",
-            "icon_color": "",
-            "icon_width": 25,
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "template--20060286779682__4255085c-7a09-42f2-847a-7842d088e536-image-1": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image_width": 100
-          }
-        },
-        "template--20060286779682__4255085c-7a09-42f2-847a-7842d088e536-text-2": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Use code <strong>TENOFF<\/strong> for 10% off first purchase<\/p>",
-            "text_color": "",
-            "icon_name": "none",
-            "icon_color": "",
-            "icon_width": 25,
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "template--20060286779682__4255085c-7a09-42f2-847a-7842d088e536-image-2": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image_width": 100
-          }
-        }
-      },
-      "block_order": [
-        "template--20060286779682__4255085c-7a09-42f2-847a-7842d088e536-text-1",
-        "template--20060286779682__4255085c-7a09-42f2-847a-7842d088e536-image-1",
-        "template--20060286779682__4255085c-7a09-42f2-847a-7842d088e536-text-2",
-        "template--20060286779682__4255085c-7a09-42f2-847a-7842d088e536-image-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "layout": "marquee",
-        "padding": 10,
-        "bg_color": "#7bdafd",
-        "color": "#000000",
-        "marquee_speed": 100,
-        "direction": "ticker-rtl",
-        "slider_speed": 7,
-        "text_size": 150,
-        "message_spacing": 10,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
     "f65731be-fed8-4ca8-825e-2c8bce9ebe5b",
     "2158316a-7e05-40d1-a29e-a377713e45db",
     "953cbb4d-618a-4795-af42-7028b21a53d2",
-    "a87dbb35-c888-4cfb-bb5c-4cc9a30c92ba",
-    "cdbcd2a6-02dd-4fe9-8e90-fcee6873b4ac",
     "e3ca25d1-ffe7-4cc0-b1e7-80a8f74c5e9b",
     "1241266c-854d-42e4-9820-8d0396091013",
+    "2947f6da-339c-4f5c-a864-66c946705be9",
+    "a87dbb35-c888-4cfb-bb5c-4cc9a30c92ba",
     "265a5b8e-26ad-4e0f-a874-426d5da117fb",
+    "cdbcd2a6-02dd-4fe9-8e90-fcee6873b4ac",
     "65af6dbf-a626-4a9b-8f37-77a917516374",
     "9e58ac81-e88d-4b2e-a006-c6d620af2258",
     "727c20e2-3fb6-4b7d-989a-9920967b4a3b",
+    "69a446ac-cf54-4580-b74c-3fc5edb1314a",
+    "f6bc9b29-1f0e-4b56-b5ba-91da5ec38179",
+    "7758ee86-94d6-43ff-b17b-f4222c5fe96f",
     "b8677d3d-6a16-4e04-931f-f6c129fbf55c",
     "bc2e3285-83d7-44ca-86ac-430af2012129",
-    "4cf35844-daa9-481f-b090-8c1bf37ee05d",
-    "eed1639f-4e75-408e-bbba-252f91e4ab8e",
-    "6867309b-120c-4dfd-ae21-622c1965ebe7",
-    "43b7582d-284a-4864-9c99-a60de0fce1bf",
-    "e4e4b5ec-149f-4f0b-bcdd-985d7cf8cf72",
-    "f91dba82-a9f9-4019-9002-a16133ec5c98",
-    "4255085c-7a09-42f2-847a-7842d088e536"
+    "623d0ca8-6141-4b16-b958-5a6115551399",
+    "f91dba82-a9f9-4019-9002-a16133ec5c98"
   ]
 }

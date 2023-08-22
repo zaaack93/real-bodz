@@ -16,14 +16,14 @@
           "type": "text",
           "settings": {
             "title": "On a Mission",
-            "footer_text": "<p>Real Bodz is about real talk, real change, and real results. No fluff, no nonsense, just a whole load of sweat, laughter, and the occasional tear. But who said real change is easy?<\/p>"
+            "footer_text": "<p>Real Bodz is about real change. No fluff, no nonsense - just a whole lot of blood, sweat, and cheers. <\/p>"
           }
         },
         "footer-block-3": {
           "type": "newsletter",
           "settings": {
             "title": "Newsletter",
-            "text": "<p>Stay up to date with the new collections, products and exclusive offers.<\/p>"
+            "text": "<p>Sign up for 10% off your first Real Body program, exclusive tips and promotions. <\/p>"
           }
         }
       },

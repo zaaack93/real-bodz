@@ -33,8 +33,8 @@
         "slideshow-0"
       ],
       "settings": {
-        "slide_height": "six-fifty-height",
-        "enable_mobile_height": false,
+        "slide_height": "two-thirds-height",
+        "enable_mobile_height": true,
         "mobile_slide_height": "five-fifty-height-mobile",
         "show_nav_dots": true,
         "show_nav_arrows": true,
@@ -112,7 +112,7 @@
         "subheading": "",
         "title": "<p>The <em>Real<\/em> Deal<\/p>",
         "heading_highlight_type": "circle",
-        "highlight_color": "#7bdafd",
+        "highlight_color": "#f59815",
         "heading_size": 130,
         "text_content": "Founded by a team of experienced fitness professionals, Real Bodz is more than just a 12-week fitness program – it's a lifestyle revolution. Our founders possess an incredible breadth of experience in the fitness industry, marked by 25 years of helping people achieve their personal goals and create healthier lifestyles.\n\nReal Bodz's strength lies in our commitment to individualized guidance. Our offerings, available in 'Shred' and 'Build' options, are meticulously tailored to your unique goals. Whether your objective is to shed unwanted body fat or build lean muscle, we provide a personalized training regime, meal guide, and macro breakdown. Our holistic approach doesn't just focus on the physical aspect of fitness. We delve into the psychological side too, addressing lifestyle habits and mental health.",
         "text_alignment": "left",
@@ -301,7 +301,7 @@
           "settings": {
             "text_position": "middle-center",
             "video_link_bg": "",
-            "video_link": "",
+            "video_link": "https:\/\/www.youtube.com\/watch?v=FJBpzTXRgNw",
             "image": "shopify:\/\/shop_images\/Screen_Shot_2023-07-28_at_2.43.34_pm.png",
             "overlay_opacity": 10,
             "text_color": "text-light",
@@ -338,13 +338,13 @@
             "product": "12-week-build",
             "title": "",
             "product_description": "",
-            "button_text": "View Product",
+            "button_text": "View Build Program",
             "show_second_image": true,
-            "show_circle": true,
+            "show_circle": false,
             "hide_on_mobile": false,
             "circle_text_color": "#000000",
             "circle_rotate_animation": "rotate-on-scroll",
-            "circle_text": "New Arrival ~ New Arrival ~",
+            "circle_text": "",
             "circle_word_spacing": 3,
             "circle_size": 150
           }
@@ -355,13 +355,13 @@
             "product": "12-week-shred",
             "title": "",
             "product_description": "",
-            "button_text": "View Product",
+            "button_text": "View Shred Program",
             "show_second_image": true,
-            "show_circle": true,
+            "show_circle": false,
             "hide_on_mobile": false,
             "circle_text_color": "#000000",
             "circle_rotate_animation": "rotate-on-scroll",
-            "circle_text": "New Arrival ~ New Arrival ~",
+            "circle_text": "",
             "circle_word_spacing": 3,
             "circle_size": 150
           }
@@ -411,23 +411,23 @@
           "settings": {
             "icon_name": "scientific",
             "title": "25 Years Experience",
-            "text": "<p>with the latest research and methodologies.<\/p>"
+            "text": "<p>we know what works<\/p>"
           }
         },
         "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-1": {
           "type": "text",
           "settings": {
-            "icon_name": "smile",
-            "title": "100's of Happy Clients",
-            "text": "<p>Proven track record of life-changing results.<\/p>"
+            "icon_name": "check",
+            "title": "Results Guarantee",
+            "text": "<p>or money back<\/p>"
           }
         },
         "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-2": {
           "type": "text",
           "settings": {
-            "icon_name": "shield",
-            "title": "Money-Back Guarantee",
-            "text": "<p>No results = no fee. You can't lose.<\/p>"
+            "icon_name": "smile",
+            "title": "100's of Transformations",
+            "text": "<p>real people, real results<\/p>"
           }
         }
       },
@@ -442,8 +442,8 @@
         "icons_width": 30,
         "heading": "",
         "subheading": "",
-        "bg_color": "#eae7d8",
-        "text_color": "#333333",
+        "bg_color": "#f59815",
+        "text_color": "#ffffff",
         "box_color": "",
         "button_text": "",
         "button_link": "",
