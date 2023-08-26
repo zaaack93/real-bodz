@@ -9,6 +9,14 @@ form-klaviyo-newsletter .form-klaviyo-newsletter .form_submit_container .form_on
   display: none;
   margin-bottom: 20px;
 }
+form-klaviyo-newsletter .form-klaviyo-newsletter .form_submit_container input, form-klaviyo-newsletter .form-klaviyo-newsletter .form_submit_container button {
+  border-radius: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+form-klaviyo-newsletter .form-klaviyo-newsletter .form_submit_container button {
+  background-color: black;
+}
 
 .footer__block--newsletter form-klaviyo-newsletter .form-klaviyo-newsletter .form_submit_container {
   grid-template-columns: initial;
@@ -20,6 +28,7 @@ form-klaviyo-newsletter .form-klaviyo-newsletter .form_submit_container .form_on
 .password-page__powered-by-text {
   display: none;
 }
-.password-page__wrapper{
-    background: none;
+
+.password-page__wrapper {
+  background: none;
 }
