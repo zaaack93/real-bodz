@@ -20,3 +20,6 @@ form-klaviyo-newsletter .form-klaviyo-newsletter .form_submit_container .form_on
 .password-page__powered-by-text {
   display: none;
 }
+.password-page__wrapper{
+    background: none;
+}

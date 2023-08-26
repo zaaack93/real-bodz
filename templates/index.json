@@ -108,7 +108,7 @@
           "type": "text",
           "settings": {
             "text": "<p>TAILORED TRAINING PROGRAMS<\/p>",
-            "text_color": "#f7f7f7",
+            "text_color": "#545454",
             "icon_name": "check",
             "icon_color": "#f59815",
             "icon_width": 28,
@@ -120,7 +120,7 @@
           "type": "text",
           "settings": {
             "text": "<p>PERSONALISED NUTRITION + MACRO PLANS<\/p>",
-            "text_color": "#f7f7f7",
+            "text_color": "#545454",
             "icon_name": "check",
             "icon_color": "#f59815",
             "icon_width": 25,
@@ -132,7 +132,7 @@
           "type": "text",
           "settings": {
             "text": "<p>24\/7 ACCESS TO COACHES<\/p>",
-            "text_color": "#f7f7f7",
+            "text_color": "#545454",
             "icon_name": "check",
             "icon_color": "#f59815",
             "icon_width": 28,
@@ -144,7 +144,7 @@
           "type": "text",
           "settings": {
             "text": "<p>PROVEN RESULTS FOR 100's OF AUSSIES<\/p>",
-            "text_color": "#f7f7f7",
+            "text_color": "#545454",
             "icon_name": "check",
             "icon_color": "#f59815",
             "icon_width": 28,
@@ -192,7 +192,7 @@
       "settings": {
         "layout": "marquee",
         "padding": 10,
-        "bg_color": "#4a4a4a",
+        "bg_color": "#dadada",
         "color": "#0b0b0b",
         "marquee_speed": 150,
         "direction": "ticker-rtl",
@@ -929,16 +929,16 @@
             "heading_size": 100,
             "text": "<p>Your transformation, our commitment. Stay connected with our coaches anytime, anywhere, ensuring you're never left in the dark.<\/p>",
             "text_size": 100,
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--black",
+            "button_text": "Get Started",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_color": "btn--primary",
             "button_style": "btn--solid",
-            "button_size": "btn--small",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--white",
-            "button_2_style": "btn--solid-border",
-            "button_2_size": "btn--small",
+            "button_size": "btn--large",
+            "button_2_text": "Book a Free Consult",
+            "button_2_link": "shopify:\/\/pages\/contact",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
             "bg_color": ""
           }
         }

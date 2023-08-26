@@ -393,7 +393,7 @@
         "text_size": 100,
         "bg_color_secondary": false,
         "width": "wrapper",
-        "padding_top": 60,
+        "padding_top": 40,
         "padding_bottom": 60
       }
     },
