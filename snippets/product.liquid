@@ -723,9 +723,9 @@
       </button>
     {%- endunless -%}
   {%- endcapture -%}
-{%- endif -%}{%- form 'product', product, class: 'product__form', data-product-form: '', id: product_form_id, data-recipient-errors: gift_card_recipient_feature_active -%}
-  {% comment %} The input with name="id" submits to cart {% endcomment %}
-  <input type="hidden" name="id" value="{{ current_variant.id }}" data-product-select>
+{%- endif -%}{%- form 'product', product, data-productid: product.id, class: 'product__form', data-product-form: '', id: product_form_id, data-recipient-errors: gift_card_recipient_feature_active -%}
+  {% comment %} The input with name="id" data-productid="{{ product.id }}" submits to cart {% endcomment %}
+  <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ current_variant.id }}" data-product-select>
 
   {%- unless show_quantity -%}
     <input type="hidden" name="quantity" value="1">
@@ -1027,7 +1027,7 @@
   {{- form_fields -}}
 
   <noscript>
-    <select name="id" class="product__form__select" aria-label="{{ product.options_with_values | map: 'name' | uniq | join: ', ' }}">
+    <select name="id" data-productid="{{ product.id }}" class="product__form__select" aria-label="{{ product.options_with_values | map: 'name' | uniq | join: ', ' }}">
       {%- for variant in product.variants -%}
         <option
           {% if variant == current_variant %}selected="selected"{% endif %}
@@ -1997,7 +1997,7 @@
     {%- assign quickview_form_classes = 'product__form popup-quick-view__form' | append: ' popup-quick-view__form--' | append: settings.quick_buy_image_layout -%}
 
     {%- if product != blank -%}
-      {%- form 'product', product, class: quickview_form_classes, data-product-form: '', id: product_form_id, data-recipient-errors: gift_card_recipient_feature_active -%}
+      {%- form 'product', product, data-productid: product.id, class: quickview_form_classes, data-product-form: '', id: product_form_id, data-recipient-errors: gift_card_recipient_feature_active -%}
         <div class="popup-quick-view__wrapper product__form__wrapper{{ hide_labels_class }}{% if sold_out %} variant--soldout{% endif %}" data-form-wrapper data-scroll-lock-scrollable>
           <div class="popup-quick-view__body" data-scroll-lock-scrollable>
             {%- if quick_view_nav != '' -%}
@@ -2371,8 +2371,8 @@
     {%- endunless -%}
   {%- endcapture -%}
 {%- endif -%}<div class="product__form">
-  {% comment %} The input with name="id" submits to cart {% endcomment %}
-  <input type="hidden" name="id" value="{{ current_variant.id }}" data-product-select>
+  {% comment %} The input with name="id" data-productid="{{ product.id }}" submits to cart {% endcomment %}
+  <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ current_variant.id }}" data-product-select>
 
   {%- unless show_quantity -%}
     <input type="hidden" name="quantity" value="1">
@@ -2637,7 +2637,7 @@
   {{- form_fields -}}
 
   <noscript>
-    <select name="id" class="product__form__select" aria-label="{{ product.options_with_values | map: 'name' | uniq | join: ', ' }}">
+    <select name="id" data-productid="{{ product.id }}" class="product__form__select" aria-label="{{ product.options_with_values | map: 'name' | uniq | join: ', ' }}">
       {%- for variant in product.variants -%}
         <option
           {% if variant == current_variant %}selected="selected"{% endif %}

@@ -42,7 +42,7 @@
 
           {%- if single_variant -%}
             {%- form 'product', upsell_product, data-product-form: '', id: upsell_form_id -%}
-              <input type="hidden" name="id" value="{{ upsell_variant.id }}">
+              <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ upsell_variant.id }}">
 
               <button type="submit" name="add"
                 class="product-upsell__btn btn btn--secondary btn--solid-border{% unless upsell_variant.available %} is-hidden{% endunless %}"

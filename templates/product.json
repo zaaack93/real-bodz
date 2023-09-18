@@ -3,6 +3,20 @@
     "main": {
       "type": "product",
       "blocks": {
+        "d3d46b24-717e-48f6-8a14-a9ce1d1be4f6": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -24,10 +38,10 @@
           "type": "icon",
           "settings": {
             "icon_name": "oven-safe",
-            "icon_color": "#f59815",
+            "icon_color": "#5d9ff6",
             "icon_width": 20,
             "icon_text": "Personalised meal plans & training routines.",
-            "text_size": 100,
+            "text_size": 95,
             "width": "full",
             "text_alignment": "left",
             "bg_color": "",
@@ -38,10 +52,10 @@
           "type": "icon",
           "settings": {
             "icon_name": "smile",
-            "icon_color": "#f59815",
+            "icon_color": "#5d9ff6",
             "icon_width": 20,
             "icon_text": "100's of life-changing transformations.",
-            "text_size": 100,
+            "text_size": 95,
             "width": "full",
             "text_alignment": "left",
             "bg_color": "rgba(0,0,0,0)",
@@ -52,10 +66,10 @@
           "type": "icon",
           "settings": {
             "icon_name": "check",
-            "icon_color": "#f59815",
+            "icon_color": "#5d9ff6",
             "icon_width": 20,
             "icon_text": "Guaranteed results.",
-            "text_size": 100,
+            "text_size": 95,
             "width": "full",
             "text_alignment": "left",
             "bg_color": "rgba(0,0,0,0)",
@@ -142,6 +156,7 @@
         }
       },
       "block_order": [
+        "d3d46b24-717e-48f6-8a14-a9ce1d1be4f6",
         "title",
         "1dd9bed9-6232-42b8-b267-dc5537a31475",
         "b7f2305f-e3e0-44f3-bf77-3d989f62454a",
@@ -158,7 +173,7 @@
       ],
       "settings": {
         "product_sticky_enable": false,
-        "image_layout": "carousel",
+        "image_layout": "stacked",
         "image_width": "standard",
         "product_image_aspect_ratio": true,
         "enable_zoom": false,
@@ -239,9 +254,9 @@
         "template--20060286615842__03880909-a188-4d2e-a7da-ae1cab86735e-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "<p>Trusted by <em>over 500+<\/em> Aussie Men<\/p>",
+            "text": "<p>Trusted by over 500+ Aussie Men<\/p>",
             "size": 100,
-            "heading_highlight_type": "circle",
+            "heading_highlight_type": "italics",
             "highlight_color": "#f59815"
           }
         },
@@ -689,7 +704,7 @@
         "template--20060286615842__131f6687-91c5-48e8-bb06-73f14aaf411d-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "<p>Join 100's of Aussies who have <em>cut the crap.<\/em><\/p>",
+            "text": "<p>Join 100's of Aussies who have cut the crap.<\/p>",
             "size": 120,
             "heading_highlight_type": "circle",
             "highlight_color": "#f59815"

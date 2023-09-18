@@ -34,7 +34,7 @@
 
           {%- if upsell_product.variants.size == 1 and upsell_product.selling_plan_groups.size == 0 -%}
             {%- form 'product', upsell_product, data-product-form: '', id: upsell_form_id -%}
-              <input type="hidden" name="id" value="{{ upsell_product.first_available_variant.id }}">
+              <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ upsell_product.first_available_variant.id }}">
 
               <button type="button" name="add"
                 class="product-upsell__btn btn btn--secondary btn--solid-border"
