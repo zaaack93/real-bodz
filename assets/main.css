@@ -1,3 +1,12 @@
+@media only screen and (min-width: 768px) {
+  .template-product .product-single__wrapper .product-single__gallery {
+    height: -moz-fit-content;
+    height: fit-content;
+    top: 0;
+    position: sticky;
+  }
+}
+
 form-klaviyo-newsletter .form-klaviyo-newsletter .form-success {
   display: none;
   text-align: center;

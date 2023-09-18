@@ -95,13 +95,18 @@
             "text": "<p>If you're unsure whether this program is right for you, let's jump on a call and chat through some of your goals and concerns. If it's not the right fit, we'll be the first to let you know!<\/p>",
             "bg_color": "#efefef",
             "text_color": "#000000",
+            "button_text": "BOOK A FREE CONSULT",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--medium",
             "padding_bottom": 20
           }
         },
         "description": {
           "type": "description",
           "settings": {
-            "padding_bottom": 10
+            "padding_bottom": 20
           }
         },
         "4df923a7-5fd6-4855-98fc-f1aa86f6bc2f": {
@@ -173,7 +178,7 @@
       ],
       "settings": {
         "product_sticky_enable": false,
-        "image_layout": "stacked",
+        "image_layout": "carousel",
         "image_width": "standard",
         "product_image_aspect_ratio": true,
         "enable_zoom": false,

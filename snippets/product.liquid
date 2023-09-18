@@ -294,7 +294,7 @@
 
                 <div class="product__block product__accordions" {{ block_style }} {{ animations_attributes }} {{ block.shopify_attributes }}>
                   <div class="product__accordion" id="ProductAccordion--reviews-container">
-                    <button class="product__accordion__title" aria-controls="ProductAccordion--{{ section.id }}-{{ block.id }}" data-collapsible-trigger>
+                    <button class="product__accordion__title h2" aria-controls="ProductAccordion--{{ section.id }}-{{ block.id }}" data-collapsible-trigger>
                       {{- 'products.general.reviews' | t -}}
                       {%- render 'icon-toggle-plus' -%}
                       {%- render 'icon-toggle-minus' -%}
@@ -1410,7 +1410,8 @@
                 {{ block.shopify_attributes }}></div>
 
             {%- when 'description' -%}
-              <div class="product__block product__description rte"
+              {%- comment -%} Accordions {%- endcomment -%}
+              <div class="product__block product__accordions"
                 {% if animations_enabled %}
                   data-aos="fade-up"
                   data-aos-anchor="{{ animation_anchor }}"
@@ -1419,11 +1420,7 @@
                 {% endif %}
                 {{ block_style }}
                 {{ block.shopify_attributes }}>
-                {%- unless product == blank -%}
-                  {{- product.description -}}
-                {%- else -%}
-                  <p>{{ 'homepage.onboarding.single_product_description' | t }}</p>
-                {%- endunless -%}
+                {%- render 'product-accordions-description', block_settings: block.settings, block_id: block.id -%}
               </div>
 
             {%- when 'cutline' -%}
@@ -1865,7 +1862,8 @@
                 {%- endif -%}
               </div>
 
-            {%- when 'feature' -%}{%- liquid
+            {%- when 'feature' -%}
+              {%- liquid
   assign block_id = block.id
   assign prev_index = forloop.index0 | minus: 1
   assign next_index = forloop.index0 | plus: 1
@@ -1878,6 +1876,11 @@
   assign text = block.settings.text
   assign icon_image = block.settings.icon_image
   assign icon_width = block.settings.icon_width
+  assign button_text = block.settings.button_text
+  assign button_link = block.settings.button_link
+  assign button_style = block.settings.button_style
+  assign button_color = block.settings.button_color
+  assign button_size = block.settings.button_size
 
   capture style
     echo '--bg: ' | append: bg_color | append: ';'
@@ -1953,6 +1956,18 @@
     {%- if text != blank -%}
       <div class="product__feature__text">
         {{ text }}
+      </div>
+    {%- endif -%}
+    {%- if button_text != blank -%}
+      <div class="text__button product__form{%- render 'button-fallback-classes', primary_color: button_color, bg_color_secondary: false-%}"
+        {% if animations_enabled %}
+          data-aos="fade-up"
+          data-aos-anchor="{{ animation_anchor }}"
+          data-aos-delay="{{ animation_delay }}"
+          {%- assign animation_delay = animation_delay | plus: 150 -%}
+        {% endif %}
+        {{ block.shopify_attributes }}>
+        <a href="{{ button_link | default: '#!' }}" class="btn {{ button_style }} {{ button_size }} {{ button_color }}">{{ button_text }}</a>
       </div>
     {%- endif -%}
   </div>

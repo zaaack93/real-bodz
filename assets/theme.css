@@ -19782,8 +19782,6 @@ search-form mark {
 .product__description a:before, .product__description a:after,
 .product__subheading a:before,
 .product__subheading a:after,
-.product__feature__content a:before,
-.product__feature__content a:after,
 .product__accordion__inner a:before,
 .product__accordion__inner a:after,
 .product__popup__link span:before,
@@ -19801,7 +19799,6 @@ search-form mark {
 }
 .product__description a:before,
 .product__subheading a:before,
-.product__feature__content a:before,
 .product__accordion__inner a:before,
 .product__popup__link span:before {
   transform: scaleX(0);
@@ -19816,7 +19813,6 @@ search-form mark {
 }
 .no-touch .product__description a:hover,
 .no-touch .product__subheading a:hover,
-.no-touch .product__feature__content a:hover,
 .no-touch .product__accordion__inner a:hover,
 .no-touch .product__popup__link span:hover {
   background: transparent;
@@ -19825,8 +19821,6 @@ search-form mark {
 .no-touch .product__description a:hover:before, .no-touch .product__description a:hover:after,
 .no-touch .product__subheading a:hover:before,
 .no-touch .product__subheading a:hover:after,
-.no-touch .product__feature__content a:hover:before,
-.no-touch .product__feature__content a:hover:after,
 .no-touch .product__accordion__inner a:hover:before,
 .no-touch .product__accordion__inner a:hover:after,
 .no-touch .product__popup__link span:hover:before,
@@ -19836,8 +19830,6 @@ search-form mark {
 }
 .no-touch .product__description a:hover:before,
 .no-touch .product__subheading a:hover:before,
-.no-touch .product__feature__content a:hover:before,
-.no-touch .product__accordion__inner a:hover:before,
 .no-touch .product__popup__link span:hover:before {
   transform: scaleX(1);
   transition-delay: 0.25s;
