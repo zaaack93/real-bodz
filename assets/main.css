@@ -38,6 +38,55 @@ form-klaviyo-newsletter .form-klaviyo-newsletter .form_submit_container button {
   display: none;
 }
 
+.section-compar-chart .comparison-table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 0.75rem;
+}
+.section-compar-chart table {
+  border-spacing: 0;
+  border-collapse: separate;
+  border-radius: 20px;
+  border: 1px solid #B0B0B0;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.section-compar-chart .comparison-table th,
+.section-compar-chart .comparison-table td {
+  padding: 0.5rem;
+  border-top: 1px solid #B0B0B0;
+  border-left: 1px solid #B0B0B0;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.section-compar-chart .comparison-table td:not(:first-child) {
+  text-align: center;
+}
+.section-compar-chart .comparison-table th {
+  text-align: center;
+}
+@media (min-width: 48rem) {
+  .section-compar-chart .comparison-table {
+    font-size: 0.875rem;
+  }
+  .section-compar-chart .comparison-table th,
+  .section-compar-chart .comparison-table td {
+    padding: 1rem;
+  }
+}
+@media (min-width: 60rem) {
+  .section-compar-chart .comparison-table {
+    font-size: 1rem;
+  }
+  .section-compar-chart .comparison-table th,
+  .section-compar-chart .comparison-table td {
+    padding: 1rem 2rem;
+  }
+}
+
 .password-page__wrapper {
   background: none;
 }

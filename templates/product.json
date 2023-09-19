@@ -807,6 +807,112 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "2cc0f5c3-0843-438a-8da7-a6d61a6c9522": {
+      "type": "section-compart-chart",
+      "blocks": {
+        "d625e0d7-3d10-462c-b72a-cd78fb17b835": {
+          "type": "repeatable",
+          "settings": {
+            "comparison_item": "Complete Accountability",
+            "competition1": "checklist",
+            "competition2": "uncheck",
+            "competition3": "checklist",
+            "competition4": "checklist"
+          }
+        },
+        "03be609a-ac60-4dcd-a504-10ff3af9c649": {
+          "type": "repeatable",
+          "settings": {
+            "comparison_item": "25 Years of Experience",
+            "competition1": "checklist",
+            "competition2": "checklist",
+            "competition3": "checklist",
+            "competition4": "checklist"
+          }
+        },
+        "8e3bbc4e-5af4-4b71-8638-f54545fae97c": {
+          "type": "repeatable",
+          "settings": {
+            "comparison_item": "Anywhere, Anytime",
+            "competition1": "checklist",
+            "competition2": "checklist",
+            "competition3": "checklist",
+            "competition4": "checklist"
+          }
+        },
+        "bc1a429a-b26e-40a5-8038-7e93eb5d3cb1": {
+          "type": "repeatable",
+          "settings": {
+            "comparison_item": "24\/7 Access to Coach",
+            "competition1": "checklist",
+            "competition2": "checklist",
+            "competition3": "checklist",
+            "competition4": "checklist"
+          }
+        },
+        "35bbf919-6db1-40e7-b28f-9ee46fc611cc": {
+          "type": "repeatable",
+          "settings": {
+            "comparison_item": "Fortnightly Meal Ideas",
+            "competition1": "checklist",
+            "competition2": "checklist",
+            "competition3": "checklist",
+            "competition4": "checklist"
+          }
+        },
+        "909c09ea-0dc8-4164-bdb1-3bacf84e766e": {
+          "type": "repeatable",
+          "settings": {
+            "comparison_item": "Guaranteed Results",
+            "competition1": "checklist",
+            "competition2": "checklist",
+            "competition3": "checklist",
+            "competition4": "checklist"
+          }
+        },
+        "1919132d-7039-4161-a933-d2f959e1abe4": {
+          "type": "repeatable",
+          "settings": {
+            "comparison_item": "Community Support",
+            "competition1": "checklist",
+            "competition2": "checklist",
+            "competition3": "checklist",
+            "competition4": "checklist"
+          }
+        }
+      },
+      "block_order": [
+        "d625e0d7-3d10-462c-b72a-cd78fb17b835",
+        "03be609a-ac60-4dcd-a504-10ff3af9c649",
+        "8e3bbc4e-5af4-4b71-8638-f54545fae97c",
+        "bc1a429a-b26e-40a5-8038-7e93eb5d3cb1",
+        "35bbf919-6db1-40e7-b28f-9ee46fc611cc",
+        "909c09ea-0dc8-4164-bdb1-3bacf84e766e",
+        "1919132d-7039-4161-a933-d2f959e1abe4"
+      ],
+      "settings": {
+        "alignment": "center",
+        "icons_width": 30,
+        "heading": "Real Bodz VS The Other Guys",
+        "subheading": "<p>REAL TALK<\/p>",
+        "our_company_title": "real bodz",
+        "competition1_title": "Personal Trainner",
+        "competition2_title": "Do It Yourself",
+        "competition3_title": "",
+        "competition4_title": "",
+        "bg_color": "",
+        "text_color": "#333333",
+        "box_color": "#e9e7d7",
+        "firts_column_color": "#4b4a4a",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -821,6 +927,7 @@
     "loox-product-reviews-app-section",
     "related",
     "131f6687-91c5-48e8-bb06-73f14aaf411d",
-    "icons"
+    "icons",
+    "2cc0f5c3-0843-438a-8da7-a6d61a6c9522"
   ]
 }

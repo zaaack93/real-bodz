@@ -1,0 +1,438 @@
+{% comment %} Compar chart {% endcomment %}
+{%- liquid
+    assign bg_color = section.settings.bg_color
+    assign color_body_bg = settings.color_body_bg
+    assign box_color = section.settings.box_color
+    assign firts_column_color = section.settings.firts_column_color
+    assign text_color = section.settings.text_color
+    assign alignment = section.settings.alignment
+    assign columns = section.settings.columns
+    assign animations_enabled = settings.animations_enabled
+    assign animation_anchor = '#IconsRow--' | append: section.id
+    assign animation_delay = 150
+    assign heading = section.settings.heading
+    assign subheading = section.settings.subheading
+    assign button_text = section.settings.button_text
+    assign button_link = section.settings.button_link | default: '#!'
+    assign button_style = section.settings.button_style
+    assign button_color = section.settings.button_color
+    assign button_size = section.settings.button_size
+    assign icons_width = section.settings.icons_width
+    assign has_subheading = false
+    assign blocks_size = section.blocks.size
+  
+    assign flex = false
+    if columns > blocks_size
+      assign flex = true
+    endif
+  
+    assign no_box_color = false
+    if box_color == 'rgba(0,0,0,0)' or box_color == ''
+      assign no_box_color = true
+    endif
+  
+    assign boxes = true
+    if box_color == bg_color or no_box_color
+      assign boxes = false
+    elsif bg_color == false and color_body_bg == box_color or no_box_color
+      assign boxes = false
+    endif
+  
+    assign blocks_without_text = section.blocks | map: 'settings' | where: 'text', ''
+    if blocks_without_text.size == blocks_size
+      assign has_subheading = true
+    endif
+  
+    assign single_block = false
+    if blocks_size == 1 and alignment == 'center' or alignment == 'inline-center'
+      assign single_block = true
+    endif
+  
+    assign icon_max_size = icons_width
+    if alignment == 'inline-center' or alignment == 'inline-left' and icons_width >= 50
+      assign icon_max_size = 50
+    endif
+  
+    assign mobile_class = ' grid--mobile'
+    assign mobile_item_class = ' grid__item'
+    if section.settings.enable_slider_mobile
+      assign mobile_class = ' carousel--mobile'
+      assign mobile_item_class = ' carousel__item'
+    endif
+  -%}
+  
+  {%- style -%}
+    #IconsRow--{{ section.id }} {
+      --PT: {{ section.settings.padding_top }}px;
+      --PB: {{ section.settings.padding_bottom }}px;
+      {%- if bg_color != 'rgba(0,0,0,0)' and bg_color != '' -%}
+        --bg: {{ bg_color }};
+        background: {{ bg_color }};
+      {%- endif -%}
+    }
+
+    {%- if box_color != 'rgba(0,0,0,0)' and box_color != '' -%}
+      #IconsRow--{{ section.id }} table {
+        background-color:{{box_color}};
+      }
+    {%- endif -%}
+
+    {%- if firts_column_color != 'rgba(0,0,0,0)' and firts_column_color != '' -%}
+      #IconsRow--{{ section.id }} table th:nth-child(2) ,
+      #IconsRow--{{ section.id }} table td:nth-child(2){
+        background-color:{{firts_column_color}};
+      }
+    {%- endif -%}
+
+    {%- if text_color != 'rgba(0,0,0,0)' and text_color != '' -%}
+      #IconsRow--{{ section.id }} {
+        --text: {{ text_color }};
+        --text-lighten: {{ text_color | color_lighten: 20 }};
+      }
+    {%- endif -%}
+    #IconsRow--{{ section.id }} {
+      --icon-size: {{ icons_width }}px;
+      --icon-max-size: {{ icon_max_size }}px;
+    }
+    @media screen and (max-width: 767px) {
+      #IconsRow--{{ section.id }} {
+        --icon-max-size: 40px;
+      }
+    }
+  {%- endstyle -%}
+  
+  <section id="IconsRow--{{ section.id }}" class="section-padding section-compar-chart icons-row{%- render 'button-fallback-classes', primary_color: button_color, section_bg_color: bg_color -%}" data-section-id="{{ section.id }}" data-section-type="icons-row">
+    <div class="wrapper">
+      <div class="icons-row__wrapper{% if single_block %} icons-row__wrapper--single-block-center{% endif %} text-{{ alignment }}">
+        {%- if heading != blank or subheading != blank -%}
+          <div class="icons-row__headings">
+            {%- if subheading != blank -%}
+                <div class="icons-row__subheading"
+                {% if animations_enabled %}
+                  data-aos="fade-up"
+                  data-aos-anchor="{{ animation_anchor }}"
+                  data-aos-delay="{{ animation_delay }}"
+                  {%- assign animation_delay = animation_delay | plus: 150 -%}
+                {% endif %}>
+                  {{- subheading -}}
+                </div>
+              {%- endif -%}
+            {%- if heading != blank -%}
+              <h2 class="icons-row__heading"
+                {% if animations_enabled %}
+                  data-aos="fade-up"
+                  data-aos-anchor="{{ animation_anchor }}"
+                  data-aos-delay="{{ animation_delay }}"
+                  {%- assign animation_delay = animation_delay | plus: 150 -%}
+                {% endif %}>
+                {{- heading | escape -}}
+              </h2>
+            {%- endif -%}
+          </div>
+        {%- endif -%}
+        
+        <div class="comparison-table">
+            <table>
+              <thead>
+                <tr>
+                    <th>&nbsp;</th>
+                    {% if section.settings.our_company_title != blank %}
+                    <th>{{ section.settings.our_company_title }}</th>
+                    {% endif %}
+                    {% if section.settings.competition1_title != blank %}
+                    <th>{{ section.settings.competition1_title }}</th>
+                    {% endif %}
+                    {% if section.settings.competition2_title != blank %}
+                    <th>{{ section.settings.competition2_title }}</th>
+                    {% endif %}
+                    {% if section.settings.competition3_title != blank %}
+                    <th>{{ section.settings.competition3_title }}</th>
+                    {% endif %}
+                    {% if section.settings.competition4_title != blank %}
+                    <th>{{ section.settings.competition4_title }}</th>
+                    {% endif %}
+                </tr>
+              </thead>
+              <tbody>
+            {%- for item in section.blocks -%}
+                <tr>
+                    <td>{{ item.settings.comparison_item }}</td>
+                    {% if section.settings.our_company_title != blank %}
+                    <td>{%- render 'icons', icon: item.settings.competition1 -%}</td>
+                    {% endif %}
+                    {% if section.settings.competition1_title != blank %}
+                    <td>{%- render 'icons', icon: item.settings.competition2 -%}</td>
+                    {% endif %}
+                    {% if section.settings.competition2_title != blank %}
+                    <td>{%- render 'icons', icon: item.settings.competition3 -%}</td>
+                    {% endif %}
+                    {% if section.settings.competition3_title != blank %}
+                    <td>{%- render 'icons', icon: item.settings.competition4 -%}</td>
+                    {% endif %}
+                    {% if section.settings.competition4_title != blank %}
+                    <td>{%- render 'icons', icon: item.settings.competition5 -%}</td>
+                    {% endif %}
+                  </tr>
+            {%- endfor -%}
+                </tbody>
+            </table>
+          </div>
+  
+        {%- if button_text != blank -%}
+          <div class="icons-row__actions" {{ block.shopify_attributes }}
+            {% if animations_enabled %}
+              data-aos="fade-up"
+              data-aos-anchor="{{ animation_anchor }}"
+              data-aos-delay="{{ animation_delay }}"
+            {% endif %}>
+            <a class="btn {{ button_style }} {{ button_size }} {{ button_color }}" href="{{ button_link }}">{{ button_text }}</a>
+          </div>
+        {%- endif -%}
+      </div>
+    </div>
+  </section>
+  
+  {% schema %}
+  {
+    "name": "Compar chart",
+    "max_blocks": 20,
+    "settings": [
+      {
+        "type": "header",
+        "content": "Layout"
+      },
+      {
+        "type": "select",
+        "id": "alignment",
+        "label": "Alignment",
+        "options": [
+          { "label": "Center", "value": "center" },
+          { "label": "Left", "value": "left" },
+          { "label": "Inline center", "value": "inline-center" },
+          { "label": "Inline left", "value": "inline-left" }
+        ],
+        "default": "left"
+      },
+      {
+        "type": "range",
+        "id": "icons_width",
+        "label": "Icons width",
+        "min": 20,
+        "max": 100,
+        "step": 5,
+        "unit": "px",
+        "default": 30,
+        "info": "Max size on mobile is 40px"
+      },
+      {
+        "type": "header",
+        "content": "Heading"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading"
+      },
+      {
+        "type": "richtext",
+        "id": "subheading",
+        "label": "Subheading text"
+      },
+      {
+        "type": "header",
+        "content": "Columns settings"
+      },
+      {
+        "type": "text",
+        "label": "Our Company Title",
+        "id": "our_company_title",
+        "default": "Our Company"
+      },
+      {
+        "type": "text",
+        "label": "Competition 1 Title",
+        "id": "competition1_title",
+        "default": "The Competition"
+      },
+      {
+        "type": "text",
+        "label": "Competition 2 Title",
+        "id": "competition2_title",
+        "default": "The Competition"
+      },
+      {
+        "type": "text",
+        "label": "Competition 3 Title",
+        "id": "competition3_title",
+        "default": "The Competition"
+      },
+      {
+        "type": "text",
+        "label": "Competition 4 Title",
+        "id": "competition4_title",
+        "default": "The Competition"
+      },
+      {
+        "type": "header",
+        "content": "Colors"
+      },
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background color"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text",
+        "default": "#333"
+      },
+      {
+        "type": "color",
+        "id": "box_color",
+        "label": "Table color"
+      },
+      {
+        "type": "color",
+        "id": "firts_column_color",
+        "label": "First column color"
+      },
+      {
+        "type": "header",
+        "content": "Button"
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Text"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Link"
+      },
+      {
+        "type": "select",
+        "id": "button_color",
+        "label": "Button color",
+        "default": "btn--black",
+        "options": [
+          { "label": "Primary", "value": "btn--primary" },
+          { "label": "Secondary", "value": "btn--secondary" },
+          { "label": "White", "value": "btn--white" },
+          { "label": "Black", "value": "btn--black" }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "button_style",
+        "label": "Button style",
+        "default": "btn--solid",
+        "options": [
+          { "label": "Solid", "value": "btn--solid" },
+          { "label": "Outline", "value": "btn--outline" },
+          { "label": "Solid with border", "value": "btn--solid-border" },
+          { "label": "Text", "value": "btn--text" }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "button_size",
+        "label": "Size",
+        "default": "btn--small",
+        "options": [
+          { "label": "Large", "value": "btn--large" },
+          { "label": "Medium", "value": "btn--medium" },
+          { "label": "Small", "value": "btn--small" }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Section spacing"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 60
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 60
+      }
+    ],
+    "blocks": [
+      {
+        "type": "repeatable",
+        "name": "Comparison Item",
+        "settings": [
+          {
+                "type": "text",
+                "label": "Comparison Item",
+                "id": "comparison_item"
+          },
+          {
+            "type": "select",
+            "id": "competition1",
+            "label": "Column icon 1",
+            "default": "checklist",
+            "options": [
+              { "value": "checklist", "label": "Check" },
+              { "value": "uncheck", "label": "Uncheck" }
+            ]
+          },
+          {
+            "type": "select",
+            "id": "competition2",
+            "label": "Column icon 2",
+            "default": "checklist",
+            "options": [
+              { "value": "checklist", "label": "Check" },
+              { "value": "uncheck", "label": "Uncheck" }
+            ]
+          },
+          {
+            "type": "select",
+            "id": "competition3",
+            "label": "Column icon 3",
+            "default": "checklist",
+            "options": [
+              { "value": "checklist", "label": "Check" },
+              { "value": "uncheck", "label": "Uncheck" }
+            ]
+          },
+          {
+            "type": "select",
+            "id": "competition4",
+            "label": "Column icon 4",
+            "default": "checklist",
+            "options": [
+              { "value": "checklist", "label": "Check" },
+              { "value": "uncheck", "label": "Uncheck" }
+            ]
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Compar chart",
+        "category": "Text",
+        "blocks": []
+      }
+    ],
+    "disabled_on": {
+      "groups": ["header","aside"]
+    }
+  }
+  {% endschema %}
