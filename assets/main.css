@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @media only screen and (min-width: 768px) {
   .template-product .product-single__wrapper .product-single__gallery {
     height: -moz-fit-content;
@@ -45,19 +46,68 @@ form-klaviyo-newsletter .form-klaviyo-newsletter .form_submit_container button {
   border-spacing: 0;
   font-size: 0.75rem;
 }
+@media only screen and (max-width: 990px) {
+  .section-compar-chart .comparison-table {
+    padding: 0 var(--gutter-mobile);
+    overflow-x: scroll;
+  }
+}
+.section-compar-chart .icons-row__headings .icons-row__subheading {
+  margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  .section-compar-chart .icons-row__headings .icons-row__subheading {
+    margin-bottom: 15px;
+  }
+}
 .section-compar-chart table {
-  border-spacing: 0;
   border-collapse: separate;
+  border-spacing: 0;
+  border: none;
   border-radius: 20px;
-  border: 1px solid #B0B0B0;
   table-layout: fixed;
-  border-collapse: collapse;
+  /*第一欄第一列：左上*/
+  /*第一欄最後列：左下*/
+  /*最後欄第一列：右上*/
+  /*最後欄第一列：右下*/
+}
+@media only screen and (max-width: 990px) {
+  .section-compar-chart table {
+    min-width: 900px;
+    table-layout: auto;
+  }
+}
+.section-compar-chart table tr {
+  border: 1px solid #B0B0B0;
+}
+.section-compar-chart table td {
+  border: 1px solid #B0B0B0;
+}
+.section-compar-chart table td img {
+  height: 40px;
+  width: auto;
+  vertical-align: middle;
+}
+@media only screen and (max-width: 990px) {
+  .section-compar-chart table td img {
+    height: 30px;
+  }
+}
+.section-compar-chart table tr:first-child td:first-child {
+  border-top-left-radius: 20px;
+}
+.section-compar-chart table tr:last-child td:first-child {
+  border-bottom-left-radius: 20px;
+}
+.section-compar-chart table tr:first-child td:last-child {
+  border-top-right-radius: 20px;
+}
+.section-compar-chart table tr:last-child td:last-child {
+  border-bottom-right-radius: 20px;
 }
 .section-compar-chart .comparison-table th,
 .section-compar-chart .comparison-table td {
-  padding: 0.5rem;
-  border-top: 1px solid #B0B0B0;
-  border-left: 1px solid #B0B0B0;
+  padding: 1rem;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;

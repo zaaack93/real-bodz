@@ -133,27 +133,26 @@
         
         <div class="comparison-table">
             <table>
-              <thead>
                 <tr>
-                    <th>&nbsp;</th>
-                    {% if section.settings.our_company_title != blank %}
-                    <th>{{ section.settings.our_company_title }}</th>
+                    <td>&nbsp;</td>
+                    {% if section.settings.our_company_image != blank%}
+                      <td>{{ section.settings.our_company_image | image_url: width: 500 | image_tag }}</td>
+                    {% elsif section.settings.our_company_title != blank %}
+                      <td>{{ section.settings.our_company_title }}</td>
                     {% endif %}
                     {% if section.settings.competition1_title != blank %}
-                    <th>{{ section.settings.competition1_title }}</th>
+                    <td>{{ section.settings.competition1_title }}</td>
                     {% endif %}
                     {% if section.settings.competition2_title != blank %}
-                    <th>{{ section.settings.competition2_title }}</th>
+                    <td>{{ section.settings.competition2_title }}</td>
                     {% endif %}
                     {% if section.settings.competition3_title != blank %}
-                    <th>{{ section.settings.competition3_title }}</th>
+                    <td>{{ section.settings.competition3_title }}</td>
                     {% endif %}
                     {% if section.settings.competition4_title != blank %}
-                    <th>{{ section.settings.competition4_title }}</th>
+                    <td>{{ section.settings.competition4_title }}</td>
                     {% endif %}
                 </tr>
-              </thead>
-              <tbody>
             {%- for item in section.blocks -%}
                 <tr>
                     <td>{{ item.settings.comparison_item }}</td>
@@ -174,7 +173,6 @@
                     {% endif %}
                   </tr>
             {%- endfor -%}
-                </tbody>
             </table>
           </div>
   
@@ -214,17 +212,6 @@
         "default": "left"
       },
       {
-        "type": "range",
-        "id": "icons_width",
-        "label": "Icons width",
-        "min": 20,
-        "max": 100,
-        "step": 5,
-        "unit": "px",
-        "default": 30,
-        "info": "Max size on mobile is 40px"
-      },
-      {
         "type": "header",
         "content": "Heading"
       },
@@ -249,10 +236,22 @@
         "default": "Our Company"
       },
       {
+        "type": "image_picker",
+        "id": "our_company_image",
+        "label": "Our Company image",
+        "info": "Replace column title with an image."
+      },
+      {
         "type": "text",
         "label": "Competition 1 Title",
         "id": "competition1_title",
         "default": "The Competition"
+      },
+      {
+        "type": "image_picker",
+        "id": "competition1_image",
+        "label": "Image 1",
+        "info": "Replace column title with an image."
       },
       {
         "type": "text",
@@ -261,16 +260,34 @@
         "default": "The Competition"
       },
       {
+        "type": "image_picker",
+        "id": "competition2_image",
+        "label": "Image 2",
+        "info": "Replace column title with an image."
+      },
+      {
         "type": "text",
         "label": "Competition 3 Title",
         "id": "competition3_title",
         "default": "The Competition"
       },
       {
+        "type": "image_picker",
+        "id": "competition3_image",
+        "label": "Image 3",
+        "info": "Replace column title with an image."
+      },
+      {
         "type": "text",
         "label": "Competition 4 Title",
         "id": "competition4_title",
         "default": "The Competition"
+      },
+      {
+        "type": "image_picker",
+        "id": "competition4_image",
+        "label": "Image 4",
+        "info": "Replace column title with an image."
       },
       {
         "type": "header",

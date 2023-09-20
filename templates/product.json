@@ -893,10 +893,10 @@
       ],
       "settings": {
         "alignment": "center",
-        "icons_width": 30,
         "heading": "Real Bodz VS The Other Guys",
         "subheading": "<p>REAL TALK<\/p>",
         "our_company_title": "real bodz",
+        "our_company_image": "shopify:\/\/shop_images\/rb.logo.white_Large_ca957de7-a40f-4929-a16a-b058b5f17527.png",
         "competition1_title": "Personal Trainner",
         "competition2_title": "Do It Yourself",
         "competition3_title": "",
