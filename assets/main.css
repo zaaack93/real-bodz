@@ -7,6 +7,9 @@
     position: sticky;
   }
 }
+.template-product .product__accordion__title {
+  text-transform: uppercase;
+}
 
 form-klaviyo-newsletter .form-klaviyo-newsletter .form-success {
   display: none;
@@ -39,6 +42,11 @@ form-klaviyo-newsletter .form-klaviyo-newsletter .form_submit_container button {
   display: none;
 }
 
+@media only screen and (min-width: 1024px) {
+  .section-compar-chart .wrapper {
+    padding: 0 calc(var(--gutter) * 2);
+  }
+}
 .section-compar-chart .comparison-table {
   table-layout: fixed;
   width: 100%;
@@ -49,7 +57,26 @@ form-klaviyo-newsletter .form-klaviyo-newsletter .form_submit_container button {
 @media only screen and (max-width: 990px) {
   .section-compar-chart .comparison-table {
     padding: 0 var(--gutter-mobile);
-    overflow-x: scroll;
+  }
+}
+@media screen and (max-width: 990px) {
+  .section-compar-chart .comparison-table {
+    /* Track */
+  }
+  .section-compar-chart .comparison-table .table-wrapper:not(.u-NoScrollbar) {
+    padding-bottom: 22Px;
+  }
+  .section-compar-chart .comparison-table .table-wrapper:not(.u-NoScrollbar)::-webkit-scrollbar {
+    height: 2px;
+  }
+  .section-compar-chart .comparison-table .table-wrapper:not(.u-NoScrollbar)::-webkit-scrollbar-track {
+    background: #B0B0B0;
+  }
+  .section-compar-chart .comparison-table .table-wrapper:not(.u-NoScrollbar)::-webkit-scrollbar-thumb {
+    background: #000;
+  }
+  .section-compar-chart .comparison-table .table-wrapper::-webkit-scrollbar-track {
+    margin: 0px !important;
   }
 }
 .section-compar-chart .icons-row__headings .icons-row__subheading {
@@ -77,6 +104,11 @@ form-klaviyo-newsletter .form-klaviyo-newsletter .form_submit_container button {
     table-layout: auto;
   }
 }
+@media only screen and (max-width: 660px) {
+  .section-compar-chart table {
+    min-width: 500px;
+  }
+}
 .section-compar-chart table tr {
   border: 1px solid #B0B0B0;
 }
@@ -84,20 +116,33 @@ form-klaviyo-newsletter .form-klaviyo-newsletter .form_submit_container button {
   border: 1px solid #B0B0B0;
 }
 .section-compar-chart table td img {
-  height: 40px;
+  height: 37px;
   width: auto;
   vertical-align: middle;
 }
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 768px) {
   .section-compar-chart table td img {
-    height: 30px;
+    height: 20px;
   }
 }
 .section-compar-chart table td svg {
   vertical-align: middle;
+  width: 36px;
+  height: 36px;
+}
+@media only screen and (max-width: 768px) {
+  .section-compar-chart table td svg {
+    width: 25px;
+    height: 25px;
+  }
 }
 .section-compar-chart table tr:first-child td:first-child {
   border-top-left-radius: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .section-compar-chart table tr:first-child td:first-child {
+    width: 6.75rem;
+  }
 }
 .section-compar-chart table tr:last-child td:first-child {
   border-bottom-left-radius: 20px;
@@ -111,12 +156,31 @@ form-klaviyo-newsletter .form-klaviyo-newsletter .form_submit_container button {
 .section-compar-chart .comparison-table th,
 .section-compar-chart .comparison-table td {
   padding: 1rem;
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 500;
+  line-height: 37px;
+}
+@media only screen and (max-width: 768px) {
+  .section-compar-chart .comparison-table th,
+  .section-compar-chart .comparison-table td {
+    font-size: 14px;
+    line-height: normal;
+    padding: 0.8rem 1rem;
+    width: 6.1375rem;
+  }
 }
 .section-compar-chart .comparison-table td:not(:first-child) {
   text-align: center;
+}
+.section-compar-chart .comparison-table tr:first-child td {
+  font-size: 24px;
+}
+@media only screen and (max-width: 768px) {
+  .section-compar-chart .comparison-table tr:first-child td {
+    font-size: 16px;
+    line-height: normal;
+  }
 }
 .section-compar-chart .comparison-table th {
   text-align: center;
@@ -127,7 +191,7 @@ form-klaviyo-newsletter .form-klaviyo-newsletter .form_submit_container button {
   }
   .section-compar-chart .comparison-table th,
   .section-compar-chart .comparison-table td {
-    padding: 1rem;
+    padding: 0.5rem 1rem;
   }
 }
 @media (min-width: 60rem) {
@@ -136,7 +200,7 @@ form-klaviyo-newsletter .form-klaviyo-newsletter .form_submit_container button {
   }
   .section-compar-chart .comparison-table th,
   .section-compar-chart .comparison-table td {
-    padding: 1rem 2rem;
+    padding: 0.7rem 1.3rem;
   }
 }
 

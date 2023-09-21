@@ -100,7 +100,7 @@
             "button_color": "btn--black",
             "button_style": "btn--solid",
             "button_size": "btn--large",
-            "padding_bottom": 20
+            "padding_bottom": 40
           }
         },
         "description": {
@@ -923,11 +923,11 @@
     "9766ecab-9e7a-47b0-92a8-e08a8381e97a",
     "bcb1eda9-bbb3-4f3b-8b11-df28ea216a80",
     "5e6a6140-8b6d-4fc5-94c9-3944b85641b9",
+    "2cc0f5c3-0843-438a-8da7-a6d61a6c9522",
     "tabs",
     "loox-product-reviews-app-section",
     "related",
     "131f6687-91c5-48e8-bb06-73f14aaf411d",
-    "icons",
-    "2cc0f5c3-0843-438a-8da7-a6d61a6c9522"
+    "icons"
   ]
 }

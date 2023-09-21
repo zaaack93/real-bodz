@@ -3,7 +3,7 @@
     assign bg_color = section.settings.bg_color
     assign color_body_bg = settings.color_body_bg
     assign box_color = section.settings.box_color
-    assign firts_column_color = section.settings.firts_column_color
+    assign firts_column_color = section.settings.first_column_color
     assign text_color = section.settings.text_color
     assign alignment = section.settings.alignment
     assign columns = section.settings.columns
@@ -140,36 +140,46 @@
                     {% elsif section.settings.our_company_title != blank %}
                       <td>{{ section.settings.our_company_title }}</td>
                     {% endif %}
-                    {% if section.settings.competition1_title != blank %}
-                    <td>{{ section.settings.competition1_title }}</td>
+
+                    {% if section.settings.competition1_image != blank %}
+                      <td>{{ section.settings.competition1_image | image_url: width: 500 | image_tag }}</td>
+                    {% elsif section.settings.competition1_title != blank %}
+                      <td>{{ section.settings.competition1_title }}</td>
                     {% endif %}
-                    {% if section.settings.competition2_title != blank %}
-                    <td>{{ section.settings.competition2_title }}</td>
+
+                    {% if section.settings.competition2_image != blank %}
+                      <td>{{ section.settings.competition2_image | image_url: width: 500 | image_tag }}</td>
+                    {% elsif section.settings.competition2_title != blank %}
+                      <td>{{ section.settings.competition2_title }}</td>
                     {% endif %}
-                    {% if section.settings.competition3_title != blank %}
-                    <td>{{ section.settings.competition3_title }}</td>
+                    {% if section.settings.competition3_image != blank %}
+                      <td>{{ section.settings.competition3_image | image_url: width: 500 | image_tag }}</td>
+                    {% elsif section.settings.competition3_title != blank %}
+                      <td>{{ section.settings.competition3_title }}</td>
                     {% endif %}
-                    {% if section.settings.competition4_title != blank %}
-                    <td>{{ section.settings.competition4_title }}</td>
+                    {% if section.settings.competition4_image != blank %}
+                      <td>{{ section.settings.competition4_image | image_url: width: 500 | image_tag }}</td>
+                    {% elsif section.settings.competition4_title != blank %}
+                      <td>{{ section.settings.competition4_title }}</td>
                     {% endif %}
                 </tr>
             {%- for item in section.blocks -%}
                 <tr>
                     <td>{{ item.settings.comparison_item }}</td>
-                    {% if section.settings.our_company_title != blank %}
+                    {% if section.settings.our_company_title != blank or section.settings.our_company_image != blank %}
                     <td>{%- render 'icons', icon: item.settings.competition1 -%}</td>
                     {% endif %}
-                    {% if section.settings.competition1_title != blank %}
+                    {% if section.settings.competition1_title != blank or section.settings.competition1_image != blank %}
+                    <td>{%- render 'icons', icon: item.settings.competition1 -%}</td>
+                    {% endif %}
+                    {% if section.settings.competition2_title != blank or section.settings.competition2_image != blank %}
                     <td>{%- render 'icons', icon: item.settings.competition2 -%}</td>
                     {% endif %}
-                    {% if section.settings.competition2_title != blank %}
+                    {% if section.settings.competition3_title != blank or section.settings.competition3_image != blank %}
                     <td>{%- render 'icons', icon: item.settings.competition3 -%}</td>
                     {% endif %}
-                    {% if section.settings.competition3_title != blank %}
+                    {% if section.settings.competition4_title != blank or section.settings.competition4_image != blank %}
                     <td>{%- render 'icons', icon: item.settings.competition4 -%}</td>
-                    {% endif %}
-                    {% if section.settings.competition4_title != blank %}
-                    <td>{%- render 'icons', icon: item.settings.competition5 -%}</td>
                     {% endif %}
                   </tr>
             {%- endfor -%}
@@ -189,10 +199,9 @@
       </div>
     </div>
   </section>
-  
   {% schema %}
   {
-    "name": "Compar chart",
+    "name": "Comparison Chart",
     "max_blocks": 20,
     "settings": [
       {
@@ -227,7 +236,7 @@
       },
       {
         "type": "header",
-        "content": "Columns settings"
+        "content": "Columns Settings"
       },
       {
         "type": "text",
@@ -238,7 +247,7 @@
       {
         "type": "image_picker",
         "id": "our_company_image",
-        "label": "Our Company image",
+        "label": "Our Company Image",
         "info": "Replace column title with an image."
       },
       {
@@ -301,7 +310,7 @@
       {
         "type": "color",
         "id": "text_color",
-        "label": "Text",
+        "label": "Text color",
         "default": "#333"
       },
       {
@@ -311,7 +320,7 @@
       },
       {
         "type": "color",
-        "id": "firts_column_color",
+        "id": "first_column_color",
         "label": "First column color"
       },
       {
@@ -365,7 +374,7 @@
       },
       {
         "type": "header",
-        "content": "Section spacing"
+        "content": "Section Spacing"
       },
       {
         "type": "range",
@@ -394,9 +403,9 @@
         "name": "Comparison Item",
         "settings": [
           {
-                "type": "text",
-                "label": "Comparison Item",
-                "id": "comparison_item"
+            "type": "text",
+            "label": "Comparison Item",
+            "id": "comparison_item"
           },
           {
             "type": "select",
@@ -443,13 +452,10 @@
     ],
     "presets": [
       {
-        "name": "Compar chart",
+        "name": "Comparison Chart",
         "category": "Text",
         "blocks": []
       }
-    ],
-    "disabled_on": {
-      "groups": ["header","aside"]
-    }
+    ]
   }
-  {% endschema %}
+  {% endschema %}  
