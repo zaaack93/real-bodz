@@ -176,6 +176,11 @@ form-klaviyo-newsletter .form-klaviyo-newsletter .form_submit_container button {
 .section-compar-chart .comparison-table tr:first-child td {
   font-size: 24px;
 }
+@media only screen and (min-width: 991px) {
+  .section-compar-chart .comparison-table tr:first-child td {
+    padding: 1rem 1.3rem;
+  }
+}
 @media only screen and (max-width: 768px) {
   .section-compar-chart .comparison-table tr:first-child td {
     font-size: 16px;
