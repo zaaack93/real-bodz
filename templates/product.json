@@ -3,7 +3,7 @@
     "main": {
       "type": "product",
       "blocks": {
-        "d3d46b24-717e-48f6-8a14-a9ce1d1be4f6": {
+        "22f35f38-ba76-4a20-99c1-6bc6d45dc27c": {
           "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "contentSize": 16,
@@ -39,9 +39,10 @@
           "settings": {
             "icon_name": "oven-safe",
             "icon_color": "#5d9ff6",
+            "icon_image": "shopify:\/\/shop_images\/Tick.png",
             "icon_width": 20,
-            "icon_text": "Personalised meal plans & training routines.",
-            "text_size": 95,
+            "icon_text": "Personalised meal plans and training routines.",
+            "text_size": 100,
             "width": "full",
             "text_alignment": "left",
             "bg_color": "",
@@ -53,9 +54,10 @@
           "settings": {
             "icon_name": "smile",
             "icon_color": "#5d9ff6",
+            "icon_image": "shopify:\/\/shop_images\/Tick.png",
             "icon_width": 20,
             "icon_text": "100's of life-changing transformations.",
-            "text_size": 95,
+            "text_size": 100,
             "width": "full",
             "text_alignment": "left",
             "bg_color": "rgba(0,0,0,0)",
@@ -67,9 +69,10 @@
           "settings": {
             "icon_name": "check",
             "icon_color": "#5d9ff6",
+            "icon_image": "shopify:\/\/shop_images\/Tick.png",
             "icon_width": 20,
             "icon_text": "Guaranteed results.",
-            "text_size": 95,
+            "text_size": 100,
             "width": "full",
             "text_alignment": "left",
             "bg_color": "rgba(0,0,0,0)",
@@ -91,9 +94,9 @@
           "settings": {
             "icon_name": "support",
             "icon_width": 25,
-            "title": "STILL UNSURE? BOOK A FREE CONSULT BELOW",
+            "title": "STILL UNSURE? BOOK A FREE CONSULT",
             "text": "<p>If you're unsure whether this program is right for you, let's jump on a call and chat through some of your goals and concerns. If it's not the right fit, we'll be the first to let you know!<\/p>",
-            "bg_color": "#efefef",
+            "bg_color": "#eae7d8",
             "text_color": "#000000",
             "button_text": "BOOK A FREE CONSULT",
             "button_link": "",
@@ -133,16 +136,6 @@
             "padding_bottom": 20
           }
         },
-        "product_accordion": {
-          "type": "product_accordion",
-          "disabled": true,
-          "settings": {
-            "accordion_heading": "Process",
-            "accordion_text": "{{ product.metafields.custom.process | metafield_tag }}",
-            "accordion_page": "",
-            "padding_bottom": 10
-          }
-        },
         "9f6e8954-fc85-40d6-a0f2-3e3835dca50d": {
           "type": "product_accordion",
           "settings": {
@@ -150,6 +143,15 @@
             "accordion_text": "{{ product.metafields.custom.key_benefits | metafield_tag }}",
             "accordion_page": "",
             "padding_bottom": 20
+          }
+        },
+        "product_accordion": {
+          "type": "product_accordion",
+          "settings": {
+            "accordion_heading": "Process",
+            "accordion_text": "{{ product.metafields.custom.process | metafield_tag }}",
+            "accordion_page": "",
+            "padding_bottom": 10
           }
         },
         "bc692100-e40d-49a7-bd0f-a62dc5094ea9": {
@@ -161,7 +163,7 @@
         }
       },
       "block_order": [
-        "d3d46b24-717e-48f6-8a14-a9ce1d1be4f6",
+        "22f35f38-ba76-4a20-99c1-6bc6d45dc27c",
         "title",
         "1dd9bed9-6232-42b8-b267-dc5537a31475",
         "b7f2305f-e3e0-44f3-bf77-3d989f62454a",
@@ -172,8 +174,8 @@
         "description",
         "4df923a7-5fd6-4855-98fc-f1aa86f6bc2f",
         "e6adf12c-f80d-4a44-8877-0b0b22fb2d11",
-        "product_accordion",
         "9f6e8954-fc85-40d6-a0f2-3e3835dca50d",
+        "product_accordion",
         "bc692100-e40d-49a7-bd0f-a62dc5094ea9"
       ],
       "settings": {
@@ -186,6 +188,91 @@
         "bg_color": "#f7f7f7",
         "width": "wrapper--full-padded",
         "padding_top": 30,
+        "padding_bottom": 60
+      }
+    },
+    "076311c0-f6e8-4b5a-99fd-95ff910ba4ee": {
+      "type": "section-icons-row",
+      "blocks": {
+        "template--20723290833186__076311c0-f6e8-4b5a-99fd-95ff910ba4ee-text-1": {
+          "type": "text",
+          "settings": {
+            "icon_name": "truck",
+            "icon_image": "shopify:\/\/shop_images\/rb.black_300x_dfef7e38-4c40-4c88-977a-24190d1b388f.png",
+            "title": "Tailored Training Programs",
+            "text": "<p><\/p><p>We'll craft a training plan that fits your experience and lifestyle - whether you're a newbie or pro.<\/p>"
+          }
+        },
+        "template--20723290833186__076311c0-f6e8-4b5a-99fd-95ff910ba4ee-text-2": {
+          "type": "text",
+          "settings": {
+            "icon_name": "check",
+            "icon_image": "shopify:\/\/shop_images\/rb.black_300x_dfef7e38-4c40-4c88-977a-24190d1b388f.png",
+            "title": "Personalised Nutrition Plans",
+            "text": "<p><\/p><p>We offer a full macro breakdown and tailored meal guide to ensure your body gets the right fuel for your transformation.<\/p>"
+          }
+        },
+        "template--20723290833186__076311c0-f6e8-4b5a-99fd-95ff910ba4ee-text-3": {
+          "type": "text",
+          "settings": {
+            "icon_name": "eco-friendly",
+            "icon_image": "shopify:\/\/shop_images\/rb.black_300x_dfef7e38-4c40-4c88-977a-24190d1b388f.png",
+            "title": "24\/7 Access to Coaches",
+            "text": "<p><\/p><p>Stay connected with our coaches anytime, anywhere, ensuring you're never left in the dark.<\/p>"
+          }
+        },
+        "bd35a2ee-50d6-4fcd-a94e-25c75144a0eb": {
+          "type": "text",
+          "settings": {
+            "icon_name": "clock",
+            "icon_image": "shopify:\/\/shop_images\/rb.black_300x_dfef7e38-4c40-4c88-977a-24190d1b388f.png",
+            "title": "Weekly Check-ins",
+            "text": "<p><\/p><p>Stay on track and receive personalized feedback during your weekly 1-on-1 session.<\/p>"
+          }
+        },
+        "fbc6732c-b504-4a12-a78c-a2e035e734cb": {
+          "type": "text",
+          "settings": {
+            "icon_name": "clock",
+            "icon_image": "shopify:\/\/shop_images\/rb.black_300x_dfef7e38-4c40-4c88-977a-24190d1b388f.png",
+            "title": "Tutorials & Videos",
+            "text": "<p><\/p><p>Stay informed and motivated with access to our coaching tutorials and videos through our user-friendly app.<\/p>"
+          }
+        },
+        "272245f6-65bf-4fdb-824e-4819b1ae6f0e": {
+          "type": "text",
+          "settings": {
+            "icon_name": "clock",
+            "icon_image": "shopify:\/\/shop_images\/rb.black_300x_dfef7e38-4c40-4c88-977a-24190d1b388f.png",
+            "title": "Guaranteed Results",
+            "text": "<p><\/p><p>Yes you read that right. As long as you stick to the program and put in the work - you'll see results (or get your money back).<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20723290833186__076311c0-f6e8-4b5a-99fd-95ff910ba4ee-text-1",
+        "template--20723290833186__076311c0-f6e8-4b5a-99fd-95ff910ba4ee-text-2",
+        "template--20723290833186__076311c0-f6e8-4b5a-99fd-95ff910ba4ee-text-3",
+        "bd35a2ee-50d6-4fcd-a94e-25c75144a0eb",
+        "fbc6732c-b504-4a12-a78c-a2e035e734cb",
+        "272245f6-65bf-4fdb-824e-4819b1ae6f0e"
+      ],
+      "settings": {
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 100,
+        "heading": "",
+        "subheading": "",
+        "bg_color": "#f7f7f7",
+        "text_color": "#000000",
+        "box_color": "#eae7d8",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--medium",
+        "enable_slider_mobile": false,
+        "padding_top": 20,
         "padding_bottom": 60
       }
     },
@@ -259,9 +346,9 @@
         "template--20060286615842__03880909-a188-4d2e-a7da-ae1cab86735e-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "<p>Trusted by over 500+ Aussie Men<\/p>",
+            "text": "<p>Trusted by 100's of Men<\/p>",
             "size": 100,
-            "heading_highlight_type": "italics",
+            "heading_highlight_type": "circle",
             "highlight_color": "#f59815"
           }
         },
@@ -296,19 +383,19 @@
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
-        "padding_top": 60,
+        "padding_top": 40,
         "padding_bottom": 0
       }
     },
     "38ff978b-66eb-4318-9ce0-94db8ff86311": {
       "type": "section-columns",
       "blocks": {
-        "template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-1": {
+        "2a477a31-31b9-47e7-a260-0eb7c73f2a2c": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/66478491_573808263157038_535551456375374415_n.jpg",
-            "title": "Enter Review",
-            "text": "<p>Enter name or accomplishment (KGs lost)<\/p>",
+            "image": "shopify:\/\/shop_images\/180875592_534918247673165_4163959678088427026_n_1.jpg",
+            "title": "He pushed me week in week out and made sure I got the result I was after.",
+            "text": "<p>Loved training with Nath. If you’re after a committed coach, results and a good laugh I couldn’t recommend Real bodz enough.<\/p>",
             "button_text": "",
             "button_link": "",
             "button_color": "btn--black",
@@ -318,12 +405,27 @@
             "video_link_color": "text-dark"
           }
         },
-        "2a477a31-31b9-47e7-a260-0eb7c73f2a2c": {
+        "ba2cbb34-3e5d-4786-8148-b8b2bc9163cc": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/180875592_534918247673165_4163959678088427026_n_1.jpg",
-            "title": "Enter Review",
-            "text": "<p>Enter name or accomplishment (KGs lost)<\/p>",
+            "image": "shopify:\/\/shop_images\/John_googs.jpg",
+            "title": "If you want results hit up Nath! He got me in the best shape of my life.",
+            "text": "<p>If you’re looking to work with great coaches that will go above and beyond then Real Bodz is it.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/66478491_573808263157038_535551456375374415_n.jpg",
+            "title": "Couldn’t recommend these boys any higher!",
+            "text": "<p>They helped me get my motivation back and held me accountable every single day till my goal was achieved. <\/p>",
             "button_text": "",
             "button_link": "",
             "button_color": "btn--black",
@@ -335,6 +437,7 @@
         },
         "template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-2": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/73256788_613957329140902_7534066019300287630_n_1.jpg",
             "title": "Enter Review",
@@ -395,8 +498,9 @@
         }
       },
       "block_order": [
-        "template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-1",
         "2a477a31-31b9-47e7-a260-0eb7c73f2a2c",
+        "ba2cbb34-3e5d-4786-8148-b8b2bc9163cc",
+        "template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-1",
         "template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-2",
         "template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-0",
         "65087d05-57f0-4fd7-ba22-c054c9eb840e",
@@ -414,7 +518,63 @@
         "bg_color_secondary": false,
         "width": "wrapper",
         "padding_top": 40,
-        "padding_bottom": 60
+        "padding_bottom": 40
+      }
+    },
+    "344eb0a8-a550-453a-acf2-92955b30bd64": {
+      "type": "section-text",
+      "blocks": {
+        "264d4553-69d2-436a-b733-ef80edb9b2c5": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Real Results<\/p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "79c3c6b2-7a16-47f7-b7cd-6d9f01f0a08d": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Trusted by 100's of Men<\/p>",
+            "size": 100,
+            "heading_highlight_type": "circle",
+            "highlight_color": "#f59815"
+          }
+        },
+        "67c94d27-c214-4dc6-9ebf-b182a7226efc": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "494be0ea-8463-41cd-a366-bcc3aae5a571": {
+          "type": "button",
+          "settings": {
+            "button_text": "BOOK A FREE CONSULT",
+            "button_link": "https:\/\/calendly.com\/realbodz",
+            "button_color": "btn--primary",
+            "button_style": "btn--solid",
+            "button_size": "btn--large"
+          }
+        }
+      },
+      "block_order": [
+        "264d4553-69d2-436a-b733-ef80edb9b2c5",
+        "79c3c6b2-7a16-47f7-b7cd-6d9f01f0a08d",
+        "67c94d27-c214-4dc6-9ebf-b182a7226efc",
+        "494be0ea-8463-41cd-a366-bcc3aae5a571"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 0,
+        "padding_bottom": 40
       }
     },
     "9766ecab-9e7a-47b0-92a8-e08a8381e97a": {
@@ -466,6 +626,7 @@
         "template--20060286615842__9766ecab-9e7a-47b0-92a8-e08a8381e97a-text-1",
         "template--20060286615842__9766ecab-9e7a-47b0-92a8-e08a8381e97a-image-1"
       ],
+      "disabled": true,
       "settings": {
         "height": "four-fifty-height",
         "bg_color": "",
@@ -504,7 +665,7 @@
             "subheading": "",
             "title": "Personalised Nutrition Plans",
             "heading_size": 100,
-            "text": "<p>Forget generic diets. We offer a full macro breakdown and nutrition plan to ensure your body gets the right fuel for your transformation.<\/p>",
+            "text": "<p>Forget generic diets. We offer a full macro breakdown and tailored meal guide to ensure your body gets the right fuel for your transformation.<\/p>",
             "text_size": 100,
             "button_text": "",
             "button_link": "",
@@ -524,6 +685,7 @@
         "49a92413-1e1a-4203-a97b-02619e85bd5b",
         "0c809fcb-2d73-444b-986e-d2e5070c362d"
       ],
+      "disabled": true,
       "settings": {
         "height": "four-fifty-height",
         "bg_color": "",
@@ -582,6 +744,7 @@
         "2b25c905-05ac-4ab4-90fe-416c0c30a4a8",
         "e88b734a-ed4d-410a-a954-c255edb7f22a"
       ],
+      "disabled": true,
       "settings": {
         "height": "four-fifty-height",
         "bg_color": "",
@@ -609,8 +772,8 @@
           "settings": {
             "comparison_item": "25 Years of Experience",
             "competition1": "checklist",
-            "competition2": "checklist",
-            "competition3": "checklist",
+            "competition2": "uncheck",
+            "competition3": "uncheck",
             "competition4": "checklist"
           }
         },
@@ -619,7 +782,7 @@
           "settings": {
             "comparison_item": "Anywhere, Anytime",
             "competition1": "checklist",
-            "competition2": "checklist",
+            "competition2": "uncheck",
             "competition3": "checklist",
             "competition4": "checklist"
           }
@@ -629,8 +792,8 @@
           "settings": {
             "comparison_item": "24\/7 Access to Coach",
             "competition1": "checklist",
-            "competition2": "checklist",
-            "competition3": "checklist",
+            "competition2": "uncheck",
+            "competition3": "uncheck",
             "competition4": "checklist"
           }
         },
@@ -649,9 +812,9 @@
           "settings": {
             "comparison_item": "Guaranteed Results",
             "competition1": "checklist",
-            "competition2": "checklist",
-            "competition3": "checklist",
-            "competition4": "checklist"
+            "competition2": "uncheck",
+            "competition3": "uncheck",
+            "competition4": "uncheck"
           }
         },
         "1919132d-7039-4161-a933-d2f959e1abe4": {
@@ -680,7 +843,7 @@
         "subheading": "<p>REAL TALK<\/p>",
         "our_company_title": "real bodz",
         "our_company_image": "shopify:\/\/shop_images\/rb.logo.white_Large_ca957de7-a40f-4929-a16a-b058b5f17527.png",
-        "competition1_title": "Personal Trainner",
+        "competition1_title": "Personal Trainer",
         "competition2_title": "Do It Yourself",
         "competition3_title": "",
         "competition4_title": "",
@@ -757,12 +920,68 @@
         "title": "Frequently Asked Questions",
         "subheading": "",
         "text": "",
-        "tabs_bg_color": "#d5d5d5",
+        "tabs_bg_color": "#eae7d8",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper",
         "padding_top": 60,
-        "padding_bottom": 60
+        "padding_bottom": 40
+      }
+    },
+    "3b0f9331-42b1-4487-9498-cdd83925efea": {
+      "type": "section-text",
+      "blocks": {
+        "aa1ff6a6-8884-4d32-848e-a90f6675d5bf": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Real Results<\/p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "17b7f858-338a-49b7-b44c-4b7c7255e5ef": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Trusted by 100's of Men<\/p>",
+            "size": 100,
+            "heading_highlight_type": "circle",
+            "highlight_color": "#f59815"
+          }
+        },
+        "f0f5115d-3651-4f47-947f-241dcfa916f5": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "8ea45871-2b21-4ac1-986e-b362a80099e6": {
+          "type": "button",
+          "settings": {
+            "button_text": "BOOK A FREE CONSULT",
+            "button_link": "https:\/\/calendly.com\/realbodz",
+            "button_color": "btn--primary",
+            "button_style": "btn--solid",
+            "button_size": "btn--large"
+          }
+        }
+      },
+      "block_order": [
+        "aa1ff6a6-8884-4d32-848e-a90f6675d5bf",
+        "17b7f858-338a-49b7-b44c-4b7c7255e5ef",
+        "f0f5115d-3651-4f47-947f-241dcfa916f5",
+        "8ea45871-2b21-4ac1-986e-b362a80099e6"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 0,
+        "padding_bottom": 40
       }
     },
     "loox-product-reviews-app-section": {
@@ -824,21 +1043,21 @@
         "template--20060286615842__131f6687-91c5-48e8-bb06-73f14aaf411d-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>LOSE KG'S, BUILD LEAN MUSCLE, TAKE BACK CONTROL OF YOUR BODY.<\/p>",
+            "text": "<p>Lose KG's, Build lean muscle, take back control of your body.<\/p>",
             "size": 100
           }
         },
         "template--20060286615842__131f6687-91c5-48e8-bb06-73f14aaf411d-button-1": {
           "type": "button",
           "settings": {
-            "button_1_text": "GET STARTED",
+            "button_1_text": "",
             "button_1_link": "shopify:\/\/collections\/all",
             "button_1_color": "btn--primary",
             "button_1_style": "btn--solid",
             "button_1_size": "btn--large",
             "button_2_text": "BOOK A FREE CONSULT",
-            "button_2_link": "",
-            "button_2_color": "btn--black",
+            "button_2_link": "https:\/\/calendly.com\/realbodz",
+            "button_2_color": "btn--primary",
             "button_2_style": "btn--solid",
             "button_2_size": "btn--large"
           }
@@ -901,15 +1120,15 @@
         "icons_width": 30,
         "heading": "",
         "subheading": "",
-        "bg_color": "#f59815",
-        "text_color": "#ffffff",
+        "bg_color": "#eae7d8",
+        "text_color": "#000000",
         "box_color": "",
         "button_text": "",
         "button_link": "",
         "button_color": "btn--black",
         "button_style": "btn--solid",
         "button_size": "btn--small",
-        "enable_slider_mobile": false,
+        "enable_slider_mobile": true,
         "padding_top": 60,
         "padding_bottom": 60
       }
@@ -917,14 +1136,17 @@
   },
   "order": [
     "main",
+    "076311c0-f6e8-4b5a-99fd-95ff910ba4ee",
     "38c7dafd-7327-4052-a407-6f7b1d2c6a9a",
     "03880909-a188-4d2e-a7da-ae1cab86735e",
     "38ff978b-66eb-4318-9ce0-94db8ff86311",
+    "344eb0a8-a550-453a-acf2-92955b30bd64",
     "9766ecab-9e7a-47b0-92a8-e08a8381e97a",
     "bcb1eda9-bbb3-4f3b-8b11-df28ea216a80",
     "5e6a6140-8b6d-4fc5-94c9-3944b85641b9",
     "2cc0f5c3-0843-438a-8da7-a6d61a6c9522",
     "tabs",
+    "3b0f9331-42b1-4487-9498-cdd83925efea",
     "loox-product-reviews-app-section",
     "related",
     "131f6687-91c5-48e8-bb06-73f14aaf411d",
