@@ -170,15 +170,12 @@
                     <td>{%- render 'icons', icon: item.settings.competition1 -%}</td>
                     {% endif %}
                     {% if section.settings.competition1_title != blank or section.settings.competition1_image != blank %}
-                    <td>{%- render 'icons', icon: item.settings.competition1 -%}</td>
-                    {% endif %}
-                    {% if section.settings.competition2_title != blank or section.settings.competition2_image != blank %}
                     <td>{%- render 'icons', icon: item.settings.competition2 -%}</td>
                     {% endif %}
-                    {% if section.settings.competition3_title != blank or section.settings.competition3_image != blank %}
+                    {% if section.settings.competition2_title != blank or section.settings.competition2_image != blank %}
                     <td>{%- render 'icons', icon: item.settings.competition3 -%}</td>
                     {% endif %}
-                    {% if section.settings.competition4_title != blank or section.settings.competition4_image != blank %}
+                    {% if section.settings.competition3_title != blank or section.settings.competition3_image != blank %}
                     <td>{%- render 'icons', icon: item.settings.competition4 -%}</td>
                     {% endif %}
                   </tr>
@@ -284,18 +281,6 @@
         "type": "image_picker",
         "id": "competition3_image",
         "label": "Image 3",
-        "info": "Replace column title with an image."
-      },
-      {
-        "type": "text",
-        "label": "Competition 4 Title",
-        "id": "competition4_title",
-        "default": "The Competition"
-      },
-      {
-        "type": "image_picker",
-        "id": "competition4_image",
-        "label": "Image 4",
         "info": "Replace column title with an image."
       },
       {
