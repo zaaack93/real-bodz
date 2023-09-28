@@ -783,7 +783,7 @@
             "comparison_item": "Anywhere, Anytime",
             "competition1": "checklist",
             "competition2": "uncheck",
-            "competition3": "checklist",
+            "competition3": "uncheck",
             "competition4": "checklist"
           }
         },
@@ -803,7 +803,7 @@
             "comparison_item": "Fortnightly Meal Ideas",
             "competition1": "checklist",
             "competition2": "checklist",
-            "competition3": "checklist",
+            "competition3": "uncheck",
             "competition4": "checklist"
           }
         },
@@ -822,8 +822,8 @@
           "settings": {
             "comparison_item": "Community Support",
             "competition1": "checklist",
-            "competition2": "checklist",
-            "competition3": "checklist",
+            "competition2": "uncheck",
+            "competition3": "uncheck",
             "competition4": "checklist"
           }
         }
@@ -846,7 +846,6 @@
         "competition1_title": "Personal Trainer",
         "competition2_title": "Do It Yourself",
         "competition3_title": "",
-        "competition4_title": "",
         "bg_color": "",
         "text_color": "#333333",
         "box_color": "#e9e7d7",
