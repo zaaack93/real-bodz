@@ -10,6 +10,9 @@
 .template-product .product__accordion__title {
   text-transform: uppercase;
 }
+.template-product .product__submit__holder {
+  display: none !important;
+}
 
 form-klaviyo-newsletter .form-klaviyo-newsletter .form-success {
   display: none;

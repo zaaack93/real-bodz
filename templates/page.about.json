@@ -70,7 +70,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Real Bodz is on a mission to inspire real change, for real men, in the real world. We're shredding the fluff of fitness fads to offer no-nonsense, effective 12-week programs that transform lives, bodies, and minds. Your journey to sustainable health and happiness starts here - no gym selfies, no false promises, just genuine sweat, support, and results.<\/p><p>At Real Bodz, we make getting in shape an adventure, not a fucking chore.<\/p><p><\/p><p><\/p>",
+            "text": "<p>Real Bodz is on a mission to inspire real change, for real men, in the real world. We cut out the bullshit to offer effective 12-week programs that transform lives, bodies, and minds. Your journey to a better YOU starts here - No false promises, just genuine hard work, support and results.<\/p>",
             "size": 100
           }
         },
@@ -112,9 +112,9 @@
         "subheading": "",
         "title": "<p>The <em>Real<\/em> Deal<\/p>",
         "heading_highlight_type": "circle",
-        "highlight_color": "#f59815",
+        "highlight_color": "#5d9ff6",
         "heading_size": 130,
-        "text_content": "Founded by a team of experienced fitness professionals, Real Bodz is more than just a 12-week fitness program – it's a lifestyle revolution. Our founders possess an incredible breadth of experience in the fitness industry, marked by 25 years of helping people achieve their personal goals and create healthier lifestyles.\n\nReal Bodz's strength lies in our commitment to individualized guidance. Our offerings, available in 'Shred' and 'Build' options, are meticulously tailored to your unique goals. Whether your objective is to shed unwanted body fat or build lean muscle, we provide a personalized training regime, meal guide, and macro breakdown. Our holistic approach doesn't just focus on the physical aspect of fitness. We delve into the psychological side too, addressing lifestyle habits and mental health.",
+        "text_content": "Founded by a team of experienced fitness professionals, Our founders possess an incredible breadth of experience in the fitness industry, marked by 25 years of helping people achieve their personal goals and create healthier lifestyles.  \n\nReal Bodz's strength lies in our commitment to individualized guidance and extreme accountability and support. Our offerings, available in 'Shred' and 'Build' options, are meticulously tailored to your unique goals. Whether your objective is to shed unwanted body fat or build lean muscle, we provide a personalized training regime, meal guide, and macro breakdown.",
         "text_alignment": "left",
         "button_text": "",
         "button_link": "",
@@ -134,6 +134,7 @@
       "blocks": {
         "template--20060286222626__931fbe40-9720-4734-afd3-e034023c6b31-subheading-1": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "text": "<p>Meet Our Founders: The Naths<\/p>",
             "size": 100,
@@ -143,7 +144,7 @@
         "template--20060286222626__931fbe40-9720-4734-afd3-e034023c6b31-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "<p>The Brains + The Brawn<\/p>",
+            "text": "<p>Meet Our Founders<\/p>",
             "size": 100,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747"
@@ -151,6 +152,7 @@
         },
         "template--20060286222626__931fbe40-9720-4734-afd3-e034023c6b31-text-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p><em>(You decide which is which)<\/em><\/p>",
             "size": 100
@@ -337,7 +339,7 @@
           "settings": {
             "product": "12-week-build",
             "title": "",
-            "product_description": "",
+            "product_description": "<p>This program is for any men trying to build size and increase muscle mass. If you’ve always struggled to put on size this is a great option for you. We have had 100’s of blokes get great results. <\/p><p>The program incorporates:<\/p><ul><li>A 4 day training split, <\/li><li>Full macro breakdown with meal guides,<\/li><li>Daily accountability from your coaches to ensure you are on track to building a bigger, stronger physique. <\/li><\/ul>",
             "button_text": "View Build Program",
             "show_second_image": true,
             "show_circle": false,
@@ -442,8 +444,8 @@
         "icons_width": 30,
         "heading": "",
         "subheading": "",
-        "bg_color": "#f59815",
-        "text_color": "#ffffff",
+        "bg_color": "#eae7d8",
+        "text_color": "#000000",
         "box_color": "",
         "button_text": "",
         "button_link": "",

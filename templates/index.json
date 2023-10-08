@@ -461,7 +461,7 @@
         "b0b04e49-1176-4892-b686-4a74171f5313": {
           "type": "button",
           "settings": {
-            "button_text": "Get Started",
+            "button_text": "Explore Programs",
             "button_link": "shopify:\/\/collections\/all",
             "button_color": "btn--primary",
             "button_style": "btn--solid-border",

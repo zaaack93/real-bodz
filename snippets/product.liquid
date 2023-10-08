@@ -313,6 +313,28 @@
                   {{ app_code }}
                 </div>
               {%- endif -%}
+            
+            {%- when 'stripe-custom-payment' -%}
+              <div class="product__feature"
+                data-block-id="{{ block_id }}"
+                style="padding-bottom: {{block.settings.padding_bottom}}px">
+                <stripe-payment-buttons>
+                  {%for variant in product.variants%}
+                    {%- if block.settings.button_text != blank -%}
+                      <div class="text__button product__form{%- render 'button-fallback-classes', primary_color: block.settings.button_color, bg_color_secondary: false-%}"
+                        {% if animations_enabled %}
+                          data-aos="fade-up"
+                          data-aos-anchor="{{ animation_anchor }}"
+                          data-aos-delay="{{ animation_delay }}"
+                          {%- assign animation_delay = animation_delay | plus: 150 -%}
+                        {% endif %}
+                        {{ block.shopify_attributes }}>
+                        <a href="{{ variant.metafields.custom.stripe_payment_link }}" data-variant-id="{{variant.id}}" class="btn {{ block.settings.button_style }} {{ block.settings.button_size }} {{ block.settings.button_color }}">{{ block.settings.button_text }}</a>
+                      </div>
+                    {%- endif -%}
+                  {%endfor%}
+                </stripe-payment-buttons>
+              </div>
 
             {%- when 'title' -%}
               <div class="product__block product__title-and-price"

@@ -53,3 +53,34 @@ class KlaviyoFormComponent extends HTMLElement {
   }
   
   customElements.define('form-klaviyo-newsletter', KlaviyoFormComponent);
+
+
+
+  class StripePaymentButtonsComponent extends HTMLElement {
+    constructor() {
+      super();
+    }
+  
+    connectedCallback() {
+      this.buttons = this.querySelectorAll('.btn');
+      
+      
+      const updateButtonOptions = ({detail}) => {
+        console.log(this.buttons)
+        if(this.buttons){
+          this.buttons.forEach(button => {
+            if(button.getAttribute('data-variant-id')==detail.variant.id){
+              button.style.display = 'initial';
+            }
+            else{
+              button.style.display = 'none';
+            }
+          })
+        }
+      }
+
+      document.addEventListener('theme:variant:change', updateButtonOptions);
+    }
+  }
+
+  customElements.define('stripe-payment-buttons', StripePaymentButtonsComponent);
