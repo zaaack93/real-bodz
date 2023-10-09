@@ -146,7 +146,7 @@
 {%- endcapture -%}
 
 {%- capture product_info_price -%}
-  <a class="product-grid-item__price price" href="{{ product.url | within: collection }}"{% if index > 1 %} tabindex="-1"{% endif %} data-grid-link>
+  <a class="product-grid-item__price price {% if section.settings.custom_price %}badge_container-wrapper{%endif%}" href="{{ product.url | within: collection }}"{% if index > 1 %} tabindex="-1"{% endif %} data-grid-link>
     {%- liquid
       if product.price == 0 and product.price_varies == false
         assign product_price = 'products.product.free' | t
@@ -160,23 +160,30 @@
       endif
     -%}
 
-    {%- if product.price_varies -%}
-      {{- 'products.general.from_text_html' | t: price: product_price_min -}}
-    {%- else -%}
-      {%- if on_sale -%}
-        <span class="product-grid-item__price__new">{{ product_price }}</span>
+    {% if section.settings.custom_price %}
+      {{section.settings.custom_price}}
+      {% if section.settings.custom_label %}
+        <span class="product-custom_badge">{{ section.settings.custom_label }}</span>
+      {%endif %}
+    {%else%}
+        {%- if product.price_varies -%}
+          {{- 'products.general.from_text_html' | t: price: product_price_min -}}
+        {%- else -%}
+          {%- if on_sale -%}
+            <span class="product-grid-item__price__new">{{ product_price }}</span>
 
-        <s>
-          {%- if currency_code_enable -%}
-            {{- product.compare_at_price | money_with_currency -}}
+            <s>
+              {%- if currency_code_enable -%}
+                {{- product.compare_at_price | money_with_currency -}}
+              {%- else -%}
+                {{- product.compare_at_price | money -}}
+              {%- endif -%}
+            </s>
           {%- else -%}
-            {{- product.compare_at_price | money -}}
+            {{- product_price -}}
           {%- endif -%}
-        </s>
-      {%- else -%}
-        {{- product_price -}}
+        {%- endif -%}
       {%- endif -%}
-    {%- endif -%}
 
     {%- if current_variant.unit_price_measurement -%}
       {%- capture unit_price_separator -%}

@@ -138,6 +138,8 @@
       ],
       "settings": {
         "show_breadcrumbs": false,
+        "custom_price": "$99 PER WEEK",
+        "custom_label": "Pay Upfront or Weekly",
         "enable_sorting": false,
         "enable_filters": false,
         "filters_layout": "open",

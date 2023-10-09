@@ -1,0 +1,31 @@
+.collection-items{
+    .product-grid-item__image{
+        margin-bottom: 0px ;
+    }
+    .product-grid-item__info{
+        .product-grid-item__title{
+            font-size: calc(1.2rem * var(--adjust-heading));
+        }
+
+        .badge_container-wrapper {
+            display: flex;
+            align-items: center;
+            column-gap: 20px;
+            margin-top: 5px;
+            font-family: var(--FONT-STACK-HEADING);
+            font-weight: var(--FONT-WEIGHT-HEADING);
+            font-style: var(--FONT-STYLE-HEADING);
+            line-height: 1.25;
+            font-size: calc(1rem * var(--adjust-heading));
+            .product-custom_badge {
+              border-radius: 5px;
+              background: #e8e8e8;
+              padding: 8.5px 14px 6px;
+              font-size: 14px;
+              color: #000;
+              top: -2px;
+              position: relative;
+            }
+        }
+    }
+}
