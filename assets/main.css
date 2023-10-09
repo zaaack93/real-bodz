@@ -212,6 +212,61 @@ form-klaviyo-newsletter .form-klaviyo-newsletter .form_submit_container button {
   }
 }
 
+@media only screen and (min-width: 1024px) {
+  .section-padding {
+    --gutter: 6.25rem;
+  }
+}
+
+.products-list-section .wrapper .products-list__nav {
+  margin-bottom: 13px;
+}
+.products-list-section .wrapper .products-list__item__contents .products-list__item__content {
+  padding-top: 0px;
+  width: 100%;
+}
+.products-list-section .wrapper .products-list__item__contents .products-list__item__content .badge_container-wrapper {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.products-list-section .wrapper .products-list__item__contents .products-list__item__content .badge_container-wrapper .product-custom_badge {
+  border-radius: 5px;
+  background: #e8e8e8;
+  padding: 8.5px 14px 6px;
+  font-size: 14px;
+  color: #000;
+  top: -2px;
+  position: relative;
+}
+.products-list-section .wrapper .products-list__item__contents .products-list__item__content ul {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  row-gap: 9px;
+  margin-left: 0px;
+}
+.products-list-section .wrapper .products-list__item__contents .products-list__item__content ul li {
+  background-image: url("https://cdn.shopify.com/s/files/1/0799/1053/5458/files/Tick.png?v=1695569281");
+  background-size: 18px;
+  padding-left: 33px;
+  background-position: top 1.5px left 0;
+  background-repeat: no-repeat;
+  list-style: none;
+  margin-bottom: 0px;
+  font-family: var(--FONT-STACK-BODY);
+  font-weight: var(--FONT-WEIGHT-BODY);
+  font-style: var(--FONT-STYLE-BODY);
+  line-height: 1.5625;
+  font-size: calc(1rem * var(--adjust-body));
+}
+.products-list-section .wrapper .products-list__item__contents .products-list__item__buttons .btn {
+  margin-top: 30px;
+}
+
 .password-page__wrapper {
   background: none;
 }

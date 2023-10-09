@@ -1050,7 +1050,7 @@
           "settings": {
             "product": "12-week-shred",
             "title": "",
-            "product_description": "<p>Our Shred Program is a no-nonsense blueprint for anyone keen to shed the extra kgs, build lean muscle, and overhaul their lifestyle. <\/p><p>The program incorporates a 4 day training split, full macro breakdown with meal guides and daily accountability from your coaches to ensure you are on track to lose those stubborn Kg's and redefine your physique. <\/p>",
+            "product_description": "<p>Our Shred Program is a no-nonsense blueprint for anyone keen to shed the extra kgs, build lean muscle, and overhaul their lifestyle. <\/p><ul><li>Tailored Training Program<\/li><li>Full Macro Breakdown and Nutrition Plan<\/li><li>24\/7 Messaging Support<\/li><li>Weekly Accountability Calls with Coach<\/li><li>Recipe Guide and Training Tutorials<\/li><\/ul>",
             "button_text": "Learn More About Shred Program",
             "show_second_image": true,
             "show_circle": false,
@@ -1107,6 +1107,8 @@
       ],
       "settings": {
         "title": "Looking to lose fat?",
+        "custom_price": "$99 PER WEEK",
+        "custom_label": "Pay Upfront or Weekly",
         "heading_size": 90,
         "button_color": "btn--primary",
         "button_style": "btn--solid",
@@ -1183,6 +1185,8 @@
       ],
       "settings": {
         "title": "Looking to build muscle mass?",
+        "custom_price": "",
+        "custom_label": "",
         "heading_size": 100,
         "button_color": "btn--primary",
         "button_style": "btn--solid",

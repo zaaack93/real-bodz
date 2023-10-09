@@ -675,14 +675,21 @@
                           data-aos-delay="{{ animation_delay_content }}"
                           {%- assign animation_delay_content = animation_delay_content | plus: 150 -%}
                         {% endif %}>
-                        <a href="{{ product_url }}" title="{{ product_title }}" arial-label="{{ product_price }}">
+                        <a href="{{ product_url }}" title="{{ product_title }}" arial-label="{{ product_price }}" class="badge_container-wrapper">
                           {%- if product_title != empty and block.settings.title != empty -%}
                             <span class="products-list__item__title-text">{{ product_title }}</span>
                           {%- endif -%}
-                          <span class="products-list__price">{{ product_price }}</span>
-                          {%- if compare_price -%}
-                            <s class="products-list__price products-list__price--compare">{{ compare_price }}</s>
-                          {%- endif -%}
+                          {% if section.settings.custom_price %}
+                            {{section.settings.custom_price}}
+                            {% if section.settings.custom_label %}
+                              <span class="product-custom_badge">{{ section.settings.custom_label }}</span>
+                            {%endif %}
+                          {%else%}
+                            <span class="products-list__price">{{ product_price }}</span>
+                            {%- if compare_price -%}
+                              <s class="products-list__price products-list__price--compare">{{ compare_price }}</s>
+                            {%- endif -%}
+                          {%endif%}
                         </a>
                       </p>
 
@@ -730,6 +737,16 @@
       "type": "text",
       "id": "title",
       "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "custom_price",
+      "label": "Custom price"
+    },
+    {
+      "type": "text",
+      "id": "custom_label",
+      "label": "Badge text"
     },
     {
       "type": "header",
