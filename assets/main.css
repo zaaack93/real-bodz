@@ -13,25 +13,75 @@
 .template-product .product__submit__holder {
   display: none !important;
 }
+.template-product .badge_container-wrapper {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  font-family: var(--FONT-STACK-HEADING);
+  font-weight: var(--FONT-WEIGHT-HEADING);
+  font-style: var(--FONT-STYLE-HEADING);
+  line-height: 1.25;
+  font-size: calc(1.1rem * var(--adjust-heading));
+}
+.template-product .badge_container-wrapper .product-custom_badge {
+  border-radius: 5px;
+  background: #e8e8e8;
+  padding: 8.5px 14px 6px;
+  font-size: 14px;
+  color: #000;
+  top: -2px;
+  position: relative;
+}
+.template-product .price-option-variant.price-with-compar {
+  align-items: center;
+  -moz-column-gap: 11px;
+       column-gap: 11px;
+  flex-direction: row-reverse;
+}
+.template-product .price-option-variant.price-with-compar span, .template-product .price-option-variant.price-with-compar s {
+  margin-bottom: 0px;
+}
+.template-product .price-option-variant {
+  font-family: var(--FONT-STACK-HEADING);
+  font-weight: var(--FONT-WEIGHT-HEADING);
+  font-style: var(--FONT-STYLE-HEADING);
+  line-height: 1.25;
+  font-size: calc(1.3rem * var(--adjust-heading));
+}
 .template-product .selector-wrapper--boxes {
-  margin-bottom: 18px;
+  margin-bottom: 9px;
+}
+@media only screen and (max-width: 768px) {
+  .template-product .selector-wrapper--boxes {
+    margin-bottom: 4px;
+  }
 }
 .template-product .selector-wrapper--boxes .radio__fieldset {
   display: flex;
   row-gap: 12px;
   margin-bottom: 0px;
 }
+@media only screen and (max-width: 768px) {
+  .template-product .selector-wrapper--boxes .radio__fieldset {
+    row-gap: 10px;
+  }
+}
 .template-product .selector-wrapper--boxes .radio__fieldset .radio__legend {
-  margin-bottom: 18px;
+  margin-bottom: 12px;
 }
 .template-product .selector-wrapper--boxes .radio__fieldset .radio__legend .radio__legend__label {
   font-family: var(--FONT-STACK-HEADING);
   font-weight: var(--FONT-WEIGHT-HEADING);
   font-style: var(--FONT-STYLE-HEADING);
-  line-height: 1.25;
   font-size: calc(1rem * var(--adjust-heading));
   margin-bottom: 6px;
   text-transform: uppercase;
+}
+@media only screen and (max-width: 768px) {
+  .template-product .selector-wrapper--boxes .radio__fieldset .radio__legend .radio__legend__label {
+    font-size: calc(0.8rem * var(--adjust-heading));
+  }
 }
 .template-product .selector-wrapper--boxes .radio__fieldset .radio__button {
   padding-left: 17px;
@@ -41,44 +91,140 @@
   font-family: var(--FONT-STACK-HEADING);
   font-weight: var(--FONT-WEIGHT-HEADING);
   font-style: var(--FONT-STYLE-HEADING);
-  line-height: 1.25;
-  font-size: calc(1.1rem * var(--adjust-heading));
-  height: 65px;
+  font-size: calc(1rem * var(--adjust-heading));
+  height: 60px;
   border-radius: 10px;
   border: 1px solid #000;
   display: flex;
   align-items: center;
+  -moz-column-gap: 14px;
+       column-gap: 14px;
   margin-bottom: 0px;
   cursor: pointer;
+  background-color: var(--bg);
+}
+@media only screen and (max-width: 768px) {
+  .template-product .selector-wrapper--boxes .radio__fieldset .radio__button {
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    height: 45px;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
 }
 .template-product .selector-wrapper--boxes .radio__fieldset .radio__button .radio__label {
   padding: 0px;
   background: inherit;
   color: inherit;
   border: none;
+  top: 2px;
+  font-size: inherit;
 }
-.template-product .selector-wrapper--boxes .radio__fieldset .radio__input:checked ~ .radio__button {
+@media only screen and (max-width: 768px) {
+  .template-product .selector-wrapper--boxes .radio__fieldset .radio__button .radio__label {
+    top: 1px;
+  }
+}
+.template-product .selector-wrapper--boxes .radio__fieldset .radio__button .notePrice {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+  margin-left: 5px;
+  top: -1px;
+  position: relative;
+}
+@media only screen and (max-width: 768px) {
+  .template-product .selector-wrapper--boxes .radio__fieldset .radio__button .notePrice {
+    font-size: 14px;
+    margin-left: 3px;
+    top: -2px;
+  }
+}
+.template-product .selector-wrapper--boxes .radio__fieldset .radio-button-container {
+  position: relative;
+  width: 100%;
+  margin-right: 12px;
+}
+@media only screen and (max-width: 768px) {
+  .template-product .selector-wrapper--boxes .radio__fieldset .radio-button-container {
+    margin-right: 8px;
+  }
+}
+.template-product .selector-wrapper--boxes .radio__fieldset .radio-button-container .badge-populare {
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 8px 16px 10px;
+  border-radius: 10px 10px 0px 0px;
+  border: 1px solid #000;
+  background: #4B4A4A;
+  position: absolute;
+  top: -30px;
+  right: 0px;
+}
+@media only screen and (max-width: 768px) {
+  .template-product .selector-wrapper--boxes .radio__fieldset .radio-button-container .badge-populare {
+    padding: 5px 12px 12px;
+    font-size: 11px;
+    top: -26px;
+  }
+}
+.template-product .selector-wrapper--boxes .radio__fieldset .price-option-container {
+  margin-left: auto;
+}
+.template-product .selector-wrapper--boxes .radio__fieldset .radio__button.checked {
   /* Your CSS styles for the .container when the radio button is checked */
-  background-color: lightblue !important;
-  color: white;
+  background-color: #E9E6D9 !important;
+}
+.template-product .price-with-compar .product__price--off {
+  padding: 6px 10px;
+  border-radius: 5px;
+  background: #5E9EF5;
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-right: 20px;
+  top: -1px;
+  position: relative;
+}
+@media only screen and (max-width: 768px) {
+  .template-product .price-with-compar .product__price--off {
+    padding: 5px 8px;
+    margin-right: 10px;
+    font-size: 12px;
+  }
+}
+.template-product .price-with-compar .product__price--compare {
+  margin-right: 0px;
 }
 .template-product input[type=radio] {
   display: initial !important;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  background-color: #fff;
+  background-color: transparent;
   margin: 0;
   font: inherit;
   color: currentColor;
-  width: 24px;
-  height: 24px;
-  border: 2px solid #E93B40;
+  width: 22px;
+  height: 22px;
+  border: 1px solid #000;
   border-radius: 50%;
-  flex: 0 0 24px;
+  flex: 0 0 22px;
+  top: initial;
+  position: initial;
+  opacity: initial;
 }
 .template-product input[type=radio]:checked {
-  background: radial-gradient(#E93B40 0%, #E93B40 50%, transparent 60%, transparent);
+  background: radial-gradient(#6D9DEF 0%, #6D9DEF 45%, transparent 50%, transparent);
 }
 
 form-klaviyo-newsletter .form-klaviyo-newsletter .form-success {

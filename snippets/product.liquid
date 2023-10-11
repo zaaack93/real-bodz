@@ -376,120 +376,185 @@
                   {%- endif -%}
                 </h1>
               </div>{%- assign currency_code_enable = settings.currency_code_enable -%}
+              {% unless block.settings.use_custom_price %}
+              <div class="product__block product__price-and-badge"
+                {% if animations_enabled %}
+                  data-aos="fade-up"
+                  data-aos-anchor="{{ animation_anchor }}"
+                  data-aos-delay="{{ animation_delay }}"
+                  {%- assign animation_delay = animation_delay | plus: 150 -%}
+                {% endif %}
+                {{ block_style }}>
+                <div class="product__price-and-rating">
+                  <div class="product__price" data-price-wrapper>
+                    {%- unless product == blank -%}
+                      <span data-product-price class="product__price--regular{% if current_variant.compare_at_price > current_variant.price %} product__price--sale{% endif %}">
+                        {%- liquid
+                          if current_variant.price == 0
+                            echo 'products.product.free' | t
+                          elsif currency_code_enable
+                            echo current_variant.price | money_with_currency
+                          else
+                            echo current_variant.price | money
+                          endif
+                        -%}
+                      </span>
+                    {%- else -%}
+                      <span id="ProductPrice">
+                        {%- liquid
+                          if currency_code_enable
+                            echo 1999 | money_with_currency
+                          else
+                            echo 1999 | money
+                          endif
+                        -%}
+                      </span>
+                    {%- endunless -%}
 
-<div class="product__block product__price-and-badge"
-  {% if animations_enabled %}
-    data-aos="fade-up"
-    data-aos-anchor="{{ animation_anchor }}"
-    data-aos-delay="{{ animation_delay }}"
-    {%- assign animation_delay = animation_delay | plus: 150 -%}
-  {% endif %}
-  {{ block_style }}>
-  <div class="product__price-and-rating">
-    <div class="product__price" data-price-wrapper>
-      {%- unless product == blank -%}
-        <span data-product-price class="product__price--regular{% if current_variant.compare_at_price > current_variant.price %} product__price--sale{% endif %}">
-          {%- liquid
-            if current_variant.price == 0
-              echo 'products.product.free' | t
-            elsif currency_code_enable
-              echo current_variant.price | money_with_currency
-            else
-              echo current_variant.price | money
-            endif
-          -%}
-        </span>
-      {%- else -%}
-        <span id="ProductPrice">
-          {%- liquid
-            if currency_code_enable
-              echo 1999 | money_with_currency
-            else
-              echo 1999 | money
-            endif
-          -%}
-        </span>
-      {%- endunless -%}
+                    <s data-compare-price class="product__price--compare">
+                      {%- liquid
+                        if current_variant.compare_at_price
+                          if currency_code_enable
+                            echo current_variant.compare_at_price | money_with_currency
+                          else
+                            echo current_variant.compare_at_price | money
+                          endif
+                        endif
+                      -%}
+                    </s>
 
-      <s data-compare-price class="product__price--compare">
-        {%- liquid
-          if current_variant.compare_at_price
-            if currency_code_enable
-              echo current_variant.compare_at_price | money_with_currency
-            else
-              echo current_variant.compare_at_price | money
-            endif
-          endif
-        -%}
-      </s>
+                    {%- liquid
+                      assign units = product.variants | map: 'unit_price' | compact
+                      if units[0]
+                        assign has_units = true
+                      else
+                        assign has_units = false
+                      endif
+                    -%}
 
-      {%- liquid
-        assign units = product.variants | map: 'unit_price' | compact
-        if units[0]
-          assign has_units = true
-        else
-          assign has_units = false
-        endif
-      -%}
+                    {%- if has_units -%}
+                      {%- assign current_variant_unit_price = current_variant.unit_price -%}
+                      {%- capture show_units -%}
+                        {%- unless current_variant_unit_price -%}style="display: none;"{%- endunless -%}
+                      {%- endcapture -%}
 
-      {%- if has_units -%}
-        {%- assign current_variant_unit_price = current_variant.unit_price -%}
-        {%- capture show_units -%}
-          {%- unless current_variant_unit_price -%}style="display: none;"{%- endunless -%}
-        {%- endcapture -%}
+                      {%- capture unit_price_separator -%}
+                        <span aria-hidden="true">/</span><span class="visually-hidden">{{ 'general.accessibility.unit_price_separator' | t }}&nbsp;</span>
+                      {%- endcapture -%}
 
-        {%- capture unit_price_separator -%}
-          <span aria-hidden="true">/</span><span class="visually-hidden">{{ 'general.accessibility.unit_price_separator' | t }}&nbsp;</span>
-        {%- endcapture -%}
+                      {%- capture unit_price_base_unit -%}
+                        <span>
+                          {%- if current_variant.unit_price_measurement -%}
+                            {% if current_variant.unit_price_measurement.reference_value != 1 %}
+                              {{ current_variant.unit_price_measurement.reference_value }}
+                            {% endif %}
+                            {{ current_variant.unit_price_measurement.reference_unit }}
+                          {%- endif -%}
+                        </span>
+                      {%- endcapture -%}
 
-        {%- capture unit_price_base_unit -%}
-          <span>
-            {%- if current_variant.unit_price_measurement -%}
-              {% if current_variant.unit_price_measurement.reference_value != 1 %}
-                {{ current_variant.unit_price_measurement.reference_value }}
-              {% endif %}
-              {{ current_variant.unit_price_measurement.reference_unit }}
-            {%- endif -%}
-          </span>
-        {%- endcapture -%}
+                      <span class="product__unit-price">
+                        <span data-product-unit class="product__price--unit{% unless current_variant_unit_price %} hidden{% endunless %}">
+                          <span class="visually-hidden">{{ 'products.product.unit_price_label' | t }}</span>
+                          <span data-product-unit-price id="unit-price-{{ section.id }}">{{ current_variant_unit_price | money }}</span>
+                          {{ unit_price_separator }}
+                          <span data-product-base id="unit-price-base-{{ section.id }}">{{ unit_price_base_unit }}</span>
+                        </span>
+                      </span>
+                    {%- endif -%}
+                    {% if section_type != 'quickview' %}
+                      <span data-price-off class="product__price--off hidden">
+                        <span data-price-off-type>{{ 'products.product.sale' | t }}</span>
+                        <em>•</em>
+                        {{ 'products.product.save' | t }}
+                        <span data-price-off-amount></span>
+                      </span>
+                    {% endif %}
+                  </div>
 
-        <span class="product__unit-price">
-          <span data-product-unit class="product__price--unit{% unless current_variant_unit_price %} hidden{% endunless %}">
-            <span class="visually-hidden">{{ 'products.product.unit_price_label' | t }}</span>
-            <span data-product-unit-price id="unit-price-{{ section.id }}">{{ current_variant_unit_price | money }}</span>
-            {{ unit_price_separator }}
-            <span data-product-base id="unit-price-base-{{ section.id }}">{{ unit_price_base_unit }}</span>
-          </span>
-        </span>
-      {%- endif -%}
-      {% if section_type != 'quickview' %}
-        <span data-price-off class="product__price--off hidden">
-          <span data-price-off-type>{{ 'products.product.sale' | t }}</span>
-          <em>•</em>
-          {{ 'products.product.save' | t }}
-          <span data-price-off-amount></span>
-        </span>
-      {% endif %}
-    </div>
+                  {%- if block.settings.show_rating or settings.show_rating and section_type == 'quickview' -%}
+                    {%- unless product == blank -%}
+                      {%- render 'rating', show_rating_count: block.settings.show_rating_count, single_star: true, reviews: product.metafields.reviews -%}
+                    {%- else -%}
+                      {%- render 'rating', show_rating_count: block.settings.show_rating_count, single_star: true, onboarding: true -%}
+                    {%- endunless -%}
+                  {%- endif -%}
+                </div>
 
-    {%- if block.settings.show_rating or settings.show_rating and section_type == 'quickview' -%}
-      {%- unless product == blank -%}
-        {%- render 'rating', show_rating_count: block.settings.show_rating_count, single_star: true, reviews: product.metafields.reviews -%}
-      {%- else -%}
-        {%- render 'rating', show_rating_count: block.settings.show_rating_count, single_star: true, onboarding: true -%}
-      {%- endunless -%}
-    {%- endif -%}
-  </div>
-
-  {% if section_type == 'quickview' %}
-    <span data-price-off class="product__price--off hidden">
-      <span data-price-off-type>{{ 'products.product.sale' | t }}</span>
-      <em>•</em>
-      {{ 'products.product.save' | t }}
-      <span data-price-off-amount></span>
-    </span>
-  {% endif %}
-</div>{%- when 'form' -%}
+                {% if section_type == 'quickview' %}
+                  <span data-price-off class="product__price--off hidden">
+                    <span data-price-off-type>{{ 'products.product.sale' | t }}</span>
+                    <em>•</em>
+                    {{ 'products.product.save' | t }}
+                    <span data-price-off-amount></span>
+                  </span>
+                {% endif %}
+              </div>
+              {%else%}
+              <div class="product__block product__price-and-badge"
+                {% if animations_enabled %}
+                  data-aos="fade-up"
+                  data-aos-anchor="{{ animation_anchor }}"
+                  data-aos-delay="{{ animation_delay }}"
+                  {%- assign animation_delay = animation_delay | plus: 150 -%}
+                {% endif %}
+                {{ block_style }}>
+                {%for variant in product.variants%}
+                {% if variant.title =='WEEKLY' %}
+                  <div class="badge_container-wrapper price-option-variant" data-variant-id="{{variant.id}}">
+                    $99 PER WEEK
+                    <span class="product-custom_badge">Pay Upfront or Weekly</span>
+                  </div>
+                {%else%}
+                <div class="price-option-container price-with-compar price-option-variant" data-variant-id="{{variant.id}}">
+                
+                  <span class="product__price--off">
+                    {{ 'products.product.save' | t }}
+                    <span> {{variant.compare_at_price | minus: variant.price | money_without_trailing_zeros}}</span>
+                  </span>
+                  {%- unless product == blank -%}
+                    <span data-product-price class="product__price--regular{% if variant.compare_at_price > variant.price %} product__price--sale{% endif %}">
+                      {%- liquid
+                        if variant.price == 0
+                          echo 'products.product.free' | t
+                        elsif currency_code_enable
+                          echo variant.price | money_without_trailing_zeros
+                        else
+                          echo variant.price | money_without_trailing_zeros
+                        endif
+                      -%}
+                    </span>
+                  {%- else -%}
+                    <span id="ProductPrice">
+                      {%- liquid
+                        if currency_code_enable
+                          echo 1999 | money_without_trailing_zeros
+                        else
+                          echo 1999 | money_without_trailing_zeros
+                        endif
+                      -%}
+                    </span>
+                  {%- endunless -%}
+            
+                  <s data-compare-price class="product__price--compare">
+                    {%- liquid
+                      if variant.compare_at_price
+                        if currency_code_enable
+                          echo variant.compare_at_price | money_without_trailing_zeros
+                        else
+                          echo variant.compare_at_price | money_without_trailing_zeros
+                        endif
+                      endif
+                    -%}
+                  </s>
+                
+                
+                </div>
+                {%endif%}
+                {%endfor%}
+              </div>
+              {% endunless%}
+{%- when 'form' -%}
               {%- liquid
                 assign show_quantity = block.settings.show_quantity
                 assign show_payment_button = block.settings.show_payment_button
@@ -983,7 +1048,13 @@
                     </span>
                   {%- else -%}
                     {% comment %} radio button {% endcomment %}
-                    <span class="radio__button">
+                    
+                    {% if value =='WEEKLY' %}
+                    <div class="radio-button-container">
+                      <span class="badge-populare">most popular</span>
+                    {%endif%}
+                    <radio-button class="radio__button" for="{{ input_id }}" data-name="options[{{ option.name | escape_once }}]"
+                      data-value="{{ value | escape_once }}">
                       <input
                         type="radio"
                         class="radio__input"
@@ -994,8 +1065,71 @@
                         {% if value == current_value %}checked{% endif %}>
                       <label for="{{ input_id }}" class="radio__label">
                         <span>{{ value | escape_once }}</span>
+                        {% if value =='WEEKLY' %}
+                          <span class="notePrice">(min. 12 weeks)</span>
+                        {%endif%}
                       </label>
-                    </span>
+
+
+                      {% for variant in product.variants%}
+                         {% if variant.title == value %}
+                           {%assign selectedVariant = variant %}
+                         {%endif%}
+                      {%endfor%}
+                      {% if value =='WEEKLY' %}
+                        <div class="price-option-container">{{selectedVariant.price | money_without_trailing_zeros}}</div>
+                      {%else%}
+                      <div class="price-option-container price-with-compar">
+                      
+                        <span class="product__price--off">
+                          {{ 'products.product.save' | t }}
+                          <span> {{selectedVariant.compare_at_price | minus: selectedVariant.price | money_without_trailing_zeros}}</span>
+                        </span>
+                        {%- unless product == blank -%}
+                          <span data-product-price class="product__price--regular{% if selectedVariant.compare_at_price > selectedVariant.price %} product__price--sale{% endif %}">
+                            {%- liquid
+                              if selectedVariant.price == 0
+                                echo 'products.product.free' | t
+                              elsif currency_code_enable
+                                echo selectedVariant.price | money_without_trailing_zeros
+                              else
+                                echo selectedVariant.price | money_without_trailing_zeros
+                              endif
+                            -%}
+                          </span>
+                        {%- else -%}
+                          <span id="ProductPrice">
+                            {%- liquid
+                              if currency_code_enable
+                                echo 1999 | money_without_trailing_zeros
+                              else
+                                echo 1999 | money_without_trailing_zeros
+                              endif
+                            -%}
+                          </span>
+                        {%- endunless -%}
+                  
+                        <s data-compare-price class="product__price--compare">
+                          {%- liquid
+                            if selectedVariant.compare_at_price
+                              if currency_code_enable
+                                echo selectedVariant.compare_at_price | money_without_trailing_zeros
+                              else
+                                echo selectedVariant.compare_at_price | money_without_trailing_zeros
+                              endif
+                            endif
+                          -%}
+                        </s>
+                      
+                      
+                      </div>
+                      {%endif%}
+
+                    </radio-button>
+
+                    {% if value =='WEEKLY' %}
+                      </div>
+                    {%endif%}
                   {%- endif -%}
                 {%- endfor -%}
               </fieldset>

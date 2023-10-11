@@ -66,7 +66,6 @@ class KlaviyoFormComponent extends HTMLElement {
       
       
       const updateButtonOptions = ({detail}) => {
-        console.log(this.buttons)
         if(this.buttons){
           this.buttons.forEach(button => {
             if(button.getAttribute('data-variant-id')==detail.variant.id){
@@ -77,10 +76,69 @@ class KlaviyoFormComponent extends HTMLElement {
             }
           })
         }
+
+        //update also prices
+        const pricesList = document.querySelectorAll('.price-option-variant')
+        pricesList.forEach(button => {
+          if(button.getAttribute('data-variant-id')==detail.variant.id){
+            button.style.display = 'flex';
+          }
+          else{
+            button.style.display = 'none';
+          }
+        })
       }
 
       document.addEventListener('theme:variant:change', updateButtonOptions);
     }
   }
 
+
+
+  class RadioButton extends HTMLElement {
+    constructor() {
+      super();
+      
+      this.input = this.querySelector('.radio__input');
+      this.label = this.querySelector('.radio__label');
+      
+      this.input.addEventListener('change', this.handleInputChange.bind(this));
+      this.addEventListener('click', ()=> {
+        this.label.click();
+      });
+    }
+    
+    connectedCallback() {
+      // Initial setup
+      this.handleInputChange();
+    }
+    
+    handleInputChange() {
+      const name = this.getAttribute('data-name');
+      const value = this.getAttribute('data-value');
+
+      const radioButtons = document.querySelectorAll(`radio-button`);
+      radioButtons.forEach((button) => {
+        button.classList.remove('checked');
+      });
+      
+      this.setCheckedState(name, value);
+      if (this.input.checked) {
+        this.classList.add('checked');
+      } else {
+        this.classList.remove('checked');
+      }
+    }
+    
+    setCheckedState(name, value) {
+      const radioButtons = document.querySelectorAll(`[data-name="${name}"][data-value="${value}"]`);
+      radioButtons.forEach((button) => {
+        const input = button.querySelector('.radio__input');
+        input.checked = true;
+      });
+    }
+  }
+  
+  customElements.define('radio-button', RadioButton);
+  
   customElements.define('stripe-payment-buttons', StripePaymentButtonsComponent);
