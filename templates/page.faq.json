@@ -64,7 +64,7 @@
         "height": "three-quarters-height",
         "enable_mobile_height": false,
         "mobile_height": "four-fifty-height-mobile",
-        "image": "shopify:\/\/shop_images\/DSF7213_Large_92d38a75-1d9c-47ec-b36f-5f2820019d81.jpg",
+        "image": "shopify:\/\/shop_images\/FAQ_s_Banner_d0027a47-b2fa-44a8-baa7-1d0e59c8fb70.jpg",
         "overlay_opacity": 10,
         "enable_zoom_animation": true,
         "text_width": "normal",
@@ -255,7 +255,7 @@
           "type": "text",
           "settings": {
             "title": "How much will it cost me?",
-            "text": "<p>It’s $89 per week, with a 12-week minimum commitment.<\/p>"
+            "text": "<p>It’s $99 per week, with a 12-week minimum commitment. We also provide the option to pay upfront. <\/p>"
           }
         },
         "ddf9c641-2b74-4c91-ad33-1c3a2fcf69ec": {
@@ -270,7 +270,7 @@
           "type": "text",
           "settings": {
             "title": "What are my payment options?",
-            "text": "<p>We accept card payments, payable in full or via afterpay options (weekly, fortnightly, or monthly).<\/p>"
+            "text": "<p>We process payments through Stripe. We accept card payments, payable in full or via weekly payments. <\/p>"
           }
         },
         "10b504bd-5ba5-42ad-ba10-bcdfffea49da": {

@@ -109,7 +109,7 @@
             "bg_color": "#eae7d8",
             "text_color": "#000000",
             "button_text": "BOOK A FREE CONSULT",
-            "button_link": "",
+            "button_link": "https:\/\/calendly.com\/realbodz",
             "button_color": "btn--black",
             "button_style": "btn--solid",
             "button_size": "btn--large",
@@ -209,54 +209,54 @@
           "type": "text",
           "settings": {
             "icon_name": "truck",
-            "icon_image": "shopify:\/\/shop_images\/rb.black_300x_dfef7e38-4c40-4c88-977a-24190d1b388f.png",
+            "icon_image": "shopify:\/\/shop_images\/tailored_training_program_300x_7a544d3f-9845-449a-8af2-b6735c76ce49.png",
             "title": "Tailored Training Programs",
-            "text": "<p><\/p><p>We'll craft a training plan that fits your experience and lifestyle - whether you're a newbie or pro.<\/p>"
+            "text": "<p><\/p><p>We'll craft a training plan that fits your experience and lifestyle.<\/p>"
           }
         },
         "template--20723290833186__076311c0-f6e8-4b5a-99fd-95ff910ba4ee-text-2": {
           "type": "text",
           "settings": {
             "icon_name": "check",
-            "icon_image": "shopify:\/\/shop_images\/rb.black_300x_dfef7e38-4c40-4c88-977a-24190d1b388f.png",
+            "icon_image": "shopify:\/\/shop_images\/nutrition_plans_300x_2d7d075d-4acd-467d-9965-c9d968cdb3db.png",
             "title": "Personalised Nutrition Plans",
-            "text": "<p><\/p><p>We offer a full macro breakdown and tailored meal guide to ensure your body gets the right fuel for your transformation.<\/p>"
+            "text": "<p><\/p><p>Full macro breakdown and tailored meal guide so your body gets the right fuel.<\/p>"
           }
         },
         "template--20723290833186__076311c0-f6e8-4b5a-99fd-95ff910ba4ee-text-3": {
           "type": "text",
           "settings": {
             "icon_name": "eco-friendly",
-            "icon_image": "shopify:\/\/shop_images\/rb.black_300x_dfef7e38-4c40-4c88-977a-24190d1b388f.png",
+            "icon_image": "shopify:\/\/shop_images\/24-7_access_300x_1.png",
             "title": "24\/7 Access to Coaches",
-            "text": "<p><\/p><p>Stay connected with our coaches anytime, anywhere, ensuring you're never left in the dark.<\/p>"
+            "text": "<p><\/p><p>Stay connected with our coaches anytime, anywhere. <\/p>"
           }
         },
         "bd35a2ee-50d6-4fcd-a94e-25c75144a0eb": {
           "type": "text",
           "settings": {
             "icon_name": "clock",
-            "icon_image": "shopify:\/\/shop_images\/rb.black_300x_dfef7e38-4c40-4c88-977a-24190d1b388f.png",
+            "icon_image": "shopify:\/\/shop_images\/weekly_checkins_300x_87aea46e-8cfa-4ae1-89c9-9f5d990b5c39.png",
             "title": "Weekly Check-ins",
-            "text": "<p><\/p><p>Stay on track and receive personalized feedback during your weekly 1-on-1 session.<\/p>"
+            "text": "<p><\/p><p>Receive personalized feedback during your weekly 1-on-1 session.<\/p>"
           }
         },
         "fbc6732c-b504-4a12-a78c-a2e035e734cb": {
           "type": "text",
           "settings": {
             "icon_name": "clock",
-            "icon_image": "shopify:\/\/shop_images\/rb.black_300x_dfef7e38-4c40-4c88-977a-24190d1b388f.png",
+            "icon_image": "shopify:\/\/shop_images\/tutorials_videos_300x_f1b44bcd-4242-4033-a911-9f76832745b9.png",
             "title": "Tutorials & Videos",
-            "text": "<p><\/p><p>Stay informed and motivated with access to our coaching tutorials and videos through our user-friendly app.<\/p>"
+            "text": "<p><\/p><p>Access our coaching tutorials and videos through our user-friendly app.<\/p>"
           }
         },
         "272245f6-65bf-4fdb-824e-4819b1ae6f0e": {
           "type": "text",
           "settings": {
             "icon_name": "clock",
-            "icon_image": "shopify:\/\/shop_images\/rb.black_300x_dfef7e38-4c40-4c88-977a-24190d1b388f.png",
+            "icon_image": "shopify:\/\/shop_images\/gaurateed_results_300x_05ad5ab2-45a8-447e-84c0-73d3f23bac62.png",
             "title": "Guaranteed Results",
-            "text": "<p><\/p><p>Yes you read that right. As long as you stick to the program and put in the work - you'll see results (or get your money back).<\/p>"
+            "text": "<p><\/p><p>As long as you stick to the program and put in the work - you'll see results (or get your money back).<\/p>"
           }
         }
       },
@@ -405,8 +405,8 @@
           "type": "text_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/180875592_534918247673165_4163959678088427026_n_1.jpg",
-            "title": "He pushed me week in week out and made sure I got the result I was after.",
-            "text": "<p>Loved training with Nath. If you’re after a committed coach, results and a good laugh I couldn’t recommend Real bodz enough.<\/p>",
+            "title": "",
+            "text": "<p><em>\"He pushed me week in week out and made sure I got the result I was after. Loved training with Nath. If you’re after a committed coach, results and a good laugh I couldn’t recommend Real bodz enough.\"<\/em><\/p>",
             "button_text": "",
             "button_link": "",
             "button_color": "btn--black",
@@ -420,8 +420,8 @@
           "type": "text_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/John_googs.jpg",
-            "title": "If you want results hit up Nath! He got me in the best shape of my life.",
-            "text": "<p>If you’re looking to work with great coaches that will go above and beyond then Real Bodz is it.<\/p>",
+            "title": "",
+            "text": "<p><em>\"If you want results hit up Nath! He got me in the best shape of my life. If you’re looking to work with great coaches that will go above and beyond then Real Bodz is it.\"<\/em><\/p>",
             "button_text": "",
             "button_link": "",
             "button_color": "btn--black",
@@ -435,8 +435,8 @@
           "type": "text_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/66478491_573808263157038_535551456375374415_n.jpg",
-            "title": "Couldn’t recommend these boys any higher!",
-            "text": "<p>They helped me get my motivation back and held me accountable every single day till my goal was achieved. <\/p>",
+            "title": "",
+            "text": "<p><em>\"Couldn’t recommend these boys any higher! They helped me get my motivation back and held me accountable every single day till my goal was achieved.\"<\/em><\/p>",
             "button_text": "",
             "button_link": "",
             "button_color": "btn--black",
@@ -466,8 +466,8 @@
           "type": "text_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/40011263_385240808678572_7786391634492522496_n_copy.jpg",
-            "title": "Enter Review",
-            "text": "<p>Enter name or accomplishment (KGs lost)<\/p>",
+            "title": "",
+            "text": "<p>\"These boys know their shit and I lost 14kg in 4 months! I never thought that was even possible so I’m glad I reached out and couldn’t speak any higher of the team at RealBodz.\"<\/p>",
             "button_text": "",
             "button_link": "",
             "button_color": "btn--black",
@@ -481,8 +481,8 @@
           "type": "text_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-05-11_at_2.03.38_PM_5_1.jpg",
-            "title": "Enter Review",
-            "text": "<p>Enter name or accomplishment (KGs lost)<\/p>",
+            "title": "",
+            "text": "<p>\"Lost 24 kilo’s in 8 months and I honestly still can’t believe it. Looking forward to the build program now! Wish I had of started sooner!\"<\/p>",
             "button_text": "",
             "button_link": "",
             "button_color": "btn--black",
@@ -496,8 +496,8 @@
           "type": "text_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-05-11_at_2.03.38_PM_6.jpg",
-            "title": "Enter Review",
-            "text": "<p>Enter name or accomplishment (KGs lost)<\/p>",
+            "title": "",
+            "text": "<p>\"I started Real bodz at 165kg at 55 years of age. I am now 95kg and have LOST a total of 70kg! Nathan pushed me in the right direction, kept me accountable and helped me to overcome many obstacles along the way. Real bodz changed my life.\"<\/p>",
             "button_text": "",
             "button_link": "",
             "button_color": "btn--black",

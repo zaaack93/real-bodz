@@ -6,7 +6,7 @@
         "slideshow-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSF7157_Large_7cfa8422-f54e-4d97-a926-309f240bd30c.jpg",
+            "image": "shopify:\/\/shop_images\/About_Us_Banner.jpg",
             "overlay_opacity": 0,
             "text_width": "normal",
             "text_position": "center",
@@ -35,7 +35,7 @@
       "settings": {
         "slide_height": "two-thirds-height",
         "enable_mobile_height": true,
-        "mobile_slide_height": "five-fifty-height-mobile",
+        "mobile_slide_height": "four-fifty-height-mobile",
         "show_nav_dots": true,
         "show_nav_arrows": true,
         "show_arrow_down": false,
@@ -108,7 +108,7 @@
         "layout": "inline",
         "image_location": "left",
         "image_width": "standard",
-        "image": "shopify:\/\/shop_images\/N_N.jpg",
+        "image": "shopify:\/\/shop_images\/DSF8629_1_Large_4ab35394-849c-4ad6-98bc-589e37386ecd.jpg",
         "subheading": "",
         "title": "<p>The <em>Real<\/em> Deal<\/p>",
         "heading_highlight_type": "circle",
@@ -191,10 +191,10 @@
         "template--20060286222626__d0003704-f6f0-4e68-9d48-cd7a42d19d86-text_block-1": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSF7347_Large_be51704c-19bc-4cef-bac5-0727d465cfa3.jpg",
+            "image": "shopify:\/\/shop_images\/2._Headshot.jpg",
             "title": "Nathan Kennedy",
-            "text": "<p>Use this text to describe products, share details on availability and style, etc<\/p>",
-            "button_text": "@njk_training",
+            "text": "",
+            "button_text": "",
             "button_link": "https:\/\/www.instagram.com\/p\/CuNjpiZhyFY\/?img_index=1",
             "button_color": "btn--black",
             "button_style": "btn--text",
@@ -206,10 +206,10 @@
         "template--20060286222626__d0003704-f6f0-4e68-9d48-cd7a42d19d86-text_block-2": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSF7374_Large_ab908eb7-5e47-442d-af16-359ef7ca4488.jpg",
+            "image": "shopify:\/\/shop_images\/1.Headshot.jpg",
             "title": "Nathan Davey",
-            "text": "<p>Use this text to describe products, share details on availability and style, etc<\/p>",
-            "button_text": "@nathandavey_",
+            "text": "",
+            "button_text": "",
             "button_link": "https:\/\/www.instagram.com\/nathandavey_\/?hl=en",
             "button_color": "btn--black",
             "button_style": "btn--text",
@@ -260,7 +260,7 @@
         "align_text": "text-left",
         "columns": 2,
         "equalize_height": true,
-        "image_aspect_ratio": 1.1,
+        "image_aspect_ratio": 0.9,
         "show_images": true,
         "heading_size": 120,
         "text_size": 100,
@@ -356,7 +356,7 @@
           "settings": {
             "product": "12-week-shred",
             "title": "",
-            "product_description": "",
+            "product_description": "<p>A no-nonsense blueprint for anyone keen to shed the extra kgs, build lean muscle, and overhaul their lifestyle. <\/p><p>The program incorporates:<\/p><ul><li>A 4 day training split,<\/li><li>Full macro breakdown with meal guides,<\/li><li>Daily accountability from your coaches to ensure you are on track to building a bigger, stronger physique.<\/li><\/ul>",
             "button_text": "View Shred Program",
             "show_second_image": true,
             "show_circle": false,
@@ -394,8 +394,10 @@
       ],
       "settings": {
         "title": "",
+        "custom_price": "",
+        "custom_label": "PAY UPFRONT OR WEEKLY",
         "heading_size": 100,
-        "button_color": "btn--black",
+        "button_color": "btn--primary",
         "button_style": "btn--solid",
         "button_size": "btn--small",
         "image_aspect_ratio": 1,

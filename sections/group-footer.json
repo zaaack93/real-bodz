@@ -8,8 +8,8 @@
         "footer-block-0": {
           "type": "link",
           "settings": {
-            "menu": "main-menu",
-            "title": "Shop"
+            "menu": "footer",
+            "title": "Support"
           }
         },
         "footer-block-2": {
@@ -33,18 +33,18 @@
         "footer-block-3"
       ],
       "settings": {
-        "width": "wrapper",
+        "width": "wrapper--full-padded",
         "show_footer_wave": false,
         "show_social_links": true,
-        "enable_follow_on_shop": true,
-        "show_payment_icons": true,
+        "enable_follow_on_shop": false,
+        "show_payment_icons": false,
         "bottom_menu": "",
         "color_text": "#ffffff",
         "color_bg": "#000000",
         "color_border": "#ffffff",
-        "show_locale_selector": true,
-        "show_currency_selector": true,
-        "currency_type": "currency"
+        "show_locale_selector": false,
+        "show_currency_selector": false,
+        "currency_type": "country"
       }
     }
   },

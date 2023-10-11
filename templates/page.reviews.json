@@ -61,7 +61,7 @@
       "settings": {
         "slide_height": "two-thirds-height",
         "enable_mobile_height": false,
-        "mobile_slide_height": "five-fifty-height-mobile",
+        "mobile_slide_height": "four-fifty-height-mobile",
         "show_nav_dots": true,
         "show_nav_arrows": true,
         "show_arrow_down": false,
@@ -89,8 +89,8 @@
           "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "only_photos": true,
-            "hide_thumbnails": false,
-            "product_handle": "",
+            "hide_thumbnails": true,
+            "product_handle": "12-week-shred",
             "aggregated": true,
             "data-limit": 20,
             "maxwidth": 1080

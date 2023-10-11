@@ -6,7 +6,8 @@
         "template--18952593899841__f65731be-fed8-4ca8-825e-2c8bce9ebe5b-168312590450cae23f-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSF7318_Large_03c4c330-cd1b-4b6c-8896-c9ec7cd57f7d.jpg",
+            "image": "shopify:\/\/shop_images\/About_Us_Image_1.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Tailored_Training_Programs.jpg",
             "overlay_opacity": 0,
             "text_width": "wide",
             "text_position": "center",
@@ -14,7 +15,7 @@
             "subheading": "Introducing Real Bodz",
             "title": "Real Results. No Bullshit.",
             "text": "Lose fat, build muscle and finally see results.",
-            "button_1_text": "Get Started",
+            "button_1_text": "Explore Programs",
             "button_1_link": "shopify:\/\/collections\/all",
             "button_1_color": "btn--primary",
             "button_1_style": "btn--solid",
@@ -70,35 +71,6 @@
         "transition": "fade",
         "enable_zoom_animation": true,
         "heading_size": 150
-      }
-    },
-    "2158316a-7e05-40d1-a29e-a377713e45db": {
-      "type": "section-image-with-text",
-      "disabled": true,
-      "settings": {
-        "section_height": "seven-fifty-height",
-        "layout": "inline",
-        "image_location": "left",
-        "image_width": "standard",
-        "image": "shopify:\/\/shop_images\/DSF7213_Large_92d38a75-1d9c-47ec-b36f-5f2820019d81.jpg",
-        "subheading": "Our Proven Approach",
-        "title": "<p><em>3 Simple Steps<\/em> to <\/p><p>Build Your Dream Body<\/p>",
-        "heading_highlight_type": "circle",
-        "highlight_color": "#f59815",
-        "heading_size": 130,
-        "text_content": "1. Track your calories using an intuitive app. \n2. Fuel your body with a structured food plan. \n3. Stick to a personalised training program.",
-        "text_alignment": "left",
-        "button_text": "Explore Programs",
-        "button_link": "",
-        "button_color": "btn--white",
-        "button_style": "btn--solid-border",
-        "button_size": "btn--medium",
-        "video_link": "",
-        "text_color": "text-dark",
-        "bg_color": "#f7f7f7",
-        "section_width": "wrapper--full-padded",
-        "padding_top": 50,
-        "padding_bottom": 50
       }
     },
     "953cbb4d-618a-4795-af42-7028b21a53d2": {
@@ -349,7 +321,7 @@
         "template--20723290571042__1df87963-5346-473f-acc6-f65118f3973a-text_block-1": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/blue_300x_2c66418f-699f-4589-9625-bddc766a4a81.png",
+            "image": "shopify:\/\/shop_images\/tailored_training_program_300x_Large_4a7c7f65-f804-4dfc-9881-108edf7ff358.png",
             "title": "Tailored Training Programs",
             "text": "<p>Everyone's unique, and so is our approach to fitness. We'll craft a a training plan that fits your experience and lifestyle - whether you're a newbie or pro.<\/p>",
             "button_text": "",
@@ -364,7 +336,7 @@
         "template--20723290571042__1df87963-5346-473f-acc6-f65118f3973a-text_block-2": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/blue_300x_2c66418f-699f-4589-9625-bddc766a4a81.png",
+            "image": "shopify:\/\/shop_images\/nutrition_plans_300x_Large_0fce5a02-2bca-4662-b62f-b356c90ba032.png",
             "title": "Personalised Nutrition Plans",
             "text": "<p>Forget generic diets. We offer a full macro breakdown and tailored meal guide to ensure your body gets the right fuel for your transformation.<\/p>",
             "button_text": "",
@@ -379,25 +351,10 @@
         "template--20723290571042__1df87963-5346-473f-acc6-f65118f3973a-text_block-3": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/blue_300x_2c66418f-699f-4589-9625-bddc766a4a81.png",
+            "image": "shopify:\/\/shop_images\/24-7_access_300x_Large_52f9162f-64db-4140-b615-e22916686efa.png",
             "title": "Round-the-Clock Support",
             "text": "<p>Your transformation, our commitment. Stay connected with our coaches anytime, anywhere, ensuring you're never left in the dark.<\/p>",
             "button_text": "",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "template--20723290571042__1df87963-5346-473f-acc6-f65118f3973a-text_block-4": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "title": "Add a title or tagline",
-            "text": "<p>Use this text to describe products, share details on availability and style, etc<\/p>",
-            "button_text": "Learn More",
             "button_link": "",
             "button_color": "btn--black",
             "button_style": "btn--text",
@@ -410,18 +367,87 @@
       "block_order": [
         "template--20723290571042__1df87963-5346-473f-acc6-f65118f3973a-text_block-1",
         "template--20723290571042__1df87963-5346-473f-acc6-f65118f3973a-text_block-2",
-        "template--20723290571042__1df87963-5346-473f-acc6-f65118f3973a-text_block-3",
-        "template--20723290571042__1df87963-5346-473f-acc6-f65118f3973a-text_block-4"
+        "template--20723290571042__1df87963-5346-473f-acc6-f65118f3973a-text_block-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "align_text": "text-center",
+        "columns": 3,
+        "equalize_height": true,
+        "image_aspect_ratio": 0.7,
+        "show_images": true,
+        "heading_size": 150,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "ff9f6746-2916-489f-a19a-7e615fa31fe6": {
+      "type": "section-columns",
+      "blocks": {
+        "2fcd2186-613f-4ae2-bd5f-da3fe1e0e31e": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/RRxREALBODZ-4x5-003.jpg",
+            "title": "Tailored Training Programs",
+            "text": "<p>Everyone's unique, and so is our approach to fitness. We'll craft a a training plan that fits your experience and lifestyle - whether you're a newbie or pro.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "9875a4bd-0fb5-427f-bee7-bde6ef1d77d5": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Personalised_Nutrition_Plans.jpg",
+            "title": "Personalised Nutrition Plans",
+            "text": "<p>Forget generic diets. We offer a full macro breakdown and tailored meal guide to ensure your body gets the right fuel for your transformation.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--medium",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "3c005002-d12a-4ac8-9bf7-0984c0f375c2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Round_the_Clock_Support.jpg",
+            "title": "Round-the-Clock Support",
+            "text": "<p>Your transformation, our commitment. Stay connected with our coaches anytime, anywhere, ensuring you're never left in the dark.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "2fcd2186-613f-4ae2-bd5f-da3fe1e0e31e",
+        "9875a4bd-0fb5-427f-bee7-bde6ef1d77d5",
+        "3c005002-d12a-4ac8-9bf7-0984c0f375c2"
       ],
       "settings": {
         "title": "",
         "align_text": "text-center",
         "columns": 3,
         "equalize_height": true,
-        "image_aspect_ratio": 0.5,
+        "image_aspect_ratio": 1,
         "show_images": true,
-        "heading_size": 140,
-        "text_size": 110,
+        "heading_size": 150,
+        "text_size": 100,
         "bg_color_secondary": false,
         "width": "wrapper--full-padded",
         "padding_top": 60,
@@ -732,12 +758,12 @@
           "settings": {
             "text_position": "middle-center",
             "video_link_bg": "",
-            "video_link": "",
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-07-28_at_2.43.34_pm.png",
-            "overlay_opacity": 10,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=NhDLFZ_owiI",
+            "image": "shopify:\/\/shop_images\/DSF8547.jpg",
+            "overlay_opacity": 0,
             "text_color": "text-light",
-            "title": "PLACEHOLDER",
-            "text": "NEW VIDEO TO COME",
+            "title": "Hard Work = Real Results",
+            "text": "",
             "heading_size": 100,
             "button_text": "",
             "button_link": "",
@@ -1051,7 +1077,7 @@
             "product": "12-week-shred",
             "title": "",
             "product_description": "<p>Our Shred Program is a no-nonsense blueprint for anyone keen to shed the extra kgs, build lean muscle, and overhaul their lifestyle. <\/p><ul><li>Tailored Training Program<\/li><li>Full Macro Breakdown and Nutrition Plan<\/li><li>24\/7 Messaging Support<\/li><li>Weekly Accountability Calls with Coach<\/li><li>Recipe Guide and Training Tutorials<\/li><\/ul>",
-            "button_text": "Learn More About Shred Program",
+            "button_text": "Learn More About Shred",
             "show_second_image": true,
             "show_circle": false,
             "hide_on_mobile": false,
@@ -1117,7 +1143,7 @@
         "bg_color_secondary": false,
         "width": "wrapper",
         "padding_top": 20,
-        "padding_bottom": 10
+        "padding_bottom": 20
       }
     },
     "f64d0369-6d41-4414-8e91-6bbc898ace1b": {
@@ -1147,7 +1173,7 @@
             "product": "12-week-build",
             "title": "",
             "product_description": "<p>Our Shred Program is a no-nonsense blueprint for anyone keen to shed the extra kgs, build lean muscle, and overhaul their lifestyle. <\/p><ul><li>Tailored Training Program<\/li><li>Full Macro Breakdown and Nutrition Plan<\/li><li>24\/7 Messaging Support<\/li><li>Weekly Accountability Calls with Coach<\/li><li>Recipe Guide and Training Tutorials<\/li><\/ul>",
-            "button_text": "Learn More About Build Program",
+            "button_text": "Learn More About Build",
             "show_second_image": true,
             "show_circle": false,
             "hide_on_mobile": false,
@@ -1194,7 +1220,7 @@
         "image_aspect_ratio": 1,
         "bg_color_secondary": false,
         "width": "wrapper",
-        "padding_top": 40,
+        "padding_top": 50,
         "padding_bottom": 60
       }
     },
@@ -1470,7 +1496,7 @@
         "title": "Frequently Asked Questions",
         "subheading": "",
         "text": "",
-        "tabs_bg_color": "#eae7d8",
+        "tabs_bg_color": "#dadada",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper",
@@ -1635,11 +1661,11 @@
   },
   "order": [
     "f65731be-fed8-4ca8-825e-2c8bce9ebe5b",
-    "2158316a-7e05-40d1-a29e-a377713e45db",
     "953cbb4d-618a-4795-af42-7028b21a53d2",
     "e3ca25d1-ffe7-4cc0-b1e7-80a8f74c5e9b",
     "1241266c-854d-42e4-9820-8d0396091013",
     "1df87963-5346-473f-acc6-f65118f3973a",
+    "ff9f6746-2916-489f-a19a-7e615fa31fe6",
     "db177f2b-1728-44f0-b168-a70b00ff722f",
     "2947f6da-339c-4f5c-a864-66c946705be9",
     "a87dbb35-c888-4cfb-bb5c-4cc9a30c92ba",
