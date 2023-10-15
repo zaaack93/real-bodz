@@ -8,3 +8,7 @@
 .password-page__wrapper{
     background: none;
 }
+
+.column__item .column__item__inner .column__item__image-wrapper {
+    margin-bottom: calc(var(--gutter) / 4);
+}

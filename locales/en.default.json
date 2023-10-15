@@ -65,6 +65,7 @@
       "sign_up": "Sign up",
       "notify": "Notify Me",
       "notification_success": "Your email has been received.",
+      "newsletter_success_html": "Thank you for signing up!<\/br>Please use <b>REALBODZ10<\/b> at checkout for 10% off!",
       "newsletter_success": "Thank you for signing up!",
       "newsletter_error": "Email is invalid or already taken.",
       "newsletter_product_availability": "Notify Me When It’s Available"
