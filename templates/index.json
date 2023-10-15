@@ -393,7 +393,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/RRxREALBODZ-4x5-003.jpg",
             "title": "Tailored Training Programs",
-            "text": "<p>Everyone's unique, and so is our approach to fitness. We'll craft a a training plan that fits your experience and lifestyle - whether you're a newbie or pro.<\/p>",
+            "text": "<p>Everyone's unique, and so is our approach to fitness. We'll craft a training plan that fits your experience and lifestyle - whether you're a newbie or pro.<\/p>",
             "button_text": "",
             "button_link": "",
             "button_color": "btn--black",
@@ -408,7 +408,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Personalised_Nutrition_Plans.jpg",
             "title": "Personalised Nutrition Plans",
-            "text": "<p>Forget generic diets. We offer a full macro breakdown and tailored meal guide to ensure your body gets the right fuel for your transformation.<\/p>",
+            "text": "<p>Leave behind generic diets. Instead, we provide a comprehensive macro breakdown and a personalized meal guide to ensure that your body receives the precise fuel it needs for your transformation.<\/p>",
             "button_text": "",
             "button_link": "",
             "button_color": "btn--black",
@@ -1076,7 +1076,7 @@
           "settings": {
             "product": "12-week-shred",
             "title": "",
-            "product_description": "<p>Our Shred Program is a no-nonsense blueprint for anyone keen to shed the extra kgs, build lean muscle, and overhaul their lifestyle. <\/p><ul><li>Tailored Training Program<\/li><li>Full Macro Breakdown and Nutrition Plan<\/li><li>24\/7 Messaging Support<\/li><li>Weekly Accountability Calls with Coach<\/li><li>Recipe Guide and Training Tutorials<\/li><\/ul>",
+            "product_description": "<p>Ready to shed unwanted body fat and build lean muscle? The Shred program is tailor-made for those determined to transform their physique and embrace a healthier lifestyle. <\/p><ul><li>Tailored Training Program<\/li><li>Full Macro Breakdown and Nutrition Plan<\/li><li>24\/7 Messaging Support<\/li><li>Weekly Accountability Calls with Coach<\/li><li>Recipe Guide and Training Tutorials<\/li><\/ul>",
             "button_text": "Learn More About Shred",
             "show_second_image": true,
             "show_circle": false,
@@ -1172,7 +1172,7 @@
           "settings": {
             "product": "12-week-build",
             "title": "",
-            "product_description": "<p>Our Shred Program is a no-nonsense blueprint for anyone keen to shed the extra kgs, build lean muscle, and overhaul their lifestyle. <\/p><ul><li>Tailored Training Program<\/li><li>Full Macro Breakdown and Nutrition Plan<\/li><li>24\/7 Messaging Support<\/li><li>Weekly Accountability Calls with Coach<\/li><li>Recipe Guide and Training Tutorials<\/li><\/ul>",
+            "product_description": "<p>The Build program is for any men trying to build size and increase muscle mass. If you’ve always struggled to put on size this is a great option for you. We have had 100’s of blokes get great results. <\/p><ul><li>Tailored Training Program<\/li><li>Full Macro Breakdown and Nutrition Plan<\/li><li>24\/7 Messaging Support<\/li><li>Weekly Accountability Calls with Coach<\/li><li>Recipe Guide and Training Tutorials<\/li><\/ul>",
             "button_text": "Learn More About Build",
             "show_second_image": true,
             "show_circle": false,
@@ -1450,7 +1450,7 @@
           "type": "text",
           "settings": {
             "title": "Who is the Real Bodz program for?",
-            "text": "<p>The Real Bodz program is designed for men grappling with weight issues, lifestyle habits, and mental health. It's for those eager to transform their bodies and their lives. If you are not actually ready to change, then don't bother with our programs. We want to work with people are ready to do the hard work to achieve their goals. <\/p>"
+            "text": "<p>The Real Bodz program is designed for any men looking to better themselves, whether it be in terms of their body composition, assistance with their nutrition, education regarding training, or the need for daily accountability.<\/p>"
           }
         },
         "template--20060286779682__b8677d3d-6a16-4e04-931f-f6c129fbf55c-text-3": {
@@ -1496,7 +1496,7 @@
         "title": "Frequently Asked Questions",
         "subheading": "",
         "text": "",
-        "tabs_bg_color": "#dadada",
+        "tabs_bg_color": "#eae7d8",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper",
@@ -1567,8 +1567,8 @@
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
-        "padding_top": 0,
-        "padding_bottom": 82
+        "padding_top": 10,
+        "padding_bottom": 100
       }
     },
     "623d0ca8-6141-4b16-b958-5a6115551399": {

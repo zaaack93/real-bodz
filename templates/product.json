@@ -21,6 +21,7 @@
           "type": "title",
           "settings": {
             "subheading": "none",
+            "use_custom_price": true,
             "show_rating": false,
             "show_rating_count": false,
             "padding_bottom": 20
@@ -191,7 +192,7 @@
       ],
       "settings": {
         "product_sticky_enable": false,
-        "image_layout": "carousel",
+        "image_layout": "stacked",
         "image_width": "standard",
         "product_image_aspect_ratio": true,
         "enable_zoom": false,
@@ -199,92 +200,7 @@
         "bg_color": "#f7f7f7",
         "width": "wrapper--full-padded",
         "padding_top": 30,
-        "padding_bottom": 60
-      }
-    },
-    "076311c0-f6e8-4b5a-99fd-95ff910ba4ee": {
-      "type": "section-icons-row",
-      "blocks": {
-        "template--20723290833186__076311c0-f6e8-4b5a-99fd-95ff910ba4ee-text-1": {
-          "type": "text",
-          "settings": {
-            "icon_name": "truck",
-            "icon_image": "shopify:\/\/shop_images\/tailored_training_program_300x_7a544d3f-9845-449a-8af2-b6735c76ce49.png",
-            "title": "Tailored Training Programs",
-            "text": "<p><\/p><p>We'll craft a training plan that fits your experience and lifestyle.<\/p>"
-          }
-        },
-        "template--20723290833186__076311c0-f6e8-4b5a-99fd-95ff910ba4ee-text-2": {
-          "type": "text",
-          "settings": {
-            "icon_name": "check",
-            "icon_image": "shopify:\/\/shop_images\/nutrition_plans_300x_2d7d075d-4acd-467d-9965-c9d968cdb3db.png",
-            "title": "Personalised Nutrition Plans",
-            "text": "<p><\/p><p>Full macro breakdown and tailored meal guide so your body gets the right fuel.<\/p>"
-          }
-        },
-        "template--20723290833186__076311c0-f6e8-4b5a-99fd-95ff910ba4ee-text-3": {
-          "type": "text",
-          "settings": {
-            "icon_name": "eco-friendly",
-            "icon_image": "shopify:\/\/shop_images\/24-7_access_300x_1.png",
-            "title": "24\/7 Access to Coaches",
-            "text": "<p><\/p><p>Stay connected with our coaches anytime, anywhere. <\/p>"
-          }
-        },
-        "bd35a2ee-50d6-4fcd-a94e-25c75144a0eb": {
-          "type": "text",
-          "settings": {
-            "icon_name": "clock",
-            "icon_image": "shopify:\/\/shop_images\/weekly_checkins_300x_87aea46e-8cfa-4ae1-89c9-9f5d990b5c39.png",
-            "title": "Weekly Check-ins",
-            "text": "<p><\/p><p>Receive personalized feedback during your weekly 1-on-1 session.<\/p>"
-          }
-        },
-        "fbc6732c-b504-4a12-a78c-a2e035e734cb": {
-          "type": "text",
-          "settings": {
-            "icon_name": "clock",
-            "icon_image": "shopify:\/\/shop_images\/tutorials_videos_300x_f1b44bcd-4242-4033-a911-9f76832745b9.png",
-            "title": "Tutorials & Videos",
-            "text": "<p><\/p><p>Access our coaching tutorials and videos through our user-friendly app.<\/p>"
-          }
-        },
-        "272245f6-65bf-4fdb-824e-4819b1ae6f0e": {
-          "type": "text",
-          "settings": {
-            "icon_name": "clock",
-            "icon_image": "shopify:\/\/shop_images\/gaurateed_results_300x_05ad5ab2-45a8-447e-84c0-73d3f23bac62.png",
-            "title": "Guaranteed Results",
-            "text": "<p><\/p><p>As long as you stick to the program and put in the work - you'll see results (or get your money back).<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--20723290833186__076311c0-f6e8-4b5a-99fd-95ff910ba4ee-text-1",
-        "template--20723290833186__076311c0-f6e8-4b5a-99fd-95ff910ba4ee-text-2",
-        "template--20723290833186__076311c0-f6e8-4b5a-99fd-95ff910ba4ee-text-3",
-        "bd35a2ee-50d6-4fcd-a94e-25c75144a0eb",
-        "fbc6732c-b504-4a12-a78c-a2e035e734cb",
-        "272245f6-65bf-4fdb-824e-4819b1ae6f0e"
-      ],
-      "settings": {
-        "alignment": "center",
-        "columns": 3,
-        "icons_width": 100,
-        "heading": "",
-        "subheading": "",
-        "bg_color": "#f7f7f7",
-        "text_color": "#000000",
-        "box_color": "#eae7d8",
-        "button_text": "",
-        "button_link": "",
-        "button_color": "btn--black",
-        "button_style": "btn--solid",
-        "button_size": "btn--medium",
-        "enable_slider_mobile": false,
-        "padding_top": 20,
-        "padding_bottom": 60
+        "padding_bottom": 40
       }
     },
     "38c7dafd-7327-4052-a407-6f7b1d2c6a9a": {
@@ -343,10 +259,10 @@
         "padding_bottom": 60
       }
     },
-    "03880909-a188-4d2e-a7da-ae1cab86735e": {
+    "e1c2ba19-58ad-40f3-8a16-fee4d1651ef8": {
       "type": "section-text",
       "blocks": {
-        "template--20060286615842__03880909-a188-4d2e-a7da-ae1cab86735e-subheading-1": {
+        "ce026039-21f8-42f8-bf88-055ac66b73a7": {
           "type": "subheading",
           "settings": {
             "text": "<p>Real Results<\/p>",
@@ -354,7 +270,7 @@
             "margin_bottom": 16
           }
         },
-        "template--20060286615842__03880909-a188-4d2e-a7da-ae1cab86735e-heading-1": {
+        "e6ef13a0-680e-4ad1-8400-89a2fae36d00": {
           "type": "heading",
           "settings": {
             "text": "<p>Trusted by 100's of Men<\/p>",
@@ -363,7 +279,7 @@
             "highlight_color": "#f59815"
           }
         },
-        "template--20060286615842__03880909-a188-4d2e-a7da-ae1cab86735e-text-1": {
+        "948e2f5e-0898-4cde-94bf-2362443335c8": {
           "type": "text",
           "disabled": true,
           "settings": {
@@ -371,7 +287,7 @@
             "size": 100
           }
         },
-        "template--20060286615842__03880909-a188-4d2e-a7da-ae1cab86735e-button-1": {
+        "aa8b6a07-e828-4ea2-882c-b9ad19b74759": {
           "type": "button",
           "disabled": true,
           "settings": {
@@ -384,10 +300,10 @@
         }
       },
       "block_order": [
-        "template--20060286615842__03880909-a188-4d2e-a7da-ae1cab86735e-subheading-1",
-        "template--20060286615842__03880909-a188-4d2e-a7da-ae1cab86735e-heading-1",
-        "template--20060286615842__03880909-a188-4d2e-a7da-ae1cab86735e-text-1",
-        "template--20060286615842__03880909-a188-4d2e-a7da-ae1cab86735e-button-1"
+        "ce026039-21f8-42f8-bf88-055ac66b73a7",
+        "e6ef13a0-680e-4ad1-8400-89a2fae36d00",
+        "948e2f5e-0898-4cde-94bf-2362443335c8",
+        "aa8b6a07-e828-4ea2-882c-b9ad19b74759"
       ],
       "settings": {
         "text_position": "center",
@@ -529,7 +445,7 @@
         "bg_color_secondary": false,
         "width": "wrapper",
         "padding_top": 40,
-        "padding_bottom": 40
+        "padding_bottom": 20
       }
     },
     "344eb0a8-a550-453a-acf2-92955b30bd64": {
@@ -586,6 +502,91 @@
         "width": "wrapper--narrow",
         "padding_top": 0,
         "padding_bottom": 40
+      }
+    },
+    "076311c0-f6e8-4b5a-99fd-95ff910ba4ee": {
+      "type": "section-icons-row",
+      "blocks": {
+        "template--20723290833186__076311c0-f6e8-4b5a-99fd-95ff910ba4ee-text-1": {
+          "type": "text",
+          "settings": {
+            "icon_name": "truck",
+            "icon_image": "shopify:\/\/shop_images\/tailored_training_program_300x_7a544d3f-9845-449a-8af2-b6735c76ce49.png",
+            "title": "Tailored Training Programs",
+            "text": "<p><\/p><p>We'll craft a training plan that fits your experience and lifestyle.<\/p>"
+          }
+        },
+        "template--20723290833186__076311c0-f6e8-4b5a-99fd-95ff910ba4ee-text-2": {
+          "type": "text",
+          "settings": {
+            "icon_name": "check",
+            "icon_image": "shopify:\/\/shop_images\/nutrition_plans_300x_2d7d075d-4acd-467d-9965-c9d968cdb3db.png",
+            "title": "Personalised Nutrition Plans",
+            "text": "<p><\/p><p>Full macro breakdown and tailored meal guide so your body gets the right fuel.<\/p>"
+          }
+        },
+        "template--20723290833186__076311c0-f6e8-4b5a-99fd-95ff910ba4ee-text-3": {
+          "type": "text",
+          "settings": {
+            "icon_name": "eco-friendly",
+            "icon_image": "shopify:\/\/shop_images\/24-7_access_300x_1.png",
+            "title": "24\/7 Access to Coaches",
+            "text": "<p><\/p><p>Stay connected with our coaches anytime, anywhere. <\/p>"
+          }
+        },
+        "bd35a2ee-50d6-4fcd-a94e-25c75144a0eb": {
+          "type": "text",
+          "settings": {
+            "icon_name": "clock",
+            "icon_image": "shopify:\/\/shop_images\/weekly_checkins_300x_87aea46e-8cfa-4ae1-89c9-9f5d990b5c39.png",
+            "title": "Weekly Check-ins",
+            "text": "<p><\/p><p>Receive personalized feedback during your weekly 1-on-1 session.<\/p>"
+          }
+        },
+        "fbc6732c-b504-4a12-a78c-a2e035e734cb": {
+          "type": "text",
+          "settings": {
+            "icon_name": "clock",
+            "icon_image": "shopify:\/\/shop_images\/tutorials_videos_300x_f1b44bcd-4242-4033-a911-9f76832745b9.png",
+            "title": "Tutorials & Videos",
+            "text": "<p><\/p><p>Access our coaching tutorials and videos through our user-friendly app.<\/p>"
+          }
+        },
+        "272245f6-65bf-4fdb-824e-4819b1ae6f0e": {
+          "type": "text",
+          "settings": {
+            "icon_name": "clock",
+            "icon_image": "shopify:\/\/shop_images\/gaurateed_results_300x_05ad5ab2-45a8-447e-84c0-73d3f23bac62.png",
+            "title": "Guaranteed Results",
+            "text": "<p><\/p><p>As long as you stick to the program and put in the work - you'll see results (or get your money back).<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20723290833186__076311c0-f6e8-4b5a-99fd-95ff910ba4ee-text-1",
+        "template--20723290833186__076311c0-f6e8-4b5a-99fd-95ff910ba4ee-text-2",
+        "template--20723290833186__076311c0-f6e8-4b5a-99fd-95ff910ba4ee-text-3",
+        "bd35a2ee-50d6-4fcd-a94e-25c75144a0eb",
+        "fbc6732c-b504-4a12-a78c-a2e035e734cb",
+        "272245f6-65bf-4fdb-824e-4819b1ae6f0e"
+      ],
+      "settings": {
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 100,
+        "heading": "",
+        "subheading": "",
+        "bg_color": "#f7f7f7",
+        "text_color": "#000000",
+        "box_color": "#eae7d8",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--medium",
+        "enable_slider_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "9766ecab-9e7a-47b0-92a8-e08a8381e97a": {
@@ -765,6 +766,61 @@
         "padding_bottom": 60
       }
     },
+    "03880909-a188-4d2e-a7da-ae1cab86735e": {
+      "type": "section-text",
+      "blocks": {
+        "template--20060286615842__03880909-a188-4d2e-a7da-ae1cab86735e-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Real Talk<\/p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "template--20060286615842__03880909-a188-4d2e-a7da-ae1cab86735e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Real Bodz VS The Other Guys<\/p>",
+            "size": 100,
+            "heading_highlight_type": "circle",
+            "highlight_color": "#f59815"
+          }
+        },
+        "template--20060286615842__03880909-a188-4d2e-a7da-ae1cab86735e-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "template--20060286615842__03880909-a188-4d2e-a7da-ae1cab86735e-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "template--20060286615842__03880909-a188-4d2e-a7da-ae1cab86735e-subheading-1",
+        "template--20060286615842__03880909-a188-4d2e-a7da-ae1cab86735e-heading-1",
+        "template--20060286615842__03880909-a188-4d2e-a7da-ae1cab86735e-text-1",
+        "template--20060286615842__03880909-a188-4d2e-a7da-ae1cab86735e-button-1"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "2cc0f5c3-0843-438a-8da7-a6d61a6c9522": {
       "type": "section-compart-chart",
       "blocks": {
@@ -850,8 +906,8 @@
       ],
       "settings": {
         "alignment": "center",
-        "heading": "Real Bodz VS The Other Guys",
-        "subheading": "<p>REAL TALK<\/p>",
+        "heading": "",
+        "subheading": "",
         "our_company_title": "real bodz",
         "our_company_image": "shopify:\/\/shop_images\/rb.logo.white_Large_ca957de7-a40f-4929-a16a-b058b5f17527.png",
         "competition1_title": "Personal Trainer",
@@ -866,7 +922,7 @@
         "button_color": "btn--black",
         "button_style": "btn--solid",
         "button_size": "btn--small",
-        "padding_top": 60,
+        "padding_top": 40,
         "padding_bottom": 60
       }
     },
@@ -1146,14 +1202,15 @@
   },
   "order": [
     "main",
-    "076311c0-f6e8-4b5a-99fd-95ff910ba4ee",
     "38c7dafd-7327-4052-a407-6f7b1d2c6a9a",
-    "03880909-a188-4d2e-a7da-ae1cab86735e",
+    "e1c2ba19-58ad-40f3-8a16-fee4d1651ef8",
     "38ff978b-66eb-4318-9ce0-94db8ff86311",
     "344eb0a8-a550-453a-acf2-92955b30bd64",
+    "076311c0-f6e8-4b5a-99fd-95ff910ba4ee",
     "9766ecab-9e7a-47b0-92a8-e08a8381e97a",
     "bcb1eda9-bbb3-4f3b-8b11-df28ea216a80",
     "5e6a6140-8b6d-4fc5-94c9-3944b85641b9",
+    "03880909-a188-4d2e-a7da-ae1cab86735e",
     "2cc0f5c3-0843-438a-8da7-a6d61a6c9522",
     "tabs",
     "3b0f9331-42b1-4487-9498-cdd83925efea",
