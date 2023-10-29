@@ -750,41 +750,6 @@
         "padding_bottom": 60
       }
     },
-    "12ad4a78-ab38-49c1-a3b4-8452e82e6fc7": {
-      "type": "section-custom-content",
-      "blocks": {
-        "1a09560b-9f96-406c-a435-4edbdae980f9": {
-          "type": "video",
-          "settings": {
-            "text_position": "middle-center",
-            "video_link_bg": "",
-            "video_link": "https:\/\/www.youtube.com\/watch?v=NhDLFZ_owiI",
-            "image": "shopify:\/\/shop_images\/DSF8547.jpg",
-            "overlay_opacity": 0,
-            "text_color": "text-light",
-            "title": "Hard Work = Real Results",
-            "text": "",
-            "heading_size": 100,
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--primary",
-            "button_style": "btn--solid-border",
-            "button_size": "btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "1a09560b-9f96-406c-a435-4edbdae980f9"
-      ],
-      "settings": {
-        "height": "five-fifty-height",
-        "bg_color": "#f7f7f7",
-        "width": "wrapper",
-        "add_gutter": false,
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
     "cdbcd2a6-02dd-4fe9-8e90-fcee6873b4ac": {
       "type": "section-columns",
       "blocks": {
@@ -1001,6 +966,41 @@
         "padding_bottom": 40
       }
     },
+    "265a5b8e-26ad-4e0f-a874-426d5da117fb": {
+      "type": "section-custom-content",
+      "blocks": {
+        "f306c536-86a7-48f1-90b3-dda64d75d853": {
+          "type": "video",
+          "settings": {
+            "text_position": "middle-center",
+            "video_link_bg": "",
+            "video_link": "https:\/\/www.youtube.com\/watch?v=FJBpzTXRgNw",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-07-28_at_2.43.34_pm.png",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "Hear from your coaches",
+            "text": "Learn what makes us tick",
+            "heading_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--primary",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "f306c536-86a7-48f1-90b3-dda64d75d853"
+      ],
+      "settings": {
+        "height": "five-fifty-height",
+        "bg_color": "#f7f7f7",
+        "width": "wrapper",
+        "add_gutter": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "15525818-cfe6-41e4-a53d-6464d8daf7f0": {
       "type": "section-text",
       "blocks": {
@@ -1133,7 +1133,7 @@
       ],
       "settings": {
         "title": "Looking to lose fat?",
-        "custom_price": "$99 PER WEEK",
+        "custom_price": "$111 PER WEEK",
         "custom_label": "Pay Upfront or Weekly",
         "heading_size": 90,
         "button_color": "btn--primary",
@@ -1211,7 +1211,7 @@
       ],
       "settings": {
         "title": "Looking to build muscle mass?",
-        "custom_price": "$99 PER WEEK",
+        "custom_price": "$111 PER WEEK",
         "custom_label": "Pay Upfront or Weekly",
         "heading_size": 100,
         "button_color": "btn--primary",
@@ -1224,20 +1224,20 @@
         "padding_bottom": 60
       }
     },
-    "265a5b8e-26ad-4e0f-a874-426d5da117fb": {
+    "12ad4a78-ab38-49c1-a3b4-8452e82e6fc7": {
       "type": "section-custom-content",
       "blocks": {
-        "f306c536-86a7-48f1-90b3-dda64d75d853": {
+        "1a09560b-9f96-406c-a435-4edbdae980f9": {
           "type": "video",
           "settings": {
             "text_position": "middle-center",
             "video_link_bg": "",
-            "video_link": "https:\/\/www.youtube.com\/watch?v=FJBpzTXRgNw",
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-07-28_at_2.43.34_pm.png",
-            "overlay_opacity": 10,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=NhDLFZ_owiI",
+            "image": "shopify:\/\/shop_images\/RB_6.png",
+            "overlay_opacity": 0,
             "text_color": "text-light",
-            "title": "Hear from your coaches",
-            "text": "Learn what makes us tick",
+            "title": "Hard Work = Real Results",
+            "text": "",
             "heading_size": 100,
             "button_text": "",
             "button_link": "",
@@ -1248,7 +1248,7 @@
         }
       },
       "block_order": [
-        "f306c536-86a7-48f1-90b3-dda64d75d853"
+        "1a09560b-9f96-406c-a435-4edbdae980f9"
       ],
       "settings": {
         "height": "five-fifty-height",
@@ -1307,65 +1307,6 @@
       "block_order": [
         "template--20060286779682__69a446ac-cf54-4580-b74c-3fc5edb1314a-image-1",
         "template--20060286779682__69a446ac-cf54-4580-b74c-3fc5edb1314a-text-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "height": "five-fifty-height",
-        "bg_color": "",
-        "width": "wrapper",
-        "add_gutter": false,
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "f6bc9b29-1f0e-4b56-b5ba-91da5ec38179": {
-      "type": "section-custom-content",
-      "blocks": {
-        "905203d8-779f-488a-96eb-b794931ca0e3": {
-          "type": "text",
-          "settings": {
-            "text_position": "left",
-            "top_image_width": 100,
-            "text_color": "text-dark",
-            "subheading": "",
-            "title": "Personalised Nutrition Plans",
-            "heading_size": 100,
-            "text": "<p>Forget generic diets. We offer a full macro breakdown and tailored meal guide to ensure your body gets the right fuel for your transformation.<\/p>",
-            "text_size": 100,
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--solid",
-            "button_size": "btn--small",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--white",
-            "button_2_style": "btn--solid-border",
-            "button_2_size": "btn--small",
-            "bg_color": ""
-          }
-        },
-        "4621edb1-14bf-4626-9abd-f4033da658f6": {
-          "type": "image",
-          "settings": {
-            "text_position": "middle-center",
-            "image": "shopify:\/\/shop_images\/PERSONALISED_nutrition.jpg",
-            "overlay_opacity": 0,
-            "text_color": "text-light",
-            "title": "",
-            "heading_size": 100,
-            "text": "",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--white",
-            "button_style": "btn--solid-border",
-            "button_size": "btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "905203d8-779f-488a-96eb-b794931ca0e3",
-        "4621edb1-14bf-4626-9abd-f4033da658f6"
       ],
       "disabled": true,
       "settings": {
@@ -1670,16 +1611,15 @@
     "2947f6da-339c-4f5c-a864-66c946705be9",
     "a87dbb35-c888-4cfb-bb5c-4cc9a30c92ba",
     "ade71f92-4ee8-4034-8bf8-4389191b43bd",
-    "12ad4a78-ab38-49c1-a3b4-8452e82e6fc7",
     "cdbcd2a6-02dd-4fe9-8e90-fcee6873b4ac",
     "65af6dbf-a626-4a9b-8f37-77a917516374",
     "9e58ac81-e88d-4b2e-a006-c6d620af2258",
+    "265a5b8e-26ad-4e0f-a874-426d5da117fb",
     "15525818-cfe6-41e4-a53d-6464d8daf7f0",
     "727c20e2-3fb6-4b7d-989a-9920967b4a3b",
     "f64d0369-6d41-4414-8e91-6bbc898ace1b",
-    "265a5b8e-26ad-4e0f-a874-426d5da117fb",
+    "12ad4a78-ab38-49c1-a3b4-8452e82e6fc7",
     "69a446ac-cf54-4580-b74c-3fc5edb1314a",
-    "f6bc9b29-1f0e-4b56-b5ba-91da5ec38179",
     "7758ee86-94d6-43ff-b17b-f4222c5fe96f",
     "b8677d3d-6a16-4e04-931f-f6c129fbf55c",
     "bc2e3285-83d7-44ca-86ac-430af2012129",

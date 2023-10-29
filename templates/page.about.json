@@ -193,7 +193,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/2._Headshot.jpg",
             "title": "Nathan Kennedy",
-            "text": "",
+            "text": "<p>@njk_training<\/p>",
             "button_text": "",
             "button_link": "https:\/\/www.instagram.com\/p\/CuNjpiZhyFY\/?img_index=1",
             "button_color": "btn--black",
@@ -208,7 +208,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/1.Headshot.jpg",
             "title": "Nathan Davey",
-            "text": "",
+            "text": "<p>@nathandavey_<\/p>",
             "button_text": "",
             "button_link": "https:\/\/www.instagram.com\/nathandavey_\/?hl=en",
             "button_color": "btn--black",
@@ -356,7 +356,7 @@
           "settings": {
             "product": "12-week-shred",
             "title": "",
-            "product_description": "<p>A no-nonsense blueprint for anyone keen to shed the extra kgs, build lean muscle, and overhaul their lifestyle. <\/p><p>The program incorporates:<\/p><ul><li>A 4 day training split,<\/li><li>Full macro breakdown with meal guides,<\/li><li>Daily accountability from your coaches to ensure you are on track to building a bigger, stronger physique.<\/li><\/ul>",
+            "product_description": "<p>Ready to shed unwanted body fat and build lean muscle? The Shred program is tailor-made for those determined to transform their physique and embrace a healthier lifestyle. <\/p><p>The program incorporates:<\/p><ul><li>A 4 day training split,<\/li><li>Full macro breakdown with meal guides,<\/li><li>Daily accountability from your coaches to ensure you are on track to building a bigger, stronger physique.<\/li><\/ul>",
             "button_text": "View Shred Program",
             "show_second_image": true,
             "show_circle": false,

@@ -192,7 +192,7 @@
       ],
       "settings": {
         "product_sticky_enable": false,
-        "image_layout": "stacked",
+        "image_layout": "carousel",
         "image_width": "standard",
         "product_image_aspect_ratio": true,
         "enable_zoom": false,
@@ -317,12 +317,12 @@
     "38ff978b-66eb-4318-9ce0-94db8ff86311": {
       "type": "section-columns",
       "blocks": {
-        "2a477a31-31b9-47e7-a260-0eb7c73f2a2c": {
+        "55ab4053-d5f3-4ea5-819a-b60439fca42a": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/180875592_534918247673165_4163959678088427026_n_1.jpg",
+            "image": "shopify:\/\/shop_images\/Sandro_ab755191-8a23-4c65-9589-02c7cef861f7.jpg",
             "title": "",
-            "text": "<p><em>\"He pushed me week in week out and made sure I got the result I was after. Loved training with Nath. If you’re after a committed coach, results and a good laugh I couldn’t recommend Real bodz enough.\"<\/em><\/p>",
+            "text": "<p>\"Is Real Bodz any good? Just go look at my transformation photo! Do it brahhhhh.\"<\/p>",
             "button_text": "",
             "button_link": "",
             "button_color": "btn--black",
@@ -422,16 +422,32 @@
             "video_link_popup": "",
             "video_link_color": "text-dark"
           }
+        },
+        "2a477a31-31b9-47e7-a260-0eb7c73f2a2c": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/180875592_534918247673165_4163959678088427026_n_1.jpg",
+            "title": "",
+            "text": "<p><em>\"He pushed me week in week out and made sure I got the result I was after. Loved training with Nath. If you’re after a committed coach, results and a good laugh I couldn’t recommend Real bodz enough.\"<\/em><\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
         }
       },
       "block_order": [
-        "2a477a31-31b9-47e7-a260-0eb7c73f2a2c",
+        "55ab4053-d5f3-4ea5-819a-b60439fca42a",
         "ba2cbb34-3e5d-4786-8148-b8b2bc9163cc",
         "template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-1",
         "template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-2",
         "template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-0",
         "65087d05-57f0-4fd7-ba22-c054c9eb840e",
-        "42a33b84-8571-41f5-b7be-e66d3759c308"
+        "42a33b84-8571-41f5-b7be-e66d3759c308",
+        "2a477a31-31b9-47e7-a260-0eb7c73f2a2c"
       ],
       "settings": {
         "title": "",

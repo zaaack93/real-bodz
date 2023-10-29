@@ -148,7 +148,7 @@
         "title": "12-Week Programs",
         "subheading": "",
         "text": "",
-        "tabs_bg_color": "#dadada",
+        "tabs_bg_color": "#eae7d8",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper",
@@ -233,7 +233,7 @@
         "title": "Nutritional Plans",
         "subheading": "",
         "text": "",
-        "tabs_bg_color": "#dadada",
+        "tabs_bg_color": "#eae7d8",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper",
@@ -255,7 +255,7 @@
           "type": "text",
           "settings": {
             "title": "How much will it cost me?",
-            "text": "<p>It’s $99 per week, with a 12-week minimum commitment. We also provide the option to pay upfront. <\/p>"
+            "text": "<p>It’s $110.99 per week, with a 12-week minimum commitment. We also provide the option to pay upfront and save. <\/p>"
           }
         },
         "ddf9c641-2b74-4c91-ad33-1c3a2fcf69ec": {
@@ -294,7 +294,7 @@
         "title": "Account Info & Payments",
         "subheading": "",
         "text": "",
-        "tabs_bg_color": "#dadada",
+        "tabs_bg_color": "#eae7d8",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper",
