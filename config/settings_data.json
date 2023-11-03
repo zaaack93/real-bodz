@@ -2,7 +2,7 @@
   "current": {
     "color_body_bg": "#f7f7f7",
     "color_body_bg_secondary": "#dadada",
-    "color_bg_accent": "#545454",
+    "color_bg_accent": "#dadada",
     "color_headings": "#0b0b0b",
     "color_body_text": "#0b0b0b",
     "color_accent": "#5d9ff6",
@@ -99,7 +99,21 @@
     "show_shop_name": true,
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "11532412952436166569": {
+        "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-inject\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Vibrant": {

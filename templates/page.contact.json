@@ -16,7 +16,7 @@
         "template--18952593998145__59699d9d-c66c-4bd5-a248-64f1b1587cd5-16831285413c69ee80-0": {
           "type": "subheading",
           "settings": {
-            "text": "<p>Welcome to<\/p>",
+            "text": "<p>REAL BODZ<\/p>",
             "size": 100
           }
         },
@@ -32,7 +32,7 @@
         "template--18952593998145__59699d9d-c66c-4bd5-a248-64f1b1587cd5-16831285413c69ee80-2": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand, describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text": "",
             "size": 100
           }
         },
@@ -63,6 +63,7 @@
         "height": "one-third-height",
         "enable_mobile_height": false,
         "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify:\/\/shop_images\/Tailored_Training_Programs.jpg",
         "overlay_opacity": 10,
         "enable_zoom_animation": true,
         "text_width": "normal",
@@ -76,33 +77,18 @@
         "locations-0": {
           "type": "locations",
           "settings": {
-            "title": "566 Emerson Street Palo Alto, California",
-            "working_time": "<p>Mon - Fri: 8am - 5pm<\/p><p>Sat: Closed<\/p><p>Sun: Closed<\/p>"
-          }
-        },
-        "locations-1": {
-          "type": "locations",
-          "settings": {
-            "title": "566 Emerson Street Palo Alto, California",
-            "working_time": "<p>Mon - Fri: 8am - 5pm<\/p><p>Sat: Closed<\/p><p>Sun: Closed<\/p>"
-          }
-        },
-        "locations-2": {
-          "type": "locations",
-          "settings": {
-            "title": "566 Emerson Street Palo Alto, California",
-            "working_time": "<p>Mon - Fri: 8am - 5pm<\/p><p>Sat: Closed<\/p><p>Sun: Closed<\/p>"
+            "title": "info@realbodz.com",
+            "working_time": "<p>Please feel free to reach out to us directly by sending an email<\/p>",
+            "image": "shopify:\/\/shop_images\/RB_6.png"
           }
         }
       },
       "block_order": [
-        "locations-0",
-        "locations-1",
-        "locations-2"
+        "locations-0"
       ],
       "settings": {
-        "subheading": "Our stores",
-        "title": "Locations & hours",
+        "subheading": "Real bodz",
+        "title": "Contact Us",
         "bg_color_secondary": false,
         "padding_top": 60,
         "padding_bottom": 60
