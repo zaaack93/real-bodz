@@ -26,10 +26,10 @@
 }
 .template-product .badge_container-wrapper .product-custom_badge {
   border-radius: 5px;
-  background: #e8e8e8;
+  background: #5d9ff6;
+  color: white;
   padding: 8.5px 14px 6px;
   font-size: 14px;
-  color: #000;
   top: -2px;
   position: relative;
 }
@@ -446,10 +446,10 @@ form-klaviyo-newsletter .form-klaviyo-newsletter .form_submit_container button {
 }
 .products-list-section .wrapper .products-list__item__contents .products-list__item__content .badge_container-wrapper .product-custom_badge {
   border-radius: 5px;
-  background: #e8e8e8;
+  background: #5d9ff6;
+  color: white;
   padding: 8.5px 14px 6px;
   font-size: 14px;
-  color: #000;
   top: -2px;
   position: relative;
 }
@@ -500,10 +500,10 @@ form-klaviyo-newsletter .form-klaviyo-newsletter .form_submit_container button {
 }
 .collection-items .product-grid-item__info .badge_container-wrapper .product-custom_badge {
   border-radius: 5px;
-  background: #e8e8e8;
+  background: #5d9ff6;
+  color: white;
   padding: 8.5px 14px 6px;
   font-size: 14px;
-  color: #000;
   top: -2px;
   position: relative;
 }
