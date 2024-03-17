@@ -536,11 +536,13 @@
                   </div>
                 {%else%}
                 <div class="price-option-container price-with-compar price-option-variant" data-variant-id="{{variant.id}}">
-                
-                  <span class="product__price--off">
-                    {{ 'products.product.save' | t }}
-                    <span> {{variant.compare_at_price | minus: variant.price | money_without_trailing_zeros}}</span>
-                  </span>
+                  {% assign sold_price = variant.compare_at_price | minus: variant.price  %}
+                  {% if sold_price > 0 %}
+                    <span class="product__price--off">
+                      {{ 'products.product.save' | t }}
+                      <span> {{variant.compare_at_price | minus: variant.price | money_without_trailing_zeros}}</span>
+                    </span>
+                  {%endif %}
                   {%- unless product == blank -%}
                     <span data-product-price class="product__price--regular{% if variant.compare_at_price > variant.price %} product__price--sale{% endif %}">
                       {%- liquid
@@ -2064,7 +2066,7 @@ data-aos-delay="{{ animation_delay }}"
                         <div class="price-option-container">{{selectedVariant.price | money_without_trailing_zeros}}</div>
                       {%else%}
                       <div class="price-option-container price-with-compar">
-                      
+                        
                         <span class="product__price--off">
                           {{ 'products.product.save' | t }}
                           <span> {{selectedVariant.compare_at_price | minus: selectedVariant.price | money_without_trailing_zeros}}</span>
