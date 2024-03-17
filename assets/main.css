@@ -1,4 +1,60 @@
 @charset "UTF-8";
+.template-product .form-container-v2 .selector-wrapper--boxes .radio__fieldset radio-button {
+  justify-content: center;
+}
+.template-product .form-container-v2 .selector-wrapper--boxes .radio__fieldset radio-button .radio__input {
+  display: none !important;
+}
+.template-product .form-container-v2 .selector-wrapper--boxes .radio__fieldset radio-button .radio__label {
+  font-family: var(--FONT-STACK-BUTTON);
+  font-size: 20px !important;
+  font-weight: 500;
+  background-color: transparent !important;
+}
+@media (max-width: 767px) {
+  .template-product .form-container-v2 .selector-wrapper--boxes .radio__fieldset radio-button .radio__label {
+    font-size: 16px !important;
+  }
+}
+@media (max-width: 479px) {
+  .template-product .form-container-v2 .selector-wrapper--boxes .radio__fieldset radio-button .radio__label {
+    font-size: 14px !important;
+  }
+}
+.template-product .form-container-v2 .selector-wrapper--boxes .radio__fieldset radio-button.checked {
+  background-color: #ccc !important;
+}
+.template-product stripe-payment-buttons .radio__legend {
+  margin-bottom: 12px;
+}
+.template-product stripe-payment-buttons .radio__legend .radio__legend__label {
+  font-family: var(--FONT-STACK-HEADING);
+  font-weight: var(--FONT-WEIGHT-HEADING);
+  font-style: var(--FONT-STYLE-HEADING);
+  font-size: calc(1rem * var(--adjust-heading));
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+.template-product .stripe-button-v2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+.template-product .stripe-button-v2 a {
+  font-size: 20px !important;
+  font-weight: 500;
+}
+@media (max-width: 767px) {
+  .template-product .stripe-button-v2 a {
+    font-size: 16px !important;
+  }
+}
+@media (max-width: 479px) {
+  .template-product .stripe-button-v2 a {
+    font-size: 14px !important;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .template-product .product-single__wrapper .product-single__gallery {
     height: -moz-fit-content;

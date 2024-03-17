@@ -62,7 +62,7 @@ class KlaviyoFormComponent extends HTMLElement {
     }
   
     connectedCallback() {
-      this.buttons = this.querySelectorAll('.btn');
+      this.buttons = this.querySelectorAll('.btn,legend');
       
       
       const updateButtonOptions = ({detail}) => {
@@ -110,7 +110,7 @@ class KlaviyoFormComponent extends HTMLElement {
     
     connectedCallback() {
       // Initial setup
-      this.handleInputChange();
+      //this.handleInputChange();
     }
     
     handleInputChange() {

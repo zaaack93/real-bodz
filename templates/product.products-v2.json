@@ -10,6 +10,7 @@
             "pattern": "",
             "hideText": false,
             "alignment": "",
+            "layout": "",
             "textColor": "",
             "starColor": "",
             "showAllReviews": false,
@@ -80,8 +81,8 @@
             "padding_bottom": 30
           }
         },
-        "form": {
-          "type": "form",
+        "form_v2_DtqNQe": {
+          "type": "form-v2",
           "settings": {
             "show_labels": true,
             "show_quantity": false,
@@ -90,10 +91,11 @@
             "padding_bottom": 20
           }
         },
-        "8873a608-c287-47b1-a163-b4d22bd6139a": {
-          "type": "stripe-custom-payment",
+        "stripe_custom_payment_v2_pGWKWM": {
+          "type": "stripe-custom-payment-v2",
           "settings": {
-            "button_text": "PURCHASE PROGRAM",
+            "title_text": "Choose a payment",
+            "button_text": "Read More",
             "button_color": "btn--primary",
             "button_style": "btn--solid",
             "button_size": "btn--large",
@@ -180,8 +182,8 @@
         "b7f2305f-e3e0-44f3-bf77-3d989f62454a",
         "0991050c-2449-4a03-8723-504663227916",
         "7ddd2db6-1d92-43ee-a7d9-e786662f9ced",
-        "form",
-        "8873a608-c287-47b1-a163-b4d22bd6139a",
+        "form_v2_DtqNQe",
+        "stripe_custom_payment_v2_pGWKWM",
         "a42f4e7d-6a8d-42a4-80af-29ec3b3b52d9",
         "description",
         "4df923a7-5fd6-4855-98fc-f1aa86f6bc2f",
@@ -1076,7 +1078,8 @@
             "aggregated": false,
             "limit": 20,
             "hide_thumbnails": false,
-            "maxwidth": 1080
+            "maxwidth": 1080,
+            "is_sample": true
           }
         }
       },
