@@ -344,7 +344,8 @@
                     {%for variant in product.variants%}
                     
                         {% if block.settings.title_text !=blank and variant.metafields.custom.payment_options.value !=blank %}
-                          <legend class="radio__legend" data-variant-id="{{variant.id}}">
+                          <legend class="radio__legend" data-variant-id="{{variant.id}}" data-aos-anchor="{{ animation_anchor }}"
+                            data-aos-delay="{{ animation_delay }}">
                             <span class="radio__legend__label">{{ block.settings.title_text }}</span>
                           </legend>
                         {%endif %}
