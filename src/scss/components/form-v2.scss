@@ -8,16 +8,16 @@
             display: none !important;
           }
           .radio__label {
-            font-family: var(--FONT-STACK-BUTTON);
-            font-size: 20px !important;
-            font-weight: 500;
+            // font-family: var(--FONT-STACK-BUTTON);
+            // font-size: 20px !important;
+            // font-weight: 500;
             background-color: transparent !important;
-            @media (max-width: 767px) {
-              font-size: 16px !important;
-            }
-            @media (max-width: 479px) {
-              font-size: 14px !important;
-            }
+            // @media (max-width: 767px) {
+            //   font-size: 16px !important;
+            // }
+            // @media (max-width: 479px) {
+            //   font-size: 14px !important;
+            // }
           }
           &.checked {
             background-color: #ccc !important;
@@ -45,14 +45,14 @@
     row-gap: 12px;
 
     a{
-        font-size: 20px !important;
-        font-weight: 500;
-        @media (max-width: 767px) {
-            font-size: 16px !important;
-        }
-        @media (max-width: 479px) {
-            font-size: 14px !important;
-        }
+        // font-size: 20px !important;
+        // font-weight: 500;
+        // @media (max-width: 767px) {
+        //     font-size: 16px !important;
+        // }
+        // @media (max-width: 479px) {
+        //     font-size: 14px !important;
+        // }
     }
   }
 }

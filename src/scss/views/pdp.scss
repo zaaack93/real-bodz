@@ -77,7 +77,7 @@
           margin-bottom: 6px;
           text-transform: uppercase;
           @media only screen and (max-width: 768px) {
-            font-size: calc(0.8rem * var(--adjust-heading));
+            //font-size: calc(0.8rem * var(--adjust-heading));
           }
         }
       }
@@ -90,7 +90,8 @@
         font-weight: var(--FONT-WEIGHT-HEADING);
         font-style: var(--FONT-STYLE-HEADING);
         font-size: calc(1rem * var(--adjust-heading));
-        height: 60px;
+        padding-block: calc(var(--top-bottom-padding) * var(--adjust-button) + var(--BORDER-WIDTH));
+        color:#000;
         border-radius: 10px;
         border: 1px solid #000;
         display: flex;
@@ -99,7 +100,7 @@
         margin-bottom: 0px;
         @media only screen and (max-width: 768px) {
             column-gap: 10px;
-            height: 45px;
+            //height: 45px;
             padding-left: 14px;
             padding-right: 14px;
         }

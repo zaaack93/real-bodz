@@ -1088,7 +1088,7 @@ data-option-position="{{ option.position }}"
         <div class="radio-button-container">
           <span class="badge-populare">most popular</span>
         {%endif%}
-        <radio-button class="radio__button {% if value == current_value %}checked{% endif %}" for="{{ input_id }}" data-name="{{ option.name | escape_once }}"
+        <radio-button class="radio__button btn btn--large {% if value == current_value %}checked{% endif %}" for="{{ input_id }}" data-name="{{ option.name | escape_once }}"
           data-value="{{ value | escape_once }}">
           <input
             type="radio"

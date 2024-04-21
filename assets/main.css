@@ -6,20 +6,7 @@
   display: none !important;
 }
 .template-product .form-container-v2 .selector-wrapper--boxes .radio__fieldset radio-button .radio__label {
-  font-family: var(--FONT-STACK-BUTTON);
-  font-size: 20px !important;
-  font-weight: 500;
   background-color: transparent !important;
-}
-@media (max-width: 767px) {
-  .template-product .form-container-v2 .selector-wrapper--boxes .radio__fieldset radio-button .radio__label {
-    font-size: 16px !important;
-  }
-}
-@media (max-width: 479px) {
-  .template-product .form-container-v2 .selector-wrapper--boxes .radio__fieldset radio-button .radio__label {
-    font-size: 14px !important;
-  }
 }
 .template-product .form-container-v2 .selector-wrapper--boxes .radio__fieldset radio-button.checked {
   background-color: #ccc !important;
@@ -40,21 +27,6 @@
   flex-direction: column;
   row-gap: 12px;
 }
-.template-product .stripe-button-v2 a {
-  font-size: 20px !important;
-  font-weight: 500;
-}
-@media (max-width: 767px) {
-  .template-product .stripe-button-v2 a {
-    font-size: 16px !important;
-  }
-}
-@media (max-width: 479px) {
-  .template-product .stripe-button-v2 a {
-    font-size: 14px !important;
-  }
-}
-
 @media only screen and (min-width: 768px) {
   .template-product .product-single__wrapper .product-single__gallery {
     height: -moz-fit-content;
@@ -134,11 +106,6 @@
   margin-bottom: 6px;
   text-transform: uppercase;
 }
-@media only screen and (max-width: 768px) {
-  .template-product .selector-wrapper--boxes .radio__fieldset .radio__legend .radio__legend__label {
-    font-size: calc(0.8rem * var(--adjust-heading));
-  }
-}
 .template-product .selector-wrapper--boxes .radio__fieldset .radio__button {
   padding-left: 17px;
   padding-right: 27px;
@@ -148,7 +115,8 @@
   font-weight: var(--FONT-WEIGHT-HEADING);
   font-style: var(--FONT-STYLE-HEADING);
   font-size: calc(1rem * var(--adjust-heading));
-  height: 60px;
+  padding-block: calc(var(--top-bottom-padding) * var(--adjust-button) + var(--BORDER-WIDTH));
+  color: #000;
   border-radius: 10px;
   border: 1px solid #000;
   display: flex;
@@ -163,7 +131,6 @@
   .template-product .selector-wrapper--boxes .radio__fieldset .radio__button {
     -moz-column-gap: 10px;
          column-gap: 10px;
-    height: 45px;
     padding-left: 14px;
     padding-right: 14px;
   }
