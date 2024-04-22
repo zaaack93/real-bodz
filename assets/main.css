@@ -127,12 +127,18 @@
   cursor: pointer;
   background-color: var(--bg);
 }
+@media only screen and (max-width: 450px) {
+  .template-product .selector-wrapper--boxes .radio__fieldset .radio__button {
+    font-size: 13px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .template-product .selector-wrapper--boxes .radio__fieldset .radio__button {
     -moz-column-gap: 10px;
          column-gap: 10px;
     padding-left: 14px;
     padding-right: 14px;
+    font-size: 14px;
   }
 }
 .template-product .selector-wrapper--boxes .radio__fieldset .radio__button .radio__label {
