@@ -1,4 +1,7 @@
 @charset "UTF-8";
+.template-product .form-container-v2 {
+  margin-bottom: 20px;
+}
 .template-product .form-container-v2 .selector-wrapper--boxes .radio__fieldset radio-button {
   justify-content: center;
 }
