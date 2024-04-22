@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .template-product .form-container-v2 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .template-product .form-container-v2 .selector-wrapper--boxes .radio__fieldset radio-button {
   justify-content: center;
@@ -130,11 +130,6 @@
   cursor: pointer;
   background-color: var(--bg);
 }
-@media only screen and (max-width: 450px) {
-  .template-product .selector-wrapper--boxes .radio__fieldset .radio__button {
-    font-size: 13px;
-  }
-}
 @media only screen and (max-width: 768px) {
   .template-product .selector-wrapper--boxes .radio__fieldset .radio__button {
     -moz-column-gap: 10px;
@@ -142,6 +137,11 @@
     padding-left: 14px;
     padding-right: 14px;
     font-size: 14px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .template-product .selector-wrapper--boxes .radio__fieldset .radio__button {
+    font-size: 12px;
   }
 }
 .template-product .selector-wrapper--boxes .radio__fieldset .radio__button .radio__label {

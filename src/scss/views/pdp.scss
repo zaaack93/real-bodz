@@ -98,15 +98,16 @@
         align-items: center;
         column-gap: 14px;
         margin-bottom: 0px;
-        @media only screen and (max-width: 450px) {
-          font-size: 13px;
-        }
+        
         @media only screen and (max-width: 768px) {
-            column-gap: 10px;
-            //height: 45px;
-            padding-left: 14px;
-            padding-right: 14px;
-            font-size: 14px;
+          column-gap: 10px;
+          //height: 45px;
+          padding-left: 14px;
+          padding-right: 14px;
+          font-size: 14px;
+        }
+        @media only screen and (max-width: 450px) {
+          font-size: 12px;
         }
         cursor: pointer;
         background-color: var(--bg);
