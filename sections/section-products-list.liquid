@@ -77,7 +77,7 @@
                     else
                       assign heading = 'homepage.onboarding.product_title' | t
                       if single_block
-                        assign button_link = '#!'
+                        assign button_link =  product.url
                       endif
                     endif
                 endcase
@@ -86,7 +86,6 @@
                   assign heading = block.settings.title | strip_html
                 endif
               -%}
-
               <a class="products-list__nav__button{% if forloop.first %} products-list__nav__button--active{% endif %} h2"
                 href="{{ button_link }}"
                 {% unless single_block %}
@@ -277,11 +276,22 @@
                     data-aos-delay="{{ animation_delay_content }}"
                     {%- assign animation_delay_content = animation_delay_content | plus: 150 -%}
                   {% endif %}>
-                  <a href="{{ product_url }}" title="{{ product_title }}" arial-label="{{ product_title }}">
-                    {%- if product_title != empty -%}
+                  <a href="{{ product_url }}" title="{{ product_title }}" arial-label="{{ product_title }}" class="badge_container-wrapper">
+                    {% comment %} {%- if product_title != empty -%}
                       <span class="products-list__item__title-text">{{ product_title }}</span>
-                    {%- endif -%}
-                    {{- product_price -}}
+                    {%- endif -%} {% endcomment %}
+
+                    {% if section.settings.custom_price %}
+                            {{section.settings.custom_price}}
+                            {% if section.settings.custom_label %}
+                              <span class="product-custom_badge">{{ section.settings.custom_label }}</span>
+                            {%endif %}
+                          {%else%}
+                            <span class="products-list__price">{{ product_price }}</span>
+                            {%- if compare_price -%}
+                              <s class="products-list__price products-list__price--compare">{{ compare_price }}</s>
+                            {%- endif -%}
+                          {%endif%}
                   </a>
                 </p>
 
@@ -445,14 +455,21 @@
                           data-aos-delay="{{ animation_delay_content }}"
                           {%- assign animation_delay_content = animation_delay_content | plus: 150 -%}
                         {% endif %}>
-                        <a href="{{ product.url }}" title="{{ product_title }}" arial-label="{{ product_title }}" data-product-link>
-                          {%- if product_title != empty -%}
+                        <a href="{{ product.url }}" title="{{ product_title }}" arial-label="{{ product_title }}" data-product-link class="badge_container-wrapper">
+                          {% comment %} {%- if product_title != empty -%}
                             <span class="products-list__item__title-text">{{ product_title }}</span>
-                          {%- endif -%}
-                          <span class="products-list__price">{{ product_price }}</span>
-                          {%- if compare_price -%}
-                            <s class="products-list__price products-list__price--compare">{{ compare_price }}</s>
-                          {%- endif -%}
+                          {%- endif -%} {% endcomment %}
+                          {% if section.settings.custom_price %}
+                            {{section.settings.custom_price}}
+                            {% if section.settings.custom_label %}
+                              <span class="product-custom_badge">{{ section.settings.custom_label }}</span>
+                            {%endif %}
+                          {%else%}
+                            <span class="products-list__price">{{ product_price }}</span>
+                            {%- if compare_price -%}
+                              <s class="products-list__price products-list__price--compare">{{ compare_price }}</s>
+                            {%- endif -%}
+                          {%endif%}
                         </a>
                       </p>
 
@@ -676,9 +693,9 @@
                           {%- assign animation_delay_content = animation_delay_content | plus: 150 -%}
                         {% endif %}>
                         <a href="{{ product_url }}" title="{{ product_title }}" arial-label="{{ product_price }}" class="badge_container-wrapper">
-                          {%- if product_title != empty and block.settings.title != empty -%}
+                          {% comment %} {%- if product_title != empty and block.settings.title != empty -%}
                             <span class="products-list__item__title-text">{{ product_title }}</span>
-                          {%- endif -%}
+                          {%- endif -%} {% endcomment %}
                           {% if section.settings.custom_price %}
                             {{section.settings.custom_price}}
                             {% if section.settings.custom_label %}
